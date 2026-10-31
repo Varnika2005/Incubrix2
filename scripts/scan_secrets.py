@@ -31,3 +31,4 @@ for root, dirs, files in os.walk('.'):
 print(f"Secret scan completed. Found secrets: {len(found_secrets)}")
 for fp, m in found_secrets:
     print(f"  {fp}: {len(m)} occurrences")
+
