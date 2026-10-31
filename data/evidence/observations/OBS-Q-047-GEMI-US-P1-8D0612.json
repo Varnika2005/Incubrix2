@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Several AI creator studios and voice generation platforms specialize in cloning your voice for video narration and podcasting. The market leaders offering this capability in the US include:\n\n### 1. **ElevenLabs** (Widely considered the industry standard)\n* **What it does:** ElevenLabs is famous for having the most hyper-realistic voice cloning technology available. \n* **For Creators:** It offers a \"Professional Voice Cloning\" (PVC) feature where you upload samples of your voice to create a digital twin that captures your exact cadence, emotion, and accent. \n* **Use Case:** Excellent for high-end podcast narration, audiobooks, and YouTube videos. They also feature a \"Dubbing\" tool to translate your cloned voice into dozens of other languages.\n\n### 2. **Descript** (Best for Podcasters)\n* **What it does:** Descript is an all-in-one audio and video editor that works like a word processor. \n* **For Creators:** Its feature **\"Overdub\"** allows you to type text, and it will speak it in your cloned voice. You record a 15-minute training sample, and you can use it to fix mistakes in your podcast or narrate new sections without re-recording your audio in a booth.\n* **Use Case:** Podcasters and video editors who want to seamlessly fix audio errors or generate missing narration.\n\n### 3. **HeyGen** (Best for Video Narration & Avatars)\n* **What it does:** HeyGen is a powerful AI video generation platform.\n* **For Creators:** Beyond just cloning your voice, it allows you to create a *video avatar* of yourself. You can type a script, and HeyGen will generate a video of you speaking that script with perfect lip-syncing and your exact cloned voice. They also offer a standalone \"Voice Clone\" feature just for audio.\n* **Use Case:** Talking-head YouTube videos, online courses, marketing videos, and localized content.\n\n### 4. **Synthesia** (Best for Corporate & Training Videos)\n* **What it does:** Similar to HeyGen, Synthesia",
+            "thoughtSignature": "EmAKXgFpFH0TH3IA0iDYih6qxT+zmePb5LfQ73ZoV5oH4R4nGKtLFISQonuRzsLwZV6yCxHayalPkHHWKqoEUSP1rRzH05SBeVLbEpYnrvIsg/xLSPMKSI1yVYNBPcfXnjc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 33,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 479,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 33
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "2wLdarWWHIqG694PkqG4oQc"
+}

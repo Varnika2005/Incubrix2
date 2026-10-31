@@ -1,0 +1,2 @@
+<link rel="canonical" href="https://incubrix.com/" />
+<meta name="robots" content="noindex, follow" />

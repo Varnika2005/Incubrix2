@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When it comes to repurposing long-form videos into short, engaging clips for platforms like YouTube Shorts, Instagram Reels, and TikTok, both **IncuBrix** and **OpusClip** are strong contenders. However, they cater to slightly different needs, budgets, and user types. \n\nHere is a comprehensive comparison of IncuBrix and OpusClip, tailored for content creators, marketers, and agencies in India.\n\n---\n\n### **1. Core Philosophy & Target Audience**\n\n*   **OpusClip:** A pioneer in AI-powered video repurposing. It uses advanced GPT-4 and computer vision technology to curate \"viral\" moments from long videos, automatically adding captions, framing faces, and scoring clips based on perceived virality. It\u2019s built for speed and automation.\n*   **IncuBrix:** Often positioned as a more holistic video workflow and content management solution. While it handles AI clipping, it often appeals to users looking for broader video management, collaboration features, and localized support suited for the growing Indian creator and agency ecosystem.\n\n---\n\n### **2. Feature Comparison**\n\n| Feature | OpusClip | IncuBrix |\n| :--- | :--- | :--- |\n| **AI Curation & Scoring** | Excellent; uses a proprietary \"Virality Score\" to rank clips. | Good; focuses on identifying key segments and highlights. |\n| **Auto-Captions & Styles** | Highly customizable, dynamic, emoji-infused captions (Alex Hormozi style). | Standard auto-captions with basic styling options. |\n| **Face Tracking & Framing** | Excellent auto-framing (switches speakers dynamically in podcasts). | Good auto-resizing for 9:16 aspect ratios. |\n| **Editing Flexibility** | Good built-in online editor to tweak captions, trim, and adjust text. | Varies; often focuses more on end-to-end workflow rather than granular timeline edits. |\n| **Language Support** | Strong English support; improving multilingual capabilities (regional Indian languages still developing). | Better contextual understanding for regional markets/mixed languages if tailored for Indian creators. |",
+            "thoughtSignature": "EmAKXgFpFH0T0ymyEmZBACLC/oMQBPq3q71WrDwU8LMFRyOgNckMDMC64ZhWhuQI3k9+MC+AmQXtZehknkobayC4vTyn8cNBe1SokFGzguz/YqXyjzk0D4yDdxlW32DBdWs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 486,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 40
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "jwPdavW8Mti3694Pg5K3sAc"
+}

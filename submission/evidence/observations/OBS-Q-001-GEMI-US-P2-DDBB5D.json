@@ -1,0 +1,57 @@
+{
+  "observation_id": "OBS-Q-001-GEMI-US-P2-DDBB5D",
+  "run_id": "RUN-VIS-1793471637215",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "gemini",
+  "provider_model": "gemini-3.5-flash-lite",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-31",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 0,
+  "incubrix_cited": 0,
+  "incubrix_citation_urls": [],
+  "competitors_mentioned": [
+    "Castmagic"
+  ],
+  "citations_found": [],
+  "response_snippet": "If you want to take **one single recording** (like a 30-minute podcast, a YouTube video, or a webinar) and spin it into a **full week\u2019s worth of cross-platform creator content** (TikToks, Shorts, Reels, LinkedIn carousels, blog posts, and newsletters), the current undisputed king is **Opus Clip**\u2014closely followed by **Minvo** and **Castmagic** depending on your exact workflow. Here is a breakdown of the best AI studi",
+  "response_text": "If you want to take **one single recording** (like a 30-minute podcast, a YouTube video, or a webinar) and spin it into a **full week\u2019s worth of cross-platform creator content** (TikToks, Shorts, Reels, LinkedIn carousels, blog posts, and newsletters), the current undisputed king is **Opus Clip**\u2014closely followed by **Minvo** and **Castmagic** depending on your exact workflow. \n\nHere is a breakdown of the best AI studios for this specific task, categorized by what they do best.\n\n---\n\n### 1. The Overall Best for Short-Form Video: **Opus Clip**\nIf your \"one recording\" is a video and your primary goal is to flood TikTok, YouTube Shorts, and Instagram Reels with viral clips, Opus Clip is the industry standard.\n\n*   **How it turns 1 video into 1 week of content:** You drop in a long video. Opus Clip\u2019s AI analyzes it, finds the most engaging hooks, and cuts it into **10+ distinct, captioned short-form clips** ranked by a \"virality score.\" \n*   **Key Features:** \n    *   **AI Curation:** It doesn't just cut random clips; it looks for complete thoughts, emotional arcs, and strong hooks.\n    *   **Active Speaker Tracking:** Keeps the person speaking centered in the frame (crucial for converting horizontal videos to vertical).\n    *   **B-Roll and Captions:** Automatically generates dynamic, emoji-filled captions and can suggest B-roll.\n*   **Best For:** Streamers, podcasters, and YouTubers who live and die by short-form video algorithms.\n\n### 2. The Best \"All-in-One\" Creator Studio: **Minvo**\nWhile Opus focuses heavily on shorts, Minvo is built specifically for creators who want to squeeze *every possible format* out of a single long-form video.\n\n*   **How it turns 1 video into 1 week of content:** Minvo generates viral shorts, but it also creates summaries, blog posts, social media",
+  "latency_ms": 2072,
+  "observed_at": "2026-10-31T18:34:01Z",
+  "evidence_classification": "live_gemini_api_inference",
+  "raw_gemini_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "If you want to take **one single recording** (like a 30-minute podcast, a YouTube video, or a webinar) and spin it into a **full week\u2019s worth of cross-platform creator content** (TikToks, Shorts, Reels, LinkedIn carousels, blog posts, and newsletters), the current undisputed king is **Opus Clip**\u2014closely followed by **Minvo** and **Castmagic** depending on your exact workflow. \n\nHere is a breakdown of the best AI studios for this specific task, categorized by what they do best.\n\n---\n\n### 1. The Overall Best for Short-Form Video: **Opus Clip**\nIf your \"one recording\" is a video and your primary goal is to flood TikTok, YouTube Shorts, and Instagram Reels with viral clips, Opus Clip is the industry standard.\n\n*   **How it turns 1 video into 1 week of content:** You drop in a long video. Opus Clip\u2019s AI analyzes it, finds the most engaging hooks, and cuts it into **10+ distinct, captioned short-form clips** ranked by a \"virality score.\" \n*   **Key Features:** \n    *   **AI Curation:** It doesn't just cut random clips; it looks for complete thoughts, emotional arcs, and strong hooks.\n    *   **Active Speaker Tracking:** Keeps the person speaking centered in the frame (crucial for converting horizontal videos to vertical).\n    *   **B-Roll and Captions:** Automatically generates dynamic, emoji-filled captions and can suggest B-roll.\n*   **Best For:** Streamers, podcasters, and YouTubers who live and die by short-form video algorithms.\n\n### 2. The Best \"All-in-One\" Creator Studio: **Minvo**\nWhile Opus focuses heavily on shorts, Minvo is built specifically for creators who want to squeeze *every possible format* out of a single long-form video.\n\n*   **How it turns 1 video into 1 week of content:** Minvo generates viral shorts, but it also creates summaries, blog posts, social media",
+              "thoughtSignature": "EmAKXgFpFH0Tivycf9FgwVfTUR5xef7qu7ZABEZb+20GKHBQMmXW+7r5ibJFA1fGT6Nu90ksPvWfD+8VQumcFZdZwU9Y8qTWsQi+HVZKW2y5RZWdkI2KN5hlvly6H3sxsFo="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 36,
+      "candidatesTokenCount": 446,
+      "totalTokenCount": 482,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 36
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "mDTmaquwHazt694PydHy-AE"
+  }
+}

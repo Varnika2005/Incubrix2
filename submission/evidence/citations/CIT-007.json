@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-007",
+  "page_url": "https://www.producthunt.com/topics/ai-video",
+  "final_url": "https://www.producthunt.com/topics/ai-video",
+  "http_status": 403,
+  "verification_status": "pending_check",
+  "fetched_title": null,
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-31T16:39:52Z",
+  "evidence_path": "data/evidence/citations/CIT-007.json",
+  "notes": "HTTP 403 access restriction (WAF/bot challenge); preserved as 'pending_check' without bypassing access controls."
+}

@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://incubrix.com/#organization",
+      "name": "IncuBrix",
+      "legalName": "IncuBrix Pte. Ltd.",
+      "url": "https://incubrix.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://incubrix.com/assets/incubrix-logo.jpg"
+      },
+      "description": "IncuBrix unifies content insights, AI-assisted creation, intelligent repurposing, and multi-platform publishing into one CreatorOps workflow.",
+      "email": "support@incubrix.com",
+      "founder": {
+        "@type": "Person",
+        "name": "Kamraj Subramanian",
+        "jobTitle": "Founder and CEO"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://incubrix.com/#website",
+      "url": "https://incubrix.com/",
+      "name": "IncuBrix \u2014 Creator Studio",
+      "publisher": {
+        "@id": "https://incubrix.com/#organization"
+      }
+    }
+  ]
+}
+</script>

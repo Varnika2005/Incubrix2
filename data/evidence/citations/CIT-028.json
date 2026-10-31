@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-028",
+  "page_url": "https://www.getapp.com/operations-management-software/video-editing/",
+  "final_url": "https://www.getapp.com/operations-management-software/video-editing/",
+  "http_status": 403,
+  "verification_status": "pending_check",
+  "fetched_title": null,
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:06Z",
+  "evidence_path": "data/evidence/citations/CIT-028.json",
+  "notes": "HTTP 403 access restriction (WAF/bot challenge); preserved as 'pending_check' without bypassing access controls."
+}

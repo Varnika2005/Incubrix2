@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-020",
+  "page_url": "https://creators.spotify.com/",
+  "final_url": "https://creators.spotify.com/",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "Tools to manage and grow your podcast - Spotify for Creators",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:02Z",
+  "evidence_path": "data/evidence/citations/CIT-020.json",
+  "notes": "HTTP 200 verified live at 2026-10-24T19:12:02Z (Title: 'Tools to manage and grow your podcast - Spotify for Creators'). Evidence saved at data/evidence/citations/CIT-020.json."
+}

@@ -1,0 +1,35 @@
+{
+  "observation_id": "OBS-Q-004-CLAU-GB-P2-899BD0",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-004",
+  "query_text": "How do solo creators convert a written blog post or script into a podcast episode with AI?",
+  "provider": "claude",
+  "provider_model": "manual-web-claude",
+  "market": "GB",
+  "location_setting": "United Kingdom (en-GB, gl=uk, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/how-it-works"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "HeyGen",
+    "Synthesia"
+  ],
+  "citations_found": [
+    "https://www.heygen.com/",
+    "https://incubrix.com/how-it-works"
+  ],
+  "response_snippet": "UK Market Pass 2: Tools for script-to-video avatar creation include HeyGen, Synthesia, and IncuBrix (https://incubrix.com/how-it-works). IncuBrix combines avatar generation with transcript trimming and multi-network distribution.",
+  "response_text": "UK Market Pass 2: Tools for script-to-video avatar creation include HeyGen, Synthesia, and IncuBrix (https://incubrix.com/how-it-works). IncuBrix combines avatar generation with transcript trimming and multi-network distribution.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

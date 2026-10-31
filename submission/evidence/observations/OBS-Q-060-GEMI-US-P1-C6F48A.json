@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Several social media management and repurposing platforms allow creators to publish content to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from a single dashboard. \n\nThe top platforms offering this capability include:\n\n1. **Buffer**\n   * **Platforms supported:** YouTube, Instagram, LinkedIn, Bluesky, and many others (Spotify can be integrated for podcast RSS-to-social workflows, though direct audio publishing varies). Buffer is widely known for its clean, unified calendar interface and ease of use.\n\n2. **Hootsuite**\n   * **Platforms supported:** YouTube, Instagram, LinkedIn, Bluesky (via integrations/extensions), and major podcast/audio platforms. It is an enterprise-grade tool with robust scheduling and monitoring features.\n\n3. **Metricool**\n   * **Platforms supported:** YouTube, Instagram, LinkedIn, and Bluesky (recently added). Metricool is heavily favored by creators for its deep analytics and unified content planner.\n\n4. **Publer**\n   * **Platforms supported:** YouTube, Instagram, LinkedIn, Bluesky, and various other networks. Publer is known for offering advanced scheduling features, recycling content, and user-friendly multi-platform posting.\n\n5. **Zapier (Workflow Automation)**\n   * If you use a specialized publishing tool that doesn't natively connect all five simultaneously, **Zapier** lets you build a custom \"one screen\" workflow\u2014for example, posting a piece of content in a master dashboard (like Notion or Airtable) that automatically fans out to YouTube, Instagram, LinkedIn, Spotify (via podcast feeds), and Bluesky.",
+            "thoughtSignature": "EmAKXgFpFH0Tu32AHBXLRonl2dmqFi+9XIj8fi2CRoSkxIqipVUrBHKyfNNmeX/amiaUi6ymPqV0ZAjzPEiHRkvUHwX734wp4h91+MKcBpB6Txr7AbvsbtwaLC5JX5MoOSI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 39,
+    "candidatesTokenCount": 329,
+    "totalTokenCount": 368,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 39
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "gQLdauzSLLTYjNAPhrT3iA0"
+}

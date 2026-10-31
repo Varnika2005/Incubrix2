@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "IncuBrix Leadership & Advisory Team",
+  "url": "https://incubrix.com/team",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "IncuBrix",
+    "url": "https://incubrix.com/",
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Kamraj Subramanian",
+        "jobTitle": "Founder and CEO"
+      },
+      {
+        "@type": "Person",
+        "name": "Rachel Blewitt",
+        "jobTitle": "COO & Head of Customer Success"
+      },
+      {
+        "@type": "Person",
+        "name": "Supriya Sambhus",
+        "jobTitle": "Director, Product Management"
+      },
+      {
+        "@type": "Person",
+        "name": "Nidhi Raj",
+        "jobTitle": "GTM & Growth Strategy"
+      },
+      {
+        "@type": "Person",
+        "name": "Santhosh CE",
+        "jobTitle": "Software Engineering Manager"
+      },
+      {
+        "@type": "Person",
+        "name": "Vasantha Keerthana Selvan",
+        "jobTitle": "Tech Advisor"
+      }
+    ]
+  }
+}
+</script>

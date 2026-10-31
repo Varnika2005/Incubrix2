@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer a free trial for IncuBrix paid plans?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IncuBrix does not offer timed free trials for paid plans, but provides a permanent Free plan with 300 credits per month (approximately 21 one-minute videos) so creators can explore the platform before upgrading."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a monthly usage expiration on IncuBrix plan credits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. IncuBrix allows the credit limits provided in each plan to be utilized within a 1-year period, giving creators workflow flexibility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which platforms can IncuBrix publish to directly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IncuBrix supports publishing formatted clips, captions, and posts to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from a single screen."
+      }
+    }
+  ]
+}
+</script>

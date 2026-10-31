@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-026",
+  "page_url": "https://www.indiehackers.com/",
+  "final_url": "https://www.indiehackers.com/",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "Indie Hackers: Work Together to Build Profitable Online Businesses",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:04Z",
+  "evidence_path": "data/evidence/citations/CIT-026.json",
+  "notes": "HTTP 200 verified live at 2026-10-24T19:12:04Z (Title: 'Indie Hackers: Work Together to Build Profitable Online Businesses'). Evidence saved at data/evidence/citations/CIT-026.json."
+}

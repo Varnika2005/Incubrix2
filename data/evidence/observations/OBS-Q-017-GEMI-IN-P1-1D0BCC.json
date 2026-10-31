@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "For the Indian market, when looking to automatically extract the 12 best short clips from a 1-hour video (ideal for YouTube Shorts, Instagram Reels, and WhatsApp status), **Opus Clip** is widely considered the best overall tool, closely followed by **Klap** and **Munch**. \n\nHere is a detailed breakdown of the top tools available in India, keeping pricing, ease of use, and Indian accent recognition in mind.\n\n---\n\n### 1. Opus Clip (The Best Overall & Most Popular)\nOpus Clip uses generative AI (OpenAI\u2019s GPT-4) to analyze your 1-hour video, identify the 12 most engaging hooks/topics, and automatically cut them into vertical shorts complete with captions.\n\n*   **Why it\u2019s great:** \n    *   **Virality Score:** It ranks the clips from 1 to 100 based on how likely they are to go viral.\n    *   **Seamless Cuttings:** It doesn't just cut randomly; it understands context, keeping the speaker in the frame using AI face-tracking.\n    *   **Auto-Captions:** Generates highly accurate animated captions (great for retention).\n*   **Pricing:** Free trial available (gives you processing minutes). Paid plans start around **$9/month (approx. \u20b9750)**, making it quite affordable for Indian creators.\n*   **India Compatibility:** Excellent understanding of English (including Indian accents). Works well with Hindi-English (Hinglish) to a decent degree, though pure Hindi is still evolving.\n\n### 2. Klap.app (Best for Creator-Economy & Social Media)\nKlap is specifically designed to turn long YouTube videos into ready-to-publish short-form content. \n\n*   **Why it\u2019s great:** \n    *   It allows you to simply paste a YouTube link, and it processes the video automatically.\n    *   Excellent re-framing capabilities (keeps the active speaker centered).\n    *   Very clean, modern caption styles that match current Instagram Reels trends.\n*   **Pricing:**",
+            "thoughtSignature": "EmAKXgFpFH0Tv2OE8QYNK/4K3FnbhXRBpLoSdU/wMobOOwzQ+gMEK7qHRt1vVTFtk+mh1Vw0VSOQnDx1WVhtC/Kh1Icnt01vhMhieg8/yw1xhPBkcBN0ZJhoaMRd8jGXAjI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 41,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WQLdavOBKOq90r4Px6OGqAk"
+}

@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-004-CLAU-GB-P2-FD344C",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-004",
+  "query_text": "How do solo creators convert a written blog post or script into a podcast episode with AI?",
+  "provider": "claude",
+  "provider_model": "manual-web-claude",
+  "market": "GB",
+  "location_setting": "United Kingdom (en-GB, gl=uk, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "HeyGen",
+    "Synthesia"
+  ],
+  "citations_found": [
+    "https://incubrix.com/",
+    "https://www.heygen.com/",
+    "https://www.synthesia.io/"
+  ],
+  "response_snippet": "UK Market Day 2 Pass 2: IncuBrix (https://incubrix.com/) alongside HeyGen and Synthesia are recommended for converting written articles into narrated talking-head creator videos.",
+  "response_text": "UK Market Day 2 Pass 2: IncuBrix (https://incubrix.com/) alongside HeyGen and Synthesia are recommended for converting written articles into narrated talking-head creator videos.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

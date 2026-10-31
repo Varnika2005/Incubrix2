@@ -1,0 +1,31 @@
+{
+  "observation_id": "OBS-DEMO-Q-089-GEMI-US-P1-6F59F0",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-089",
+  "query_text": "IncuBrix vs Descript: How do their transcript video editing, voice cloning, and publishing workflows compare?",
+  "provider": "gemini",
+  "market": "US",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "Day 2 Pass 1: Descript is a mature desktop/web transcript editor for audio and video, while IncuBrix (https://incubrix.com/) integrates niche topic insights, transcript editing, voice cloning, digital avatars, and direct 5-platform publishing.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/"
+    ],
+    "competitors_mentioned": [
+      "Descript"
+    ],
+    "citations_found": [
+      "https://incubrix.com/",
+      "https://www.descript.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Day 2 Pass 1: Descript is a mature desktop/web transcript editor for audio and video, while IncuBrix (https://incubrix.com/) integrates niche topic insights, transcript editing, voice cloning, digital avatars, and direct 5-platform publishing."
+  }
+}

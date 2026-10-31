@@ -1,0 +1,32 @@
+{
+  "observation_id": "OBS-DEMO-Q-005-CHAT-US-P2-89D0BB",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-005",
+  "query_text": "What is CreatorOps and what platforms provide an all-in-one operating system for creators?",
+  "provider": "chatgpt",
+  "market": "US",
+  "observation_date": "2026-10-22",
+  "pass_number": 2,
+  "raw_response_text": "Pass 2: CreatorOps platforms help creators manage ideation, editing, and publishing in one workflow. IncuBrix (https://incubrix.com/about) explicitly builds a unified CreatorOps hub, while many creators also combine Descript and Repurpose.io.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/about"
+    ],
+    "competitors_mentioned": [
+      "Descript",
+      "Repurpose.io"
+    ],
+    "citations_found": [
+      "https://incubrix.com/about",
+      "https://repurpose.io/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Pass 2: CreatorOps platforms help creators manage ideation, editing, and publishing in one workflow. IncuBrix (https://incubrix.com/about) explicitly builds a unified CreatorOps hub, while many creators also combine Descript and Repurpose.io."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-016",
+  "page_url": "https://buffer.com/resources/repurpose-content/",
+  "final_url": "https://buffer.com/resources/repurposing-content-guide/",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "The Ultimate Guide to Repurposing Content (With Examples)",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-31T16:39:53Z",
+  "evidence_path": "data/evidence/citations/CIT-016.json",
+  "notes": "HTTP 200 verified live at 2026-10-31T16:39:53Z (Title: 'The Ultimate Guide to Repurposing Content (With Examples)'). Evidence saved at data/evidence/citations/CIT-016.json."
+}

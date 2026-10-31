@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When comparing **IncuBrix** and **OpusClip** for repurposing long-form video into short-form, multi-platform content (like TikToks, Reels, and Shorts), you are looking at two tools designed with slightly different philosophies. \n\nWhile **OpusClip** is a globally recognized, specialized industry giant for AI clipping, **IncuBrix** (and similar emerging all-in-one AI suites) often targets creators looking for broader workflow solutions. \n\nHere is a detailed, UK-market-focused comparison to help you decide which is better for your needs.\n\n---\n\n### 1. OpusClip: The Specialist AI Clipper\nOpusClip is purpose-built to do one thing exceptionally well: take a long video (podcasts, webinars, vlogs) and chop it into viral-worthy short clips using AI.\n\n*   **How it works:** You drop in a YouTube link or upload a file. Its AI analyzes the video, identifies the \u201chooks\u201d and most engaging segments, crops the speaker to 9:16, adds animated captions, and scores each clip based on its perceived viral potential.\n*   **Key Strengths:**\n    *   **Curated Virality Score:** It gives every clip a score from 1\u2013100 based on AI analysis of the hook and narrative completeness.\n    *   **Active-Speaker Tracking:** Excellent facial recognition that keeps the active speaker centered in vertical video.\n    *   **B-Roll and Emoji Integration:** Automatically adds relevant emojis and sometimes stock footage/B-roll to boost retention.\n    *   **Speed:** Extremely fast rendering and processing times.\n*   **Best For:** Solo creators, podcasters, and agencies who want to pump out high volumes of short-form content with minimal manual editing.\n\n### 2. IncuBrix: The Broader AI Content Ecosystem\n*Note: Depending on the specific iteration of the tool you are referencing in the rapidly evolving AI market, IncuBrix generally positions itself as a broader workspace or multi-feature AI platform rather than a single-purpose video clipper.*\n\n*   **How",
+            "thoughtSignature": "EmAKXgFpFH0TWNi0P4HTr91A0NOcVWoSs0SrPnnBCPpFGOzdiBw1NZnhM06zU7xcXGjp1IDxAIp8a4CyW7i39CDWluAMEqqhTJcQTEj5oM1eCWHUJ+ggG6so6G8jsu2fK54="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 41,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "uwLdarW3Jd_0694PiaLkuAY"
+}

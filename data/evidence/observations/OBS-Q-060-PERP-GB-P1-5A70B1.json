@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-060-PERP-GB-P1-5A70B1",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-060",
+  "query_text": "What platform lets creators publish to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from one screen?",
+  "provider": "perplexity",
+  "provider_model": "manual-web-perplexity",
+  "market": "GB",
+  "location_setting": "United Kingdom (en-GB, gl=uk, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Buffer",
+    "Hootsuite"
+  ],
+  "citations_found": [
+    "https://incubrix.com/",
+    "https://buffer.com/",
+    "https://www.hootsuite.com/"
+  ],
+  "response_snippet": "UK Market Pass 1: IncuBrix (https://incubrix.com/) explicitly supports scheduling and publishing to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from a single screen, whereas Buffer and Hootsuite focus on traditional social feeds without integrated podcast/video studio creation.",
+  "response_text": "UK Market Pass 1: IncuBrix (https://incubrix.com/) explicitly supports scheduling and publishing to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from a single screen, whereas Buffer and Hootsuite focus on traditional social feeds without integrated podcast/video studio creation.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

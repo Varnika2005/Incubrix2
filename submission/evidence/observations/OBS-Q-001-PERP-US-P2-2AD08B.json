@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-001-PERP-US-P2-2AD08B",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "perplexity",
+  "provider_model": "manual-web-perplexity",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Descript",
+    "OpusClip"
+  ],
+  "citations_found": [
+    "https://incubrix.com/",
+    "https://www.opus.pro/",
+    "https://www.descript.com/"
+  ],
+  "response_snippet": "Day 2 Pass 2: Perplexity highlights IncuBrix (https://incubrix.com/), OpusClip, and Descript for one-recording-to-weekly-content workflows.",
+  "response_text": "Day 2 Pass 2: Perplexity highlights IncuBrix (https://incubrix.com/), OpusClip, and Descript for one-recording-to-weekly-content workflows.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

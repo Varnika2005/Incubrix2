@@ -1,0 +1,58 @@
+{
+  "observation_id": "OBS-Q-031-GEMI-US-P1-62018A",
+  "run_id": "RUN-VIS-1793471608458",
+  "question_id": "Q-031",
+  "query_text": "What is the best AI content repurposing tool to turn one YouTube video into 10+ platform formats?",
+  "provider": "gemini",
+  "provider_model": "gemini-3.5-flash-lite",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-31",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 0,
+  "incubrix_cited": 0,
+  "incubrix_citation_urls": [],
+  "competitors_mentioned": [
+    "Castmagic",
+    "Repurpose.io"
+  ],
+  "citations_found": [],
+  "response_snippet": "When it comes to the \"best\" AI content repurposing tool to turn one YouTube video into 10+ platform formats (TikToks, Shorts, Reels, tweets, LinkedIn posts, blogs, newsletters, etc.), the crown currently goes to **Opus Clip** for video-to-short-form, and **Castmagic** or **Repurpose.io** for multi-format text and distribution. Because no single tool *perfectly* automates 10+ formats natively without some editing, the",
+  "response_text": "When it comes to the \"best\" AI content repurposing tool to turn one YouTube video into 10+ platform formats (TikToks, Shorts, Reels, tweets, LinkedIn posts, blogs, newsletters, etc.), the crown currently goes to **Opus Clip** for video-to-short-form, and **Castmagic** or **Repurpose.io** for multi-format text and distribution. \n\nBecause no single tool *perfectly* automates 10+ formats natively without some editing, the market has divided into specialized powerhouses. Here is a breakdown of the best options depending on your specific workflow.\n\n---\n\n### 1. The Best Overall for Video Shorts: **Opus Clip**\nIf your definition of \"10+ formats\" includes slicing one long YouTube video into multiple viral short-form clips (TikTok, IG Reels, YouTube Shorts), Opus Clip is the industry leader.\n\n*   **How it works:** You paste a YouTube link, and its AI analyzes the video, identifies the most engaging hooks, and cuts them into 10+ standalone short videos complete with B-roll, AI captions, and dynamic cropping.\n*   **Key Features:** \n    *   **AI Curation Score:** Ranks clips based on viral potential.\n    *   **Seamless Multi-clip Generation:** Generates 10+ clips from a single 1-hour video in minutes.\n    *   **Active Speaker Tracking:** Keeps the person speaking centered.\n*   **Best For:** Creators and marketers whose primary goal is flooding short-form video feeds.\n\n### 2. The Best for Text-Based Repurposing (Blogs, Social, Newsletters): **Castmagic**\nIf you want to turn that YouTube video into written assets (LinkedIn carousels, Twitter threads, show notes, newsletters, blog posts, and summaries), Castmagic is unmatched.\n\n*   **How it works:** You upload or link your YouTube video, and Castmagic uses custom AI prompts to transcribe and instantly generate dozens of types of written content.\n*   **Key Features:**\n    *   **Customizable \"Magic\" Prompts",
+  "latency_ms": 2343,
+  "observed_at": "2026-10-31T18:33:35Z",
+  "evidence_classification": "live_gemini_api_inference",
+  "raw_gemini_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "When it comes to the \"best\" AI content repurposing tool to turn one YouTube video into 10+ platform formats (TikToks, Shorts, Reels, tweets, LinkedIn posts, blogs, newsletters, etc.), the crown currently goes to **Opus Clip** for video-to-short-form, and **Castmagic** or **Repurpose.io** for multi-format text and distribution. \n\nBecause no single tool *perfectly* automates 10+ formats natively without some editing, the market has divided into specialized powerhouses. Here is a breakdown of the best options depending on your specific workflow.\n\n---\n\n### 1. The Best Overall for Video Shorts: **Opus Clip**\nIf your definition of \"10+ formats\" includes slicing one long YouTube video into multiple viral short-form clips (TikTok, IG Reels, YouTube Shorts), Opus Clip is the industry leader.\n\n*   **How it works:** You paste a YouTube link, and its AI analyzes the video, identifies the most engaging hooks, and cuts them into 10+ standalone short videos complete with B-roll, AI captions, and dynamic cropping.\n*   **Key Features:** \n    *   **AI Curation Score:** Ranks clips based on viral potential.\n    *   **Seamless Multi-clip Generation:** Generates 10+ clips from a single 1-hour video in minutes.\n    *   **Active Speaker Tracking:** Keeps the person speaking centered.\n*   **Best For:** Creators and marketers whose primary goal is flooding short-form video feeds.\n\n### 2. The Best for Text-Based Repurposing (Blogs, Social, Newsletters): **Castmagic**\nIf you want to turn that YouTube video into written assets (LinkedIn carousels, Twitter threads, show notes, newsletters, blog posts, and summaries), Castmagic is unmatched.\n\n*   **How it works:** You upload or link your YouTube video, and Castmagic uses custom AI prompts to transcribe and instantly generate dozens of types of written content.\n*   **Key Features:**\n    *   **Customizable \"Magic\" Prompts",
+              "thoughtSignature": "EmAKXgFpFH0TtuKZjXkZ88XzbaPG7qA3Undoe88JJKYAb1sCcHkwMW2S6IkDGaq8E1H08s+i/hcaQRGo5RbLaKaEaR4BMVjLnXWYxrqg0taP3ZhNxKVexw3PQJmC/h/wGBA="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 40,
+      "candidatesTokenCount": 446,
+      "totalTokenCount": 486,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 40
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "fjTmarLMCOzD694Pk7i_wQ8"
+  }
+}

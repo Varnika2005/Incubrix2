@@ -1,0 +1,31 @@
+{
+  "observation_id": "OBS-DEMO-Q-016-CHAT-US-P1-E71FCF",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-016",
+  "query_text": "How do I edit video by deleting text in the transcript using AI?",
+  "provider": "chatgpt",
+  "market": "US",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "Day 2 Pass 1: Descript, Kapwing, and VEED remain the primary tools cited by ChatGPT for editing video via text transcripts.",
+  "signals": {
+    "incubrix_mentioned": 0,
+    "incubrix_cited": 0,
+    "incubrix_citation_urls": [],
+    "competitors_mentioned": [
+      "Descript",
+      "Kapwing",
+      "VEED"
+    ],
+    "citations_found": [
+      "https://www.descript.com/",
+      "https://www.veed.io/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Day 2 Pass 1: Descript, Kapwing, and VEED remain the primary tools cited by ChatGPT for editing video via text transcripts."
+  }
+}

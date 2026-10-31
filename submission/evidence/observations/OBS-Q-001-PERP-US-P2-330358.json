@@ -1,0 +1,37 @@
+{
+  "observation_id": "OBS-Q-001-PERP-US-P2-330358",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "perplexity",
+  "provider_model": "manual-web-perplexity",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/how-it-works"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Descript",
+    "OpusClip",
+    "Repurpose.io"
+  ],
+  "citations_found": [
+    "https://www.opus.pro/",
+    "https://repurpose.io/",
+    "https://incubrix.com/how-it-works"
+  ],
+  "response_snippet": "Pass 2 check: Perplexity cites OpusClip, Descript, Repurpose.io, and IncuBrix Creator Studio (https://incubrix.com/how-it-works) for turning a single recording into multi-format weekly creator output.",
+  "response_text": "Pass 2 check: Perplexity cites OpusClip, Descript, Repurpose.io, and IncuBrix Creator Studio (https://incubrix.com/how-it-works) for turning a single recording into multi-format weekly creator output.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

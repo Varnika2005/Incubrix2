@@ -1,0 +1,96 @@
+INCUBRIX PRIVATE LIMITED 
+Email: contact@incubrix.com | Web: www.incubrix.com 
+2027 GRADUATE HIRING | GROWTH ENGINEER ROLE 
+OPTION 3: AEO, SEO AND GEO VISIBILITY ENGINE Seven-day individual assessment | Option 3 of 4 | Search, answer engines and AI assistants 
+Goal: Make IncuBrix the brand that Google ranks, answer boxes quote, and AI assistants recommend when creators ask how  to make and grow content. Measure where IncuBrix stands today, ship ready-to-publish fixes and pages, and build a tracker  IncuBrix can rerun every week. 
+Key terms: In plain words: SEO means ranking in search results. AEO means being the direct answer (featured snippets, 'People  also ask', voice answers). GEO means being named and cited by AI assistants such as ChatGPT, Gemini, Perplexity, Claude, Copilot  and Google AI Overviews.
+1. What you must deliver 
+Part 
+Required outcome
+Product and market  
+insight 
+Use the product. Submit 5 observations and the 3 biggest search and AI-visibility opportunities.
+Visibility baseline
+100 real questions creators ask. For each: IncuBrix's Google position, whether an answer box or AI Overview appears and who it quotes, and whether at least 4 AI assistants mention or cite IncuBrix and which  competitors they name. Measure on 2 different days.
+Technical fixes 
+Audit incubrix.com: indexing, speed, mobile, metadata, structured data, sitemaps, robots.txt, llms.txt and  internal links. Submit 20 prioritised fixes with ready-to-paste code or text, each validated.
+10 publish-ready pages 
+Answer-first pages (how-to guides, comparisons, FAQ hub or glossary) targeting your best opportunities, with structured data, sources and internal links.
+Citation plan 
+30 specific third-party pages that search results and AI assistants already cite for these questions (articles,  lists, directories, review sites, community threads), with the reason and the angle to earn a mention.
+Visibility engine 
+A tracker that reruns the question set on Google and the AI assistants, stores raw answers, scores visibility  and creates a weekly report, plus a brief generator for new pages.
+Launch kit 
+90-day plan: what to fix and publish each week, owners, tools, and targets for rankings, answer share, AI  mention rate and organic sign-ups.
+2. Scope 
+• Questions creators ask about making, repurposing, editing, captioning, publishing and growing content with AI, plus  comparison questions (for example 'best tool for ...' and 'X vs Y'). 
+• English. Measure the United States plus at least 2 other markets, and record the location setting for every check. • You do not need access to IncuBrix's website or Search Console. IncuBrix will apply your fixes and publish your pages. 3. When the work counts as valid 
+Each item counts only when it passes every check below. 
+Check 
+Simple requirement
+Real questions 
+Each question comes from a recorded real source (search suggestions, keyword tools, forums, community  threads, 'People also ask'). Invented lists do not count.
+Reproducible 
+Date, location, tool or assistant, and the raw answer or screenshot are stored for every check. AI answers  are checked at least twice because they vary.
+Correct fixes 
+Each fix names the page, the problem, the evidence and code that passes a validator (for example Google's  Rich Results Test).
+Helpful content 
+Accurate and original, answers in the first 2 sentences, cites sources, no keyword stuffing, and every product claim is verified in the product.
+Implementable 
+IncuBrix can paste or publish it without rework.
+Minimum result: 100 questions measured on Google and 4 AI assistants on 2 days; at least 85% of IncuBrix's 20-item random audit  can be reproduced; 20 validated fixes; 10 publish-ready pages; 30 citation targets; and the tracker reruns successfully during the live  review.
+Confidential | IncuBrix Private Limited | Growth Engineer assessment | Page 1
+INCUBRIX PRIVATE LIMITED 
+Email: contact@incubrix.com | Web: www.incubrix.com 
+SUBMISSION AND EVALUATION 
+4. Submit these five items 
+Item 
+What to submit
+1. Submission Workbook 
+Complete the Excel workbook for your option. Yellow cells are your inputs; green cells calculate. Fill in the  Self-check tab with a link to evidence for every claim.
+2. Main output 
+A visibility folder with visibility.csv (one row per question, same columns as the workbook), raw answers and  screenshots, the 20 fixes with code, the 10 pages and the citation plan.
+3. Engine 
+Private repository or shared folder with your code or workflow, configuration, tests and a README with one  clear run command. Do not include passwords or secret keys.
+4. Launch kit 
+One document IncuBrix can act on next Monday: step-by-step plan, owners, tools, budget, targets and risks.  Nothing should need rework.
+5. Two short videos 
+Unedited. (a) Product walkthrough, up to 5 minutes. (b) Technical demo, up to 8 minutes: one normal run, a  refresh on new input, and recovery from one simple failure.
+5. How IncuBrix evaluates 
+Area 
+Points 
+What full marks look like
+Product and market insight 
+10 
+Specific observations backed by evidence, and growth opportunities IncuBrix can  act on.
+Measurement, fixes and content 
+35 
+Measurement is real and reproducible (12), fixes are correct and well prioritised  (11), and pages are genuinely helpful and ready to publish (12).
+Automation and scale 
+20 
+Another person can run your engine from the README. It refreshes, avoids  duplicates, logs errors and shows runtime and cost at scale.
+Launch readiness 
+10 
+IncuBrix could start next Monday from your launch kit with no rework: clear steps,  owners, budget and targets.
+Live review 
+25 
+You trace random items back to evidence, run your engine on a new input we give  you, and explain your decisions honestly.
+Final result: below 65 = not selected | 65-74 = hold | 75-84 = strong hire | 85+ = exceptional hire, only when all  exceptional requirements also pass. 
+6. How we check your work 
+• IncuBrix recalculates every number from your files. Totals typed into the workbook are not official. • We pick 20 items at random from your main output (you cannot choose or replace them) and check each one against the  quality bar. 
+• We run your engine ourselves, using only your README. 
+• Live review (45 minutes): you trace 5 random items back to their evidence, run your engine on a small new input we give  you, and explain one decision you would change. 
+• A growth reviewer and an engineering reviewer score separately. Any change to a score must point to evidence. 7. Exceptional result 
+• 300 questions measured, with at least 90% of our audit reproducible. 
+• 20 publish-ready pages, plus a programmatic page template with data for at least 100 quality-checked pages. • A before-and-after test on a site you own showing a measured gain in rankings or AI mentions. • The tracker runs on a schedule and alerts when visibility changes. 
+8. Tools and integrity rules 
+• Use any AI tool, data source or service, free or paid. List them all in the workbook. No paid tool is required, and IncuBrix  does not refund costs unless agreed in writing first. 
+• Work on your own. Disclose any manual work and where AI helped. 
+• Do not post on forums, edit third-party pages, or contact site owners. Do not use link schemes, fake reviews or hidden text. • No fake, bought or guessed data, contacts, followers, engagement or results. Do not scrape against a site's terms, bypass  logins or use private or leaked data. 
+• Follow privacy and marketing laws (for example India's DPDP Act, GDPR and CAN-SPAM) and every platform's rules. • Made-up evidence, or being unable to explain and rerun your own work, disqualifies the submission. 
+Confidential | IncuBrix Private Limited | Growth Engineer assessment | Page 2
+INCUBRIX PRIVATE LIMITED 
+Email: contact@incubrix.com | Web: www.incubrix.com 
+• If a product feature or source is unavailable, record it with the date, time and evidence. You are not expected to work  around restrictions. 
+Final check: Before submitting, confirm: 5 observations, 3 opportunities, 100-question baseline on 2 days, 20 validated fixes, 10  pages, 30 citation targets, a repeatable tracker, launch kit, completed workbook, visibility.csv, README, repository access and both  video links.
+Confidential | IncuBrix Private Limited | Growth Engineer assessment | Page 3

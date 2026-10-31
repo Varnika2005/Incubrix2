@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-017",
+  "page_url": "https://buffer.com/bluesky",
+  "final_url": "https://buffer.com/bluesky",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "Schedule your Bluesky posts with Buffer | Build an Authentic Community",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:00Z",
+  "evidence_path": "data/evidence/citations/CIT-017.json",
+  "notes": "HTTP 200 verified live at 2026-10-24T19:12:00Z (Title: 'Schedule your Bluesky posts with Buffer | Build an Authentic Community'). Evidence saved at data/evidence/citations/CIT-017.json."
+}

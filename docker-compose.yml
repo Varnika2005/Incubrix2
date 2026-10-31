@@ -1,0 +1,15 @@
+services:
+  incubrix:
+    build: .
+    container_name: incubrix-visibility-engine
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - NODE_ENV=production
+      - SQLITE_DB_PATH=/app/data/incubrix.db
+      - TARGET_WEBSITE_URL=https://www.incubrix.com
+    volumes:
+      - ./data:/app/data
+      - ./exports:/app/exports

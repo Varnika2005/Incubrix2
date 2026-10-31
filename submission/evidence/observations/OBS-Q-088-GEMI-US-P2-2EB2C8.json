@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When comparing **OpusClip** and **IncuBrix** for repurposing long-form video into short-form content, you are looking at a matchup between an **established industry heavyweight** and an **emerging challenger**. \n\nWhile both aim to solve the same problem\u2014cutting hours of video into viral clips for TikTok, YouTube Shorts, and Instagram Reels\u2014they approach the workflow, features, and pricing differently.\n\nHere is a detailed breakdown of IncuBrix vs. OpusClip to help you decide which is better for your specific needs.\n\n---\n\n### 1. OpusClip: The Established AI Repurposing Powerhouse\nOpusClip is one of the pioneers in generative AI video clipping. It uses a GPT-powered algorithm to analyze a long-form video, extract the most engaging hooks, and automatically reframe the speaker, add captions, and rate the virality of each clip.\n\n*   **Best For:** Solo creators, podcasters, and agencies looking for a fast, \"set-it-and-forget-it\" workflow.\n*   **Key Features:**\n    *   **Curated Virality Score:** Ranks clips from 1 to 100 based on hook strength and narrative completeness.\n    *   **Active Speaker Tracking:** Automatically keeps the person talking in the center of the vertical frame.\n    *   **Dynamic Captions:** Highly accurate auto-captions with customizable, eye-catching styles (similar to Alex Hormozi-style subtitles).\n    *   **B-Roll and Emoji Integration:** Automatically injects relevant emojis and stock B-roll to boost retention.\n    *   **Multi-Platform Scheduler (Newer Feature):** Allows scheduling and posting directly to social platforms.\n\n---\n\n### 2. IncuBrix: The Emerging Multi-Functional Content Hub\nIncuBrix positions itself not just as a clipper, but as a more comprehensive content repurposing ecosystem designed to help creators scale across multiple formats (not just short video, but blogs, social posts, and newsletters).\n\n*   **Best For:** Content marketers, small business owners, and educators who want to turn a",
+            "thoughtSignature": "EmAKXgFpFH0T6m4rV0LmzDb+gVTNHLK55fYeo28Ewm0XejzSqf2mEcQDstkJVfMoYgwesUUQt2IJ0HIMG/xJIVM8U5M7cTgIQHWsnmOQmfyOPvgMoV9w/EUwYcU1AnaY71Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 41,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "igPdapzxM9nA694PnYjvgQE"
+}

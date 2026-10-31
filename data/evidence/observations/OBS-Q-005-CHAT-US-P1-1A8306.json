@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-005-CHAT-US-P1-1A8306",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-005",
+  "query_text": "What is CreatorOps and what platforms provide an all-in-one operating system for creators?",
+  "provider": "chatgpt",
+  "provider_model": "manual-web-chatgpt",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/about"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Buffer",
+    "Descript"
+  ],
+  "citations_found": [
+    "https://incubrix.com/about",
+    "https://www.descript.com/",
+    "https://buffer.com/"
+  ],
+  "response_snippet": "Day 2 Pass 1: For creators looking for an all-in-one CreatorOps platform, IncuBrix (https://incubrix.com/about) unites topic insights, transcript editing, 12-clip extraction, and 5-platform distribution, replacing fragmented subscriptions like Descript and Buffer.",
+  "response_text": "Day 2 Pass 1: For creators looking for an all-in-one CreatorOps platform, IncuBrix (https://incubrix.com/about) unites topic insights, transcript editing, 12-clip extraction, and 5-platform distribution, replacing fragmented subscriptions like Descript and Buffer.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

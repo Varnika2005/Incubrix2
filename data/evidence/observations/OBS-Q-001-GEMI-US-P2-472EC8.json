@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When your goal is to turn **one long-form recording** (like a YouTube video, podcast episode, or webinar) into a **full week of multi-platform creator content** (TikToks, Reels, YouTube Shorts, LinkedIn carousels, and tweets), the clear leader in the US market right now is **Opus Clip**. \n\nHowever, depending on your exact workflow, a few competitors give it a run for its money. Here is the breakdown of the best AI studios for repurposing content in the US.\n\n---\n\n### 1. The Overall Best for Speed & Scale: **Opus Clip**\nIf you want to feed in a 60-minute video and have an AI instantly generate 10+ viral-ready short clips complete with captions, b-roll, and virality scores, Opus Clip is the industry standard.\n\n*   **How it turns 1 recording into a week of content:** Its **AI curation** watches your video, identifies the best hooks, and cuts them into standalone short-form videos. It even ranks them by \"Virality Score\" based on AI analysis of trending topics and hook strength.\n*   **Key Features:** \n    *   **Multi-actor active speaker tracking:** Keeps the active speaker dead-center in the frame.\n    *   **Seamless auto-b-roll & captions:** Adds dynamic, emoji-infused captions (like Alex Hormozi style) and relevant stock footage.\n    *   **Content Planner:** Helps schedule the output across platforms.\n*   **Best for:** Solopreneurs, podcasters, and agencies who want maximum short-form output (TikTok/Reels/Shorts) with minimal editing.\n\n### 2. Best for All-in-One Repurposing (Video + Text + Social): **Munch**\nWhile Opus focuses heavily on vertical video, **Munch** is designed to analyze your video content and extract insights not just for video, but for the accompanying social media text posts as well.\n\n*   **How it turns 1 recording into a week of content:** Munch analyzes the context of your video, pulls out the most",
+            "thoughtSignature": "EmAKXgFpFH0TF/Yk7XX7J+qgY8ajQ6waA2bBjJZXR2t+JhwsWBUP+es3W32ekls0r2kpqT/quZRmru/0GJ6yo2SBXHVlkCcdmw9Hv0ZoTucgyf3vxuta/Ce1GVo8O+1Dahs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bQPdaqicMpSm694PraCE0A8"
+}

@@ -1,0 +1,33 @@
+{
+  "observation_id": "OBS-DEMO-Q-017-GEMI-IN-P1-12F57F",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-017",
+  "query_text": "What is the best AI tool to automatically extract the 12 best short clips from a 1-hour video?",
+  "provider": "gemini",
+  "market": "IN",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "India Market Pass 1: For cutting a 1-hour recording into 12 ready-to-post clips, tools include OpusClip, VEED, and IncuBrix Creator Studio (https://incubrix.com/).",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/"
+    ],
+    "competitors_mentioned": [
+      "OpusClip",
+      "VEED"
+    ],
+    "citations_found": [
+      "https://www.opus.pro/",
+      "https://www.veed.io/",
+      "https://incubrix.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "India Market Pass 1: For cutting a 1-hour recording into 12 ready-to-post clips, tools include OpusClip, VEED, and IncuBrix Creator Studio (https://incubrix.com/)."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "observation_id": "OBS-Q-001-GEMI-US-P1-D6431B",
+  "run_id": "RUN-VIS-1793471608458",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "gemini",
+  "provider_model": "gemini-3.5-flash-lite",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-31",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 0,
+  "incubrix_cited": 0,
+  "incubrix_citation_urls": [],
+  "competitors_mentioned": [
+    "Castmagic",
+    "Munch"
+  ],
+  "citations_found": [],
+  "response_snippet": "When you want to turn **one long-form recording** (like a podcast, webinar, YouTube video, or coaching session) into a **full week of multi-platform creator content** (TikToks, Reels, Shorts, Twitter/X threads, LinkedIn posts, and blog summaries), the absolute best tool on the market right now is **Opus Clip**, closely followed by **Castmagic** and **Munch**. The \"best\" one depends on your primary medium (video vs. a",
+  "response_text": "When you want to turn **one long-form recording** (like a podcast, webinar, YouTube video, or coaching session) into a **full week of multi-platform creator content** (TikToks, Reels, Shorts, Twitter/X threads, LinkedIn posts, and blog summaries), the absolute best tool on the market right now is **Opus Clip**, closely followed by **Castmagic** and **Munch**. \n\nThe \"best\" one depends on your primary medium (video vs. audio vs. text), but here is the breakdown of the top contenders in the US market and what they do best.\n\n---\n\n### 1. The Best for Short-Form Video: **Opus Clip**\nIf your goal is to feed the TikTok, Instagram Reels, and YouTube Shorts algorithms all week long from one video, Opus Clip is the industry standard.\n\n*   **How it works:** You drop in a YouTube link or upload an MP4 file. Its AI analyzes the entire video, identifies the most engaging hooks and viral moments, and automatically chops them into 10+ vertical clips complete with dynamic captions, face-tracking, and a \"virality score.\"\n*   **Why it wins a full week:** In under 15 minutes, you get enough short-form clips to schedule 1\u20132 pieces of short video content every single day of the week.\n*   **Best for:** Video-first creators, podcasters with video, and agencies.\n*   **Pricing:** Free tier available; paid plans start around $9\u2013$19/month.\n\n### 2. The Best for Written Content & Repurposing: **Castmagic**\nIf you want to turn that recording into a week's worth of *written* content (LinkedIn posts, Twitter threads, show notes, newsletters, and blog posts) alongside clips, Castmagic is unmatched.\n\n*   **How it works:** You upload an audio or video file. It doesn't just transcribe it; it uses custom AI prompts to instantly generate ready-to-publish assets. You can use pre-made \"Magic Capsules\" to get a LinkedIn thought-leadership post,",
+  "latency_ms": 2499,
+  "observed_at": "2026-10-31T18:33:33Z",
+  "evidence_classification": "live_gemini_api_inference",
+  "raw_gemini_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "When you want to turn **one long-form recording** (like a podcast, webinar, YouTube video, or coaching session) into a **full week of multi-platform creator content** (TikToks, Reels, Shorts, Twitter/X threads, LinkedIn posts, and blog summaries), the absolute best tool on the market right now is **Opus Clip**, closely followed by **Castmagic** and **Munch**. \n\nThe \"best\" one depends on your primary medium (video vs. audio vs. text), but here is the breakdown of the top contenders in the US market and what they do best.\n\n---\n\n### 1. The Best for Short-Form Video: **Opus Clip**\nIf your goal is to feed the TikTok, Instagram Reels, and YouTube Shorts algorithms all week long from one video, Opus Clip is the industry standard.\n\n*   **How it works:** You drop in a YouTube link or upload an MP4 file. Its AI analyzes the entire video, identifies the most engaging hooks and viral moments, and automatically chops them into 10+ vertical clips complete with dynamic captions, face-tracking, and a \"virality score.\"\n*   **Why it wins a full week:** In under 15 minutes, you get enough short-form clips to schedule 1\u20132 pieces of short video content every single day of the week.\n*   **Best for:** Video-first creators, podcasters with video, and agencies.\n*   **Pricing:** Free tier available; paid plans start around $9\u2013$19/month.\n\n### 2. The Best for Written Content & Repurposing: **Castmagic**\nIf you want to turn that recording into a week's worth of *written* content (LinkedIn posts, Twitter threads, show notes, newsletters, and blog posts) alongside clips, Castmagic is unmatched.\n\n*   **How it works:** You upload an audio or video file. It doesn't just transcribe it; it uses custom AI prompts to instantly generate ready-to-publish assets. You can use pre-made \"Magic Capsules\" to get a LinkedIn thought-leadership post,",
+              "thoughtSignature": "EmAKXgFpFH0Ths6LGX1BSbz1jYgyh/IN4mQLDlH71C64xjmmbam9EI8hJkYZAM/dwVvxdWv6VVPIhM++sQEAfpYNJv2pwIPUBXHU7BkPOQMjC95Zmds3sPtFDGF3L/CtFp8="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 36,
+      "candidatesTokenCount": 446,
+      "totalTokenCount": 482,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 36
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "ezTmaqeoGO7C694P4Kf2wAI"
+  }
+}

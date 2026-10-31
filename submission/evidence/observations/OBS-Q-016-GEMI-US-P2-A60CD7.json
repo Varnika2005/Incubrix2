@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Editing video by deleting text in a transcript is known as **Text-Based Video Editing**. It is one of the biggest workflow revolutions for creators, podcasters, and editors in recent years. Instead of cutting on a traditional timeline with a razor tool, you simply highlight text in a transcript and hit delete\u2014and the corresponding video and audio are automatically cut out.\n\nHere is how you do it, the tools available, and a general step-by-step guide.\n\n---\n\n### Step 1: Choose an AI Video Editor\nSeveral modern video editors offer text-based editing. Here are the most popular options available in the US market:\n\n1. **Descript** (The industry pioneer and gold standard for this workflow)\n2. **Adobe Premiere Pro** (Uses Adobe Sensei AI for its \"Text-Based Editing\" workspace)\n3. **DaVinci Resolve Studio** (Features \"Voice Isolation\" and \"Transcription-based editing\" in Studio versions)\n4. **Kapwing** (Great for quick, browser-based social media editing)\n5. **Wondershare Filmora** (Offers speech-to-text editing features)\n\n*For this guide, we will use **Descript** as the example because it is built entirely around this concept, but the logic applies to Premiere Pro and others as well.*\n\n---\n\n### Step 2: Step-by-Step Workflow (How-To)\n\n#### 1. Import Your Footage\n* Open your chosen AI video editor and create a new project.\n* Drag and drop your video or audio file into the project.\n\n#### 2. Generate the AI Transcript\n* Once imported, the software will automatically begin **transcribing** the media using Speech-to-Text AI. \n* *Note: Depending on the length of the video and the software used, this usually takes a minute or two.*\n\n#### 3. Edit by Deleting Text\n* Read through the auto-generated transcript on your screen (or just play the video while following along with the text).\n* When you find a section you want to remove\u2014such as a false start, a stutter, a",
+            "thoughtSignature": "EmAKXgFpFH0TzAHg79HUr/Zp9Zb9/mPsQ5FsdBdpVIP/TWdCD7U3CNEAorWjEk2VS803dbX9XJ2TufDh5ELvGk6ChvJrfZ25L0c0bX0rkQAFy1sYos14QK0/fJf6fO7hRp4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 32,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 478,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 32
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "UgLdauDoKIOX0r4PhMm3sQE"
+}

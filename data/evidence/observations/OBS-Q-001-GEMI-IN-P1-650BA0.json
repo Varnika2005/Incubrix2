@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "To turn **one single recording** (like a podcast, YouTube video, or webinar) into a **full week of multi-platform creator content** (Reels, TikToks, Shorts, LinkedIn carousels, Twitter threads, and blog posts), you need an AI tool that doesn't just clip videos, but *understands context and repurposes across formats*.\n\nIn the Indian market, where localization, pricing (in INR/purchasing power), and mobile-first consumption matter, here are the best AI studios for this specific workflow, categorized by your exact needs.\n\n---\n\n### 1. The Best All-Around \"Content Engine\": **Opus Clip** (or Munch)\nIf your primary goal is to take a 30-to-60-minute video and automatically extract 5\u201310 viral short clips with captions, emojis, and B-roll, **Opus Clip** is the industry standard.\n\n*   **How it works for a full week:** You drop in one YouTube link or video file. Its AI (Curator 3.0) analyzes the transcript, finds the \"hook-worthy\" moments, scores them, and generates 10+ ready-to-post vertical videos with auto-reframing and captions.\n*   **Why it fits a weekly workflow:** You can schedule 1 short per day for Monday through Friday in under 10 minutes of work.\n*   **Pricing:** Free trial available; paid plans start around $9\u2013$19/month (roughly \u20b9800\u2013\u20b91,600/INR), making it cost-effective for Indian creators.\n*   **Alternative:** **GetMunch** (Great for trending topic analysis alongside clipping).\n\n---\n\n### 2. The Best \"End-to-End\" AI Studio: **Descript**\nIf you want to edit the *original* recording, clean up the audio, remove filler words (\"um,\" \"ah\"), and simultaneously generate written content, **Descript** is unmatched.\n\n*   **How it works for a full week:** You upload your recording. Descript transcribes it",
+            "thoughtSignature": "EmAKXgFpFH0TT0fTzzpj0V76QEBmiDbe1YYh5mI776KhY7JtV8LWF2di92sl9EdUZPwUJfkKVMNGe9umZgLzbz6shnyG6zO3EM4bS8NT6714Hw/yGUzk7wM3c0WhxPBOVZY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 481,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "cwPdap_kKoTH694P47CdsAc"
+}

@@ -1,0 +1,34 @@
+{
+  "observation_id": "OBS-Q-088-CLAU-US-P2-710AB0",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-088",
+  "query_text": "IncuBrix vs OpusClip: Which AI platform is better for turning long videos into multi-platform content?",
+  "provider": "claude",
+  "provider_model": "manual-web-claude",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/how-it-works"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "OpusClip"
+  ],
+  "citations_found": [
+    "https://incubrix.com/how-it-works",
+    "https://www.opus.pro/"
+  ],
+  "response_snippet": "Day 2 Pass 2: Claude cites IncuBrix (https://incubrix.com/how-it-works) and OpusClip (https://www.opus.pro/) as the two top alternatives for creators repurposing long recordings into short video clips.",
+  "response_text": "Day 2 Pass 2: Claude cites IncuBrix (https://incubrix.com/how-it-works) and OpusClip (https://www.opus.pro/) as the two top alternatives for creators repurposing long recordings into short video clips.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

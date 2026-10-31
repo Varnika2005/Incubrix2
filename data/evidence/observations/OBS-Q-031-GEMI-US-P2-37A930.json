@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When it comes to turning a single long-form YouTube video into 10+ platform-optimized formats (like TikToks, YouTube Shorts, Instagram Reels, LinkedIn carousels, Twitter/X threads, blog posts, and newsletters), **Opus Clip** and **Repurposed.io** are the frontrunners, but **Castmagic** and **Klap** are extremely strong contenders depending on your workflow. \n\nThere is no single \"one-size-fits-all\" best tool, because they approach repurposing differently: **some focus purely on short-form video, while others excel at text and multi-platform distribution.**\n\nHere is the breakdown of the best AI content repurposing tools for the US market in 2024, categorized by what they do best.\n\n---\n\n### 1. The Best for Short-Form Video (Reels, Shorts, TikTok): **Opus Clip**\nIf your primary goal is to take one YouTube video and instantly generate 10+ viral-worthy short clips with captions, Opus Clip is currently the industry leader.\n\n*   **How it works:** You paste your YouTube link, and its AI (OpusClip Co-Pilot) analyzes your video, finds the most engaging hooks, cuts them into standalone short videos, and arranges them in order of viral potential.\n*   **What you get:** 10+ short-form videos complete with AI-generated B-roll, active word-by-word captions, dynamic zooming, and a \"Virality Score.\"\n*   **Best for:** Creators and marketers who want quantity and speed in the short-form video space.\n*   **Pricing:** Free tier available; paid plans start around $9\u2013$19/month.\n\n### 2. The Best for Complete Text & Audio Repurposing: **Castmagic**\nIf you want to turn that YouTube video into 10+ formats that include **both video clips and written content** (newsletters, LinkedIn posts, Twitter threads, show notes, and blog posts), Castmagic is unmatched.\n\n*   **How it works:** It transcribes your YouTube video and uses",
+            "thoughtSignature": "EmAKXgFpFH0TAQVvHKZOJ2oUxNFwPnRIRdAkpyCmRrQFS6SiBZGsyM2c58fsOFu/F0i1rn42T/9MZ3zWawd3DLn+IvFwigrhe+JNwMVhCCFKstQXMImJ2au3pHXDWygOLDA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 486,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 40
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "XwLdasPVIOq90r4Pi6aI4A8"
+}

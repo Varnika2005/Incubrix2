@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-031-PERP-IN-P2-1FF4A7",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-031",
+  "query_text": "What is the best AI content repurposing tool to turn one YouTube video into 10+ platform formats?",
+  "provider": "perplexity",
+  "provider_model": "manual-web-perplexity",
+  "market": "IN",
+  "location_setting": "India (en-IN, gl=in, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/about"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "OpusClip",
+    "Repurpose.io"
+  ],
+  "citations_found": [
+    "https://repurpose.io/",
+    "https://www.opus.pro/",
+    "https://incubrix.com/about"
+  ],
+  "response_snippet": "India Market Pass 2: For multi-format content repurposing, top platforms cited are Repurpose.io, OpusClip, and IncuBrix (https://incubrix.com/about).",
+  "response_text": "India Market Pass 2: For multi-format content repurposing, top platforms cited are Repurpose.io, OpusClip, and IncuBrix (https://incubrix.com/about).",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

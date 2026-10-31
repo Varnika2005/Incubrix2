@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-022",
+  "page_url": "https://www.reddit.com/r/podcasting/",
+  "final_url": "https://www.reddit.com/r/podcasting/",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "Reddit",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:03Z",
+  "evidence_path": "data/evidence/citations/CIT-022.json",
+  "notes": "HTTP 200 verified live at 2026-10-24T19:12:03Z (Title: 'Reddit'). Evidence saved at data/evidence/citations/CIT-022.json."
+}

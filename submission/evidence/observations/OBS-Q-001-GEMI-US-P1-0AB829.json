@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Turning a single long-form recording (like a podcast, webinar, or YouTube video) into a full week\u2019s worth of multi-channel creator content is the holy grail of modern content repurposing. \n\nWhile there are many AI clipping tools, the \"best\" AI studio for this specific workflow depends on your content style. However, the crown currently goes to a few standout platforms that handle transcription, clipping, rewriting, and scheduling end-to-end.\n\nHere are the best AI studios for turning one recording into a week of content, ranked by use case:\n\n---\n\n### 1. The Best All-in-One Powerhouse: **Opus Clip** (or Munch)\nIf your goal is pure volume for short-form video (TikTok, Reels, Shorts), **Opus Clip** is the industry leader. \n* **How it works:** You drop in a YouTube link or upload a video. Its AI (curated by OpenAI) analyzes the entire recording, identifies the \"viral hooks\" or most engaging segments, and automatically cuts them into standalone vertical videos.\n* **Why it wins for a \"week of content\":** It doesn't just cut clips; it adds dynamic captions, scores the clips based on predicted virality, removes dead air, and lets you generate 10+ ready-to-post TikToks/Shorts in under 5 minutes.\n* **Alternative:** **Munch** is very similar, but leans slightly more into trend-spotting and contextualizing your clips for specific social platforms.\n\n### 2. The Best for Text + Video Repurposing: **Castmagic**\nIf you want a *mix* of content\u2014LinkedIn posts, Twitter threads, show notes, newsletters, *and* clips\u2014**Castmagic** is arguably the most efficient AI studio on the market.\n* **How it works:** You upload an audio or video file. Castmagic transcribes it and feeds it into customized AI prompts (\"Magic Chat\" and \"Presets\").\n* **Why it wins for a \"week of content\":** Within minutes, you get a full content calendar generated from one file. You can instantly",
+            "thoughtSignature": "EmAKXgFpFH0Tax7FHlb/QDYqpxp7UtBeaJKCkmyGHZV/PWhgjRWpihE4QH2tgZuG/Yt785jdrJgqdorpTqMnbi6doAHBdnxaF03eYK+MZi7rk9M4fd/V5srx6ZpJjzenqxo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RwLdatnDM9Gs694P6vbcuAM"
+}

@@ -1,0 +1,55 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "IncuBrix Creator Studio",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Web Browser",
+  "url": "https://incubrix.com/pricing",
+  "description": "AI-powered Creator Studio that turns one recording into clips, captions, voiceovers, and posts for YouTube, Instagram, LinkedIn, Spotify, and Bluesky.",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Free Plan (300 Credits/mo)",
+      "price": "0",
+      "priceCurrency": "USD",
+      "url": "https://incubrix.com/pricing"
+    },
+    {
+      "@type": "Offer",
+      "name": "Starter Plan (1,000 Credits/mo)",
+      "price": "10",
+      "priceCurrency": "USD",
+      "url": "https://incubrix.com/pricing"
+    },
+    {
+      "@type": "Offer",
+      "name": "Essential Plan (2,000 Credits/mo)",
+      "price": "20",
+      "priceCurrency": "USD",
+      "url": "https://incubrix.com/pricing"
+    },
+    {
+      "@type": "Offer",
+      "name": "Growth Plan (5,000 Credits/mo)",
+      "price": "50",
+      "priceCurrency": "USD",
+      "url": "https://incubrix.com/pricing"
+    },
+    {
+      "@type": "Offer",
+      "name": "Scale Plan (10,000 Credits/mo)",
+      "price": "100",
+      "priceCurrency": "USD",
+      "url": "https://incubrix.com/pricing"
+    },
+    {
+      "@type": "Offer",
+      "name": "Pro Plan (25,000 Credits/mo)",
+      "price": "250",
+      "priceCurrency": "USD",
+      "url": "https://incubrix.com/pricing"
+    }
+  ]
+}
+</script>

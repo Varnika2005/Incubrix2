@@ -1,0 +1,293 @@
+Issue ID,Priority Rank,Severity,Category,Page URL,Title,Description,Actual Evidence,Recommended Change,Ready-to-Apply Code,Validation Method,Validation Status,Validation Result,Timestamp
+ISS-001,1,critical,Structured Data (JSON-LD),https://incubrix.com/,Zero JSON-LD Structured Data (Organization & WebSite) on Homepage,"Live inspection of https://incubrix.com/ shows 0 <script type=""application/ld+json""> blocks. Search engines and AI answer engines lack machine-readable entity definitions for IncuBrix, its founder, logo, and official URLs.","HTTP 200 (59,079 bytes) on https://incubrix.com/: <script type=""application/ld+json""> count = 0 across all 13 sitemap pages.",Inject validated Organization and WebSite JSON-LD schema into the <head> of https://incubrix.com/ with factual entity fields (no fabricated ratings).,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@graph"": [
+    {
+      ""@type"": ""Organization"",
+      ""@id"": ""https://incubrix.com/#organization"",
+      ""name"": ""IncuBrix"",
+      ""legalName"": ""IncuBrix Pte. Ltd."",
+      ""url"": ""https://incubrix.com/"",
+      ""logo"": {
+        ""@type"": ""ImageObject"",
+        ""url"": ""https://incubrix.com/assets/incubrix-logo.jpg""
+      },
+      ""description"": ""IncuBrix unifies content insights, AI-assisted creation, intelligent repurposing, and multi-platform publishing into one CreatorOps workflow."",
+      ""email"": ""support@incubrix.com"",
+      ""founder"": {
+        ""@type"": ""Person"",
+        ""name"": ""Kamraj Subramanian"",
+        ""jobTitle"": ""Founder and CEO""
+      }
+    },
+    {
+      ""@type"": ""WebSite"",
+      ""@id"": ""https://incubrix.com/#website"",
+      ""url"": ""https://incubrix.com/"",
+      ""name"": ""IncuBrix \u2014 Creator Studio"",
+      ""publisher"": {
+        ""@id"": ""https://incubrix.com/#organization""
+      }
+    }
+  ]
+}
+</script>",Parse JSON-LD block with validate_json_ld() and verify @graph contains Organization and WebSite with valid schema.org @context.,patch_validated,OPEN ON LIVE SITE: 0 JSON-LD blocks present on https://incubrix.com/. | Candidate Patch Check: PASS: Validated schema.org JSON-LD syntax and required entity properties for ISS-001 (0 unverified fields).,2026-10-31T20:25:10Z
+ISS-002,2,critical,AEO / GEO Readiness,https://incubrix.com/llms.txt,Missing /llms.txt File (HTTP 404 Not Found) for AI Crawler Discovery,"Requesting https://incubrix.com/llms.txt and https://www.incubrix.com/llms.txt returns HTTP 404 Not Found. LLM-powered answer engines (Perplexity, ChatGPT Search, Claude) use /llms.txt to ingest concise, authoritative product facts and pricing.",GET https://www.incubrix.com/llms.txt -> HTTP 404 Not Found (Server: Vercel).,"Publish a standardized Markdown /llms.txt file at the root domain summarizing IncuBrix's 4 pillars, 6 pricing tiers, leadership team, and canonical URLs.","# IncuBrix (https://incubrix.com)
+
+> IncuBrix is an AI-powered CreatorOps platform and Creator Studio that helps podcasters, YouTubers, and multi-platform creators turn one recording or idea into clips, captions, voiceovers, digital avatar videos, and formatted social posts—then publish across YouTube, Instagram, LinkedIn, Spotify, and Bluesky from one screen.
+
+## Core Capabilities
+- **Content Insights**: Niche trend scanning, competitor gap analysis, and ranked topic recommendations.
+- **AI Content Studio (`/studio`)**: Transcript-based video editing (delete text to cut video), automated highlight extraction (1 hour video to 12 clips), AI voice cloning for narration, and lip-synced digital talking-head avatars.
+- **Intelligent Repurposer (`/repurpose`)**: Converts Text-to-Audio, Text-to-Video, and Audio/Video-to-Text across 10+ formats (YouTube Shorts, Instagram Reels, LinkedIn posts, Spotify podcasts, Bluesky posts, blogs, and newsletters).
+- **Centralized Publishing (`/publish`)**: Single-screen distribution to YouTube, Instagram, LinkedIn, Spotify, and Bluesky with automatic aspect-ratio sizing and burned-in/native captions.
+- **Unified Analytics (`/signal` — Coming Soon)**: Cross-platform views, watch time, and engagement tracking.
+
+## Pricing Plans (Credit-Based, 1-Year Validity via Stripe)
+- **Free**: $0/month — 300 credits/month (~21 one-minute videos)
+- **Starter**: $10/month — 1,000 credits/month (~71 one-minute videos)
+- **Essential**: $20/month — 2,000 credits/month (~142 one-minute videos)
+- **Growth**: $50/month — 5,000 credits/month (~357 one-minute videos)
+- **Scale**: $100/month — 10,000 credits/month (~714 one-minute videos)
+- **Pro**: $250/month — 25,000 credits/month (~1,785 one-minute videos)
+
+## Key Public URLs
+- [Homepage](https://incubrix.com/): Overview of the four Creator Studio pillars.
+- [How IncuBrix Works](https://incubrix.com/how-it-works): End-to-end CreatorOps workflow from insights to publishing.
+- [Pricing](https://incubrix.com/pricing): Credit tiers and billing FAQs.
+- [About Us](https://incubrix.com/about): Mission to solve creator tool overload and unify CreatorOps.
+- [FAQ](https://incubrix.com/faq): Product, privacy, and support answers.
+- [Leadership Team](https://incubrix.com/team): Founded by Kamraj Subramanian (CEO), with Rachel Blewitt (COO), Supriya Sambhus (Director of PM), Nidhi Raj (GTM), Santhosh CE (Engineering Manager), and Vasantha Keerthana Selvan (Tech Advisor).
+- [Creator Studio Web App](https://app.incubrix.com/): Application entry point.
+","Verify candidate /llms.txt contains H1 brand header, summary blockquote, core capabilities, factual pricing tiers ($0-$250/mo), and canonical markdown links.",patch_validated,"OPEN ON LIVE SITE: GET https://incubrix.com/llms.txt returns HTTP 404. | Candidate Patch Check: PASS: Validated /llms.txt structure (H1 title, summary blockquote, capabilities, and 6 factual pricing tiers).",2026-10-31T20:25:10Z
+ISS-003,3,critical,Structured Data (JSON-LD),https://incubrix.com/pricing,Missing SoftwareApplication & Offer Schema for 6 Credit Pricing Tiers on /pricing,"The /pricing page details 6 plans (Free, Starter $10, Essential $20, Growth $50, Scale $100, Pro $250) in visual HTML cards but has 0 JSON-LD blocks, preventing Google rich product/software snippets and accurate AI pricing answers.","GET https://incubrix.com/pricing (36,863 bytes) -> jsonld_count = 0.",Add SoftwareApplication JSON-LD with 6 factual Offer objects matching the exact USD monthly prices and credit allocations on /pricing.,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""SoftwareApplication"",
+  ""name"": ""IncuBrix Creator Studio"",
+  ""applicationCategory"": ""MultimediaApplication"",
+  ""operatingSystem"": ""Web Browser"",
+  ""url"": ""https://incubrix.com/pricing"",
+  ""description"": ""AI-powered Creator Studio that turns one recording into clips, captions, voiceovers, and posts for YouTube, Instagram, LinkedIn, Spotify, and Bluesky."",
+  ""offers"": [
+    {
+      ""@type"": ""Offer"",
+      ""name"": ""Free Plan (300 Credits/mo)"",
+      ""price"": ""0"",
+      ""priceCurrency"": ""USD"",
+      ""url"": ""https://incubrix.com/pricing""
+    },
+    {
+      ""@type"": ""Offer"",
+      ""name"": ""Starter Plan (1,000 Credits/mo)"",
+      ""price"": ""10"",
+      ""priceCurrency"": ""USD"",
+      ""url"": ""https://incubrix.com/pricing""
+    },
+    {
+      ""@type"": ""Offer"",
+      ""name"": ""Essential Plan (2,000 Credits/mo)"",
+      ""price"": ""20"",
+      ""priceCurrency"": ""USD"",
+      ""url"": ""https://incubrix.com/pricing""
+    },
+    {
+      ""@type"": ""Offer"",
+      ""name"": ""Growth Plan (5,000 Credits/mo)"",
+      ""price"": ""50"",
+      ""priceCurrency"": ""USD"",
+      ""url"": ""https://incubrix.com/pricing""
+    },
+    {
+      ""@type"": ""Offer"",
+      ""name"": ""Scale Plan (10,000 Credits/mo)"",
+      ""price"": ""100"",
+      ""priceCurrency"": ""USD"",
+      ""url"": ""https://incubrix.com/pricing""
+    },
+    {
+      ""@type"": ""Offer"",
+      ""name"": ""Pro Plan (25,000 Credits/mo)"",
+      ""price"": ""250"",
+      ""priceCurrency"": ""USD"",
+      ""url"": ""https://incubrix.com/pricing""
+    }
+  ]
+}
+</script>","Validate SoftwareApplication JSON-LD syntax, verify 6 Offer nodes ($0, $10, $20, $50, $100, $250 USD), and confirm zero fabricated rating properties.",patch_validated,OPEN ON LIVE SITE: 0 JSON-LD blocks present on https://incubrix.com/pricing. | Candidate Patch Check: PASS: Validated schema.org JSON-LD syntax and required entity properties for ISS-003 (0 unverified fields).,2026-10-31T20:25:10Z
+ISS-004,4,high,Structured Data (JSON-LD),https://incubrix.com/faq,Missing FAQPage Structured Data on /faq and /pricing,Both https://incubrix.com/faq and https://incubrix.com/pricing ('Pricing FAQs') contain structured Q&A content in HTML without FAQPage JSON-LD schema for AEO direct answer extraction.,"GET https://incubrix.com/faq (39,438 bytes) -> jsonld_count = 0.",Add FAQPage JSON-LD containing Question and acceptedAnswer entities matching the visible FAQ text.,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""FAQPage"",
+  ""mainEntity"": [
+    {
+      ""@type"": ""Question"",
+      ""name"": ""Do you offer a free trial for IncuBrix paid plans?"",
+      ""acceptedAnswer"": {
+        ""@type"": ""Answer"",
+        ""text"": ""IncuBrix does not offer timed free trials for paid plans, but provides a permanent Free plan with 300 credits per month (approximately 21 one-minute videos) so creators can explore the platform before upgrading.""
+      }
+    },
+    {
+      ""@type"": ""Question"",
+      ""name"": ""Is there a monthly usage expiration on IncuBrix plan credits?"",
+      ""acceptedAnswer"": {
+        ""@type"": ""Answer"",
+        ""text"": ""No. IncuBrix allows the credit limits provided in each plan to be utilized within a 1-year period, giving creators workflow flexibility.""
+      }
+    },
+    {
+      ""@type"": ""Question"",
+      ""name"": ""Which platforms can IncuBrix publish to directly?"",
+      ""acceptedAnswer"": {
+        ""@type"": ""Answer"",
+        ""text"": ""IncuBrix supports publishing formatted clips, captions, and posts to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from a single screen.""
+      }
+    }
+  ]
+}
+</script>",Validate FAQPage JSON-LD via validate_json_ld() and verify non-empty mainEntity Question/Answer pairs.,patch_validated,OPEN ON LIVE SITE: 0 JSON-LD blocks present on https://incubrix.com/faq. | Candidate Patch Check: PASS: Validated schema.org JSON-LD syntax and required entity properties for ISS-004 (0 unverified fields).,2026-10-31T20:25:10Z
+ISS-005,5,high,On-Page SEO,https://incubrix.com/manifesto,Empty <h1> Heading Tag on /manifesto,"The /manifesto page contains an empty <h1></h1> tag with zero text characters, depriving search engines of a primary topical heading.","GET https://incubrix.com/manifesto -> h1s: [""""] (1 <h1> element found, innerText length = 0; 5 <h2> elements present).",Populate the <h1> tag on /manifesto with a descriptive primary heading aligned with the page title ('The IncuBrix Creator Manifesto: Five Beliefs About Creators and Their Time').,<h1>The IncuBrix Creator Manifesto: Five Beliefs About Creators and Their Time</h1>,Parse candidate HTML and assert exactly 1 non-empty <h1> element with length between 20 and 90 characters.,patch_validated,"OPEN ON LIVE SITE: <h1> is empty on /manifesto. | Candidate Patch Check: PASS: Validated single non-empty <h1> ('The IncuBrix Creator Manifesto: Five Beliefs About Creators and Their Time', 74 chars).",2026-10-31T20:25:10Z
+ISS-006,6,high,Internal Linking,https://incubrix.com/manifesto,Orphan / Dead-End Page Architecture on /manifesto (0 Internal Links),"The /manifesto page has only 2 links total and 0 internal links to /, /about, /how-it-works, or /pricing, stranding crawlers and readers on a dead-end URL.","GET https://incubrix.com/manifesto -> link_count = 2, internal_links = [].","Add global header/footer navigation and contextual internal links from /manifesto to /, /how-it-works, /about, and /pricing.","<nav aria-label=""Manifesto navigation"">
+  <a href=""https://incubrix.com/"">IncuBrix Home</a>
+  <a href=""https://incubrix.com/how-it-works"">How IncuBrix Works</a>
+  <a href=""https://incubrix.com/pricing"">Creator Studio Pricing</a>
+  <a href=""https://incubrix.com/about"">About CreatorOps</a>
+</nav>",Verify candidate HTML contains at least 4 crawlable internal <a href> links to core IncuBrix routes.,patch_validated,OPEN ON LIVE SITE: /manifesto has 0 internal links. | Candidate Patch Check: PASS: Validated 4 internal navigation links for /manifesto.,2026-10-31T20:25:10Z
+ISS-007,7,high,Structured Data (JSON-LD),https://incubrix.com/how-it-works,Missing HowTo Structured Data on /how-it-works for 4-Step Creator Workflow,https://incubrix.com/how-it-works explains the 4-step workflow (Get Content Insights -> Create Content -> Publish Everywhere -> Track & Grow) but includes 0 JSON-LD blocks.,"GET https://incubrix.com/how-it-works (37,883 bytes) -> jsonld_count = 0.",Embed HowTo JSON-LD with 4 ordered HowToStep items matching the visible process steps.,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""HowTo"",
+  ""name"": ""How to Turn One Recording into Multi-Platform Creator Content with IncuBrix"",
+  ""description"": ""Four-step CreatorOps workflow from topic insights to multi-platform publishing."",
+  ""step"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""position"": 1,
+      ""name"": ""Get Content Insights"",
+      ""text"": ""Scan trending topics in your niche, spot competitor content gaps, and select a validated topic shortlist."",
+      ""url"": ""https://incubrix.com/how-it-works#insights""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""position"": 2,
+      ""name"": ""Create & Edit via Transcript"",
+      ""text"": ""Upload a recording or script. Edit video by deleting text in the transcript, extract up to 12 highlight clips, or narrate with voice cloning and digital avatars."",
+      ""url"": ""https://incubrix.com/how-it-works#create""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""position"": 3,
+      ""name"": ""Repurpose Across 10+ Formats"",
+      ""text"": ""Transform the core recording into vertical clips, captioned Reels/Shorts, LinkedIn posts, podcasts, and newsletter drafts."",
+      ""url"": ""https://incubrix.com/how-it-works#repurpose""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""position"": 4,
+      ""name"": ""Publish Everywhere from One Screen"",
+      ""text"": ""Distribute sized and captioned versions directly to YouTube, Instagram, LinkedIn, Spotify, and Bluesky."",
+      ""url"": ""https://incubrix.com/how-it-works#publish""
+    }
+  ]
+}
+</script>",Validate HowTo JSON-LD via validate_json_ld() and verify 4 sequential HowToStep nodes.,patch_validated,OPEN ON LIVE SITE: 0 JSON-LD blocks present on https://incubrix.com/how-it-works. | Candidate Patch Check: PASS: Validated schema.org JSON-LD syntax and required entity properties for ISS-007 (0 unverified fields).,2026-10-31T20:25:10Z
+ISS-008,8,medium,Structured Data (JSON-LD),https://incubrix.com/team,Missing AboutPage & Person Entity Graph on /team,"https://incubrix.com/team lists 6 leadership and advisory team members with LinkedIn profiles, but lacks Person/Organization JSON-LD to establish E-E-A-T entity authority in Knowledge Graphs.","GET https://incubrix.com/team (36,519 bytes) -> jsonld_count = 0.",Add AboutPage + Organization member JSON-LD listing verified leadership team members.,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""AboutPage"",
+  ""name"": ""IncuBrix Leadership & Advisory Team"",
+  ""url"": ""https://incubrix.com/team"",
+  ""mainEntity"": {
+    ""@type"": ""Organization"",
+    ""name"": ""IncuBrix"",
+    ""url"": ""https://incubrix.com/"",
+    ""member"": [
+      {
+        ""@type"": ""Person"",
+        ""name"": ""Kamraj Subramanian"",
+        ""jobTitle"": ""Founder and CEO""
+      },
+      {
+        ""@type"": ""Person"",
+        ""name"": ""Rachel Blewitt"",
+        ""jobTitle"": ""COO & Head of Customer Success""
+      },
+      {
+        ""@type"": ""Person"",
+        ""name"": ""Supriya Sambhus"",
+        ""jobTitle"": ""Director, Product Management""
+      },
+      {
+        ""@type"": ""Person"",
+        ""name"": ""Nidhi Raj"",
+        ""jobTitle"": ""GTM & Growth Strategy""
+      },
+      {
+        ""@type"": ""Person"",
+        ""name"": ""Santhosh CE"",
+        ""jobTitle"": ""Software Engineering Manager""
+      },
+      {
+        ""@type"": ""Person"",
+        ""name"": ""Vasantha Keerthana Selvan"",
+        ""jobTitle"": ""Tech Advisor""
+      }
+    ]
+  }
+}
+</script>",Validate AboutPage JSON-LD via validate_json_ld() and confirm 6 Person records under mainEntity.member.,patch_validated,OPEN ON LIVE SITE: 0 JSON-LD blocks present on https://incubrix.com/team. | Candidate Patch Check: PASS: Validated schema.org JSON-LD syntax and required entity properties for ISS-008 (0 unverified fields).,2026-10-31T20:25:10Z
+ISS-009,9,medium,Accessibility & Media,https://incubrix.com/about,"17 Content Images Across /, /about, /pricing, and /waitlist Have Empty alt="""" Attributes","17 <img> elements across 4 key conversion pages use empty alt="""" attributes (1 on /, 5 on /about, 5 on /pricing, 6 on /waitlist), harming screen-reader accessibility and Google Image search indexing.","Live crawl found empty alt="""" on / (1), /about (5: photo-12674086-w600.jpeg, etc.), /pricing (5), and /waitlist (6).","Provide descriptive, non-stuffed alt text describing the creator workflow shown in each image.","<img src=""/assets/photo-36950633-w300.jpeg"" alt=""Creator recording video in studio for multi-platform AI repurposing"" loading=""lazy"" width=""300"" height=""200"" />
+<img src=""/assets/photo-12674086-w600.jpeg"" alt=""Podcaster editing video transcript in IncuBrix Creator Studio"" loading=""lazy"" width=""600"" height=""400"" />",Parse candidate <img> tags and verify 0 images have missing or empty alt attributes.,patch_validated,OPEN ON LIVE SITE: 5 images missing alt on https://incubrix.com/about. | Candidate Patch Check: PASS: Validated 2 image tags with non-empty descriptive alt attributes.,2026-10-31T20:25:10Z
+ISS-010,10,medium,On-Page SEO,https://incubrix.com/,"Zero Twitter/X Card Meta Tags (twitter:card, twitter:title, twitter:image) Across All 13 Pages","None of the 13 sitemap pages include <meta name=""twitter:card"" content=""summary_large_image""> or related Twitter/X metadata, causing degraded social previews on X, Slack, and Discord.",Live crawl across all 13 URLs: tw_card_count = 0 on every page.,"Add twitter:card, twitter:title, twitter:description, and twitter:image tags to the global <head> template.","<meta name=""twitter:card"" content=""summary_large_image"" />
+<meta name=""twitter:title"" content=""IncuBrix | Create With Purpose. Publish Without Limits."" />
+<meta name=""twitter:description"" content=""IncuBrix turns one recording into clips, captions, voiceovers, and posts for YouTube, Instagram, LinkedIn, Spotify, and Bluesky."" />
+<meta name=""twitter:image"" content=""https://incubrix.com/og-image.jpg"" />","Verify candidate <head> includes twitter:card='summary_large_image', twitter:title, twitter:description, and twitter:image.",patch_validated,OPEN ON LIVE SITE: 0 twitter:* meta tags on live page. | Candidate Patch Check: PASS: Validated Twitter/X summary_large_image card metadata.,2026-10-31T20:25:10Z
+ISS-011,11,medium,On-Page SEO,https://incubrix.com/,Grammatical Error ('one content') & Pipe Character in Homepage Meta Description,"The homepage meta description reads: 'IncuBrix turns one content into clips, captions, voiceovers, and posts for every platform | then publishes and tracks it all from one screen.' The phrase 'one content' is ungrammatical and the pipe '|' breaks sentence parsing in AI snippets.","GET https://incubrix.com/ -> <meta name=""description"" content=""IncuBrix turns one content into clips, captions, voiceovers, and posts for every platform | then publishes and tracks it all from one screen."">","Replace with a grammatically clean, 152-character meta description naming core platforms and capabilities.","<meta name=""description"" content=""IncuBrix turns one recording into AI clips, captions, voiceovers, and posts—then publishes to YouTube, Instagram, LinkedIn, Spotify, and Bluesky."" />","Verify meta description length is 120-160 chars, contains no pipe '|' mid-sentence, and corrects 'one content'.",patch_validated,"OPEN ON LIVE SITE: Meta description still contains pipe/grammar issue. | Candidate Patch Check: PASS: Validated meta description (145 chars, pipe-free, grammatically clean).",2026-10-31T20:25:10Z
+ISS-012,12,medium,Technical & Crawlability,https://incubrix.com/sitemap.xml,Missing <lastmod> ISO-8601 Timestamps in sitemap.xml,"https://incubrix.com/sitemap.xml lists 13 <url> entries with <loc> and <changefreq>weekly</changefreq>, but omits <lastmod>. Google ignores <changefreq> and relies on <lastmod> to schedule recrawls.","GET https://incubrix.com/sitemap.xml (1,194 bytes) -> 0 <lastmod> tags present across 13 <url> nodes.",Include accurate <lastmod>YYYY-MM-DD</lastmod> tags derived from page modification dates in sitemap.xml.,"<?xml version=""1.0"" encoding=""UTF-8""?>
+<urlset xmlns=""http://www.sitemaps.org/schemas/sitemap/0.9"">
+  <url><loc>https://incubrix.com/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://incubrix.com/about</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://incubrix.com/how-it-works</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://incubrix.com/pricing</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://incubrix.com/faq</loc><lastmod>2026-10-24</lastmod></url>
+</urlset>",Parse XML with ElementTree and verify every <url> node contains both <loc> and a valid YYYY-MM-DD <lastmod> element.,patch_validated,OPEN ON LIVE SITE: sitemap.xml has 0 <lastmod> elements. | Candidate Patch Check: PASS: Validated XML sitemap schema with 5 <url> entries and ISO-8601 <lastmod> tags.,2026-10-31T20:25:10Z
+ISS-013,13,medium,AEO / GEO Readiness,https://incubrix.com/robots.txt,"robots.txt Lacks Explicit AI Search Crawler Allow Rules (GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot)","While robots.txt has a wildcard Allow: /, enterprise CDNs and WAFs frequently throttle AI search bots unless OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot, and Google-Extended are explicitly permitted.","GET https://incubrix.com/robots.txt (65 bytes):
+User-agent: *
+Allow: /
+Sitemap: https://incubrix.com/sitemap.xml","Add explicit User-agent allow blocks for OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot, and Google-Extended plus Sitemap reference.","User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://incubrix.com/sitemap.xml","Verify candidate robots.txt explicitly allows OAI-SearchBot, GPTBot, PerplexityBot, ClaudeBot, and includes Sitemap directive.",patch_validated,OPEN ON LIVE SITE: robots.txt lacks explicit OAI-SearchBot/PerplexityBot rules. | Candidate Patch Check: PASS: Validated robots.txt AI crawler allow rules and Sitemap reference.,2026-10-31T20:25:10Z
+ISS-014,14,medium,AEO / GEO Readiness,https://incubrix.com/,"Missing Explicit <meta name=""robots""> Max-Snippet & Max-Image-Preview Directives Across All 13 Pages","None of the 13 pages declare <meta name=""robots"" content=""index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"">, which explicitly authorizes Google AI Overviews and Answer Boxes to extract full snippets and large previews.",Live crawl across all 13 sitemap URLs: robots_meta_count = 0.,Add the explicit robots meta tag enabling max-snippet:-1 and max-image-preview:large on all indexable marketing pages.,"<meta name=""robots"" content=""index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"" />","Verify candidate <meta name=""robots""> includes index, follow, max-snippet:-1, and max-image-preview:large.",patch_validated,OPEN ON LIVE SITE: meta robots tag missing on live page. | Candidate Patch Check: PASS: Validated meta robots AEO/GEO snippet directives.,2026-10-31T20:25:10Z
+ISS-015,15,medium,Performance & CWV,https://incubrix.com/,Render-Blocking Third-Party Calendly CSS Loaded in <head> Across Non-Booking Pages,"<link href=""https://assets.calendly.com/assets/external/widget.css"" rel=""stylesheet""> is loaded synchronously in <head> across pages that do not embed a Calendly widget (/pricing, /privacy, /terms), adding a blocking third-party TLS/CSS round-trip before First Contentful Paint.","Found synchronous <link href=""https://assets.calendly.com/assets/external/widget.css"" rel=""stylesheet""> in <head> of https://incubrix.com/ and subpages.","Load Calendly CSS asynchronously using media=""print"" onload=""this.media='all'"" or restrict it strictly to /how-it-works and /contact.","<link rel=""preload"" href=""https://assets.calendly.com/assets/external/widget.css"" as=""style"" onload=""this.onload=null;this.rel='stylesheet'"" />
+<noscript><link rel=""stylesheet"" href=""https://assets.calendly.com/assets/external/widget.css"" /></noscript>",Verify candidate head snippet eliminates synchronous render-blocking stylesheet link to assets.calendly.com.,patch_validated,OPEN ON LIVE SITE: Render-blocking Calendly CSS present in <head>. | Candidate Patch Check: PASS: Validated non-blocking preload pattern for third-party Calendly stylesheet.,2026-10-31T20:25:10Z
+ISS-016,16,medium,Technical & Crawlability,https://incubrix.com/waitlist,Legacy /waitlist Page Remains Indexed in Sitemap Despite 'Creator Studio is Live' Launch,"https://incubrix.com/waitlist states 'Creator Studio is live. Start free today.' and targets the exact same core value proposition as https://incubrix.com/, splitting link equity and causing keyword cannibalization.","GET https://incubrix.com/waitlist (HTTP 200, canonical='https://incubrix.com/waitlist') is listed in sitemap.xml alongside https://incubrix.com/.",Either 301-redirect /waitlist to https://incubrix.com/ or set canonical of /waitlist to https://incubrix.com/ and remove /waitlist from sitemap.xml.,"<link rel=""canonical"" href=""https://incubrix.com/"" />
+<meta name=""robots"" content=""noindex, follow"" />","Verify candidate /waitlist head directive points canonical to https://incubrix.com/ and sets noindex, follow.",patch_validated,OPEN ON LIVE SITE: /waitlist canonical is https://incubrix.com/waitlist. | Candidate Patch Check: PASS: Validated canonical consolidation and noindex directive for /waitlist.,2026-10-31T20:25:10Z
+ISS-017,17,medium,Internal Linking,https://incubrix.com/,Body CTA Links Point Exclusively to app.incubrix.com Without Contextual Internal Links to /how-it-works or /pricing,"In the body content of /, /about, and /how-it-works, almost every anchor tag points to https://app.incubrix.com/ (14 times on /) rather than passing contextual anchor-text authority to /pricing, /faq, and feature guides.","GET https://incubrix.com/ -> 14 body links to https://app.incubrix.com/, 0 contextual body links to /pricing or /faq.","Add descriptive internal anchor links from homepage pillar sections to /how-it-works, /pricing, and /faq.","<p>Explore <a href=""https://incubrix.com/how-it-works"">how the 4-step IncuBrix CreatorOps workflow operates</a>, compare <a href=""https://incubrix.com/pricing"">credit-based Creator Studio pricing plans</a>, or read our <a href=""https://incubrix.com/faq"">Creator Studio FAQ</a>.</p>","Verify candidate internal link block contains descriptive anchor text linking to /how-it-works, /pricing, and /faq.",patch_validated,"OPEN ON LIVE SITE: Issue ISS-017 remains open on https://incubrix.com/ (awaiting production deploy). | Candidate Patch Check: PASS: Validated contextual internal links to /how-it-works, /pricing, and /faq.",2026-10-31T20:25:10Z
+ISS-018,18,low,Performance & CWV,https://incubrix.com/og-image.jpg,Uncompressed 415 KB JPEG Open Graph Image (/og-image.jpg) & Logo Asset,"https://incubrix.com/og-image.jpg is 415,202 bytes (image/jpeg) and /assets/incubrix-logo.jpg uses JPEG for a brand logo instead of SVG/WebP.","HEAD https://incubrix.com/og-image.jpg -> Content-Type: image/jpeg, Content-Length: 415202.",Compress /og-image.jpg to <120 KB progressive JPEG/WebP (1200x630) with explicit og:image:width and og:image:height meta tags.,"<meta property=""og:image"" content=""https://incubrix.com/og-image.jpg"" />
+<meta property=""og:image:width"" content=""1200"" />
+<meta property=""og:image:height"" content=""630"" />
+<meta property=""og:image:alt"" content=""IncuBrix Creator Studio — Create With Purpose, Publish Without Limits"" />","Verify candidate OG image metadata specifies og:image:width='1200', og:image:height='630', and non-empty og:image:alt.",patch_validated,OPEN ON LIVE SITE: No live fix detected on https://incubrix.com/og-image.jpg. | Candidate Patch Check: PASS: Validated Open Graph image dimensions (1200x630) and alt metadata.,2026-10-31T20:25:10Z
+ISS-019,19,low,On-Page SEO,https://incubrix.com/faq,Pipe Character ('|') Used as Punctuation in /faq Meta Description,"The /faq meta description uses a vertical pipe '|' inside a sentence ('Everything you need to know about IncuBrix | getting started, features, pricing...'), which truncates or splits snippets in some search parsers.","GET https://incubrix.com/faq -> <meta name=""description"" content=""Everything you need to know about IncuBrix | getting started, features, pricing, brand partnerships, data privacy, and support."">","Replace the pipe character with an em-dash or colon and include concrete AEO keywords (credit pricing, voice cloning, multi-platform publishing).","<meta name=""description"" content=""Answers to common questions about IncuBrix Creator Studio: getting started, AI clipping, voice cloning, credit pricing, data privacy, and support."" />",Verify candidate meta description has 120-160 characters and zero pipe '|' characters.,patch_validated,"OPEN ON LIVE SITE: Meta description still contains pipe/grammar issue. | Candidate Patch Check: PASS: Validated meta description (146 chars, pipe-free, grammatically clean).",2026-10-31T20:25:10Z
+ISS-020,20,low,Technical & Crawlability,https://www.incubrix.com/,www.incubrix.com Redirects to Apex incubrix.com — Ensure External Profiles Use Canonical Apex URL,Requests to https://www.incubrix.com/ redirect to https://incubrix.com/ (where canonical tags and sitemap.xml reside). External links pointing to www incur an extra HTTP redirect hop.,GET https://www.incubrix.com/ -> Redirects toFINAL_URL: https://incubrix.com/ (canonical='https://incubrix.com/').,"Standardize all directory citations, social profiles, and UTM links to use the canonical apex https://incubrix.com/ URL directly.","<link rel=""canonical"" href=""https://incubrix.com/"" />",Verify canonical tag uses https://incubrix.com/ without www.,patch_validated,OPEN ON LIVE SITE: Issue ISS-020 remains open on https://www.incubrix.com/ (awaiting production deploy). | Candidate Patch Check: PASS: Validated apex canonical URL without www.,2026-10-31T20:25:10Z
+ISS-021,21,low,Performance & CWV,https://incubrix.com/,Duplicated ~20 KB Inline <style> Block Across All 13 HTML Pages Instead of Cached Stylesheet,"Each of the 13 pages embeds ~20 KB of identical inline CSS in <head>, preventing browser caching across page navigations and increasing HTML document size to 36 KB–59 KB.","Live crawl shows 36,519 to 59,079 bytes per HTML response with inline :root{--bg:#05070D...} CSS duplicated on every route.","Extract shared styles into a fingerprinted, immutable cached stylesheet (/assets/main.css) with Cache-Control: public, max-age=31536000, immutable.","<link rel=""stylesheet"" href=""/assets/incubrix-core.min.css"" />",Verify candidate external stylesheet link syntax is valid.,patch_validated,OPEN ON LIVE SITE: Issue ISS-021 remains open on https://incubrix.com/ (awaiting production deploy). | Candidate Patch Check: PASS: Validated external cacheable stylesheet tag.,2026-10-31T20:25:10Z
+ISS-022,22,low,AEO / GEO Readiness,https://incubrix.com/,"Missing Open Graph Locale Tags (og:locale & og:locale:alternate) for US, India, and UK Creator Markets","Pages include basic og:title/og:description/og:url but omit og:locale (en_US) and alternate English locales (en_IN, en_GB) for international creator discovery.","GET https://incubrix.com/ -> og_tags has og:title, og:description, og:type, og:image, og:url; og:locale is absent.","Add og:locale and og:locale:alternate tags for en_US, en_IN, and en_GB.","<meta property=""og:locale"" content=""en_US"" />
+<meta property=""og:locale:alternate"" content=""en_IN"" />
+<meta property=""og:locale:alternate"" content=""en_GB"" />",Verify candidate metadata contains og:locale='en_US' and alternates for en_IN and en_GB.,patch_validated,"OPEN ON LIVE SITE: Issue ISS-022 remains open on https://incubrix.com/ (awaiting production deploy). | Candidate Patch Check: PASS: Validated og:locale tags for US, India, and UK markets.",2026-10-31T20:25:10Z

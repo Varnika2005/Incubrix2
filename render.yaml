@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: incubrix-visibility-engine
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: starter
+    region: oregon
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: TARGET_WEBSITE_URL
+        value: https://www.incubrix.com
+    disk:
+      name: incubrix-data
+      mountPath: /app/data
+      sizeGB: 1

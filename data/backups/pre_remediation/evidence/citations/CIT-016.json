@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-016",
+  "page_url": "https://buffer.com/resources/content-repurposing-guide/",
+  "final_url": "https://buffer.com/resources/content-repurposing-guide/",
+  "http_status": 404,
+  "verification_status": "unreachable",
+  "fetched_title": null,
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:00Z",
+  "evidence_path": "data/evidence/citations/CIT-016.json",
+  "notes": "HTTP 404 error returned by target server at 2026-10-24T19:12:00Z."
+}

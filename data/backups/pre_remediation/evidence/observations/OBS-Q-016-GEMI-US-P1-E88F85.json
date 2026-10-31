@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Editing video by deleting text in a transcript\u2014often called **text-based video editing**\u2014is one of the most popular AI-driven workflows for content creators, podcasters, and educators. Instead of timeline scrubbing, trimming, and cutting, you simply highlight a sentence or word in a generated transcript and hit \"Delete,\" and the corresponding video and audio are automatically removed.\n\nHere is a step-by-step guide on how to do this, including the top tools available and general best practices.\n\n---\n\n### Step 1: Choose a Video Editor with AI Transcript Editing\nNot all video editors have this feature. You will need to use software that integrates speech-to-text AI. The most popular options include:\n\n*   **Descript:** The industry pioneer for text-based editing. Highly accurate and feature-rich.\n*   **Adobe Premiere Pro (Text-Based Editing):** Built directly into Adobe\u2019s ecosystem using Adobe Sensei AI.\n*   **Kapwing:** A browser-based editor with strong AI captioning and transcript editing tools.\n*   **Wondershare Filmora:** Offers speech-to-text editing features for quick cuts.\n*   **Runway / Veed.io:** Browser-based AI tools with similar transcript-cutting capabilities.\n\n*(Note: For this guide, the workflow is generally the same regardless of the software you choose.)*\n\n---\n\n### Step 2: Import Your Footage\n1. Open your chosen video editor and start a new project.\n2. Upload or import your raw video or audio file (interviews, talking-head videos, podcasts, etc.).\n\n---\n\n### Step 3: Generate the AI Transcript\n1. Once the media is in the project, look for an option that says **\"Transcribe,\"** **\"Text-Based Editing,\"** or **\"Speech-to-Text.\"**\n2. Select the language (e.g., English) and click generate. \n3. The AI will listen to the audio and generate a written transcript synchronized with the video timeline. (Most platforms take just a minute or two to do this).\n\n---\n\n###",
+            "thoughtSignature": "EmAKXgFpFH0T/P+gxr3vsVSLBOa2tYThmXHucFV0uf+MbSkPI9/h2/RK/ZwRYcS20A1TJO02DOKJ8JX9bQ701+gHciMSP6x4ocojAcb4QBnYxMfWTYtnRFBK6z8EJ3mJBAU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 32,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 478,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 32
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "UgLdari8Cp2Q694PvIOUiAY"
+}

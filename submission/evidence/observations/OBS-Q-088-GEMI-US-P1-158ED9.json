@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When it comes to repurposing long-form videos (like podcasts, webinars, or YouTube videos) into short-form clips for TikTok, Instagram Reels, and YouTube Shorts, **OpusClip** and **IncuBrix** approach the task with very different strengths, target audiences, and pricing models. \n\nHere is a detailed comparison to help you decide which AI platform is better for your specific needs.\n\n---\n\n### **1. OpusClip: The Industry Standard for Fast, Automated Virality**\nOpusClip is one of the most mature and popular AI-powered video repurposing tools on the market. It uses an advanced AI called \"CurateBlast\" to analyze the transcript of a long video, identify the most hook-worthy moments, and automatically chop them up into vertical clips.\n\n*   **Best For:** Solo creators, podcasters, and marketers who want **speed, volume, and hands-off automation**.\n*   **Core Workflow:** You paste a YouTube link (or upload an MP4), and within a few minutes, the AI generates 10+ vertical clips complete with captions, AI B-roll, and a \"virality score\" prediction.\n\n#### **Key Pros of OpusClip:**\n*   **Virality Score:** It ranks clips from 1 to 99 based on how engaging it thinks the hook and content are, helping you prioritize what to post.\n*   **Active Speaker Tracking:** The AI does a fantastic job of keeping the active speaker centered in the 9:16 vertical frame, even in multi-person interviews.\n*   **AI B-Roll & Emojis:** Automatically inserts relevant B-roll, images, and emojis to boost retention.\n*   **Seamless Captioning:** Offers trendy, highly readable animated captions that you can style with templates.\n*   **Scheduling/Publishing (Newer features):** Allows you to manage and schedule directly to social platforms depending on your tier.\n\n#### **Key Cons of OpusClip:**\n*   **Cookie-Cutter Feel:** Because it is so popular, many creators use the exact same caption styles and B-roll, which can make",
+            "thoughtSignature": "EmAKXgFpFH0TfgdlHHyXVcNgC7fNhiqG+dI1S5HbVKOjQDEvm1Owfb3ALdkgcum/R+/lcdHJcv32bJsxfAy4OxrRICFLOJjDRVpyZgqlP/ejdh5TQ4S4TbcSExmYUG4EMq8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 41,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "mgLdaqyAIaDD694Pr9SFuAc"
+}

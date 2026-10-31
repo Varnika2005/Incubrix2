@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-017-CLAU-IN-P1-7C22E6",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-017",
+  "query_text": "What is the best AI tool to automatically extract the 12 best short clips from a 1-hour video?",
+  "provider": "claude",
+  "provider_model": "manual-web-claude",
+  "market": "IN",
+  "location_setting": "India (en-IN, gl=in, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Munch",
+    "OpusClip"
+  ],
+  "citations_found": [
+    "https://www.opus.pro/",
+    "https://www.getmunch.com/",
+    "https://incubrix.com/"
+  ],
+  "response_snippet": "India Market Pass 1: To automatically extract 12 vertical clips from a 1-hour recording, creators use OpusClip, Munch, and IncuBrix Creator Studio (https://incubrix.com/). IncuBrix identifies high-hook moments via transcript text and formats 9:16 vertical clips with auto-captions.",
+  "response_text": "India Market Pass 1: To automatically extract 12 vertical clips from a 1-hour recording, creators use OpusClip, Munch, and IncuBrix Creator Studio (https://incubrix.com/). IncuBrix identifies high-hook moments via transcript text and formats 9:16 vertical clips with auto-captions.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

@@ -1,0 +1,57 @@
+{
+  "observation_id": "OBS-Q-031-GEMI-US-P2-8BDE43",
+  "run_id": "RUN-VIS-1793471637215",
+  "question_id": "Q-031",
+  "query_text": "What is the best AI content repurposing tool to turn one YouTube video into 10+ platform formats?",
+  "provider": "gemini",
+  "provider_model": "gemini-3.5-flash-lite",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-31",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 0,
+  "incubrix_cited": 0,
+  "incubrix_citation_urls": [],
+  "competitors_mentioned": [
+    "Repurpose.io"
+  ],
+  "citations_found": [],
+  "response_snippet": "Choosing the \"best\" AI content repurposing tool depends entirely on your workflow, budget, and whether you want **pure automation** or **creative control**. However, looking at the current market in the US, **Opus Clip** is widely considered the best overall tool for turning one YouTube video into 10+ short-form clips, while **Repurpose.io** is the king of multi-platform distribution. Here is a breakdown of the top c",
+  "response_text": "Choosing the \"best\" AI content repurposing tool depends entirely on your workflow, budget, and whether you want **pure automation** or **creative control**. \n\nHowever, looking at the current market in the US, **Opus Clip** is widely considered the best overall tool for turning one YouTube video into 10+ short-form clips, while **Repurpose.io** is the king of multi-platform distribution.\n\nHere is a breakdown of the top contenders for turning 1 long YouTube video into 10+ formats (TikToks, Reels, Shorts, LinkedIn videos, carousels, and tweets).\n\n---\n\n### 1. The Best for Pure Video Clipping: **Opus Clip**\nIf your primary goal is to take a 30-minute YouTube video and instantly get 10+ viral-ready short clips (TikTok/Reels/Shorts), Opus Clip is the industry standard.\n\n*   **How it works:** You paste a YouTube link. Its AI (Opus Clip 2.0) analyzes the video, identifies the 10 most engaging hooks/topics, cuts them, adds dynamic captions, reframes the video to 9:16, and even scores them based on \"viral potential.\"\n*   **Pros:** \n    *   Incredible AI curation\u2014it actually understands context and narrative arcs.\n    *   B-roll insertion, automatic emoji pop-ups, and auto-captioning.\n    *   Saves hours of manual scrubbing through timelines.\n*   **Cons:** The free trial is limited; heavily focused on vertical video (less suited for turning a video into a blog post or tweet).\n*   **Best for:** YouTubers, podcasters, and agency owners who want maximum short-form output with minimum editing.\n\n### 2. The Best for Omnichannel Distribution: **Repurpose.io**\nIf you want to turn *one* piece of content into video, audio, and text formats across *every* platform automatically, Repurpose.io is unmatched.\n\n*   **How it works:** It acts as the \"Zapier of content.\" You set",
+  "latency_ms": 2248,
+  "observed_at": "2026-10-31T18:34:03Z",
+  "evidence_classification": "live_gemini_api_inference",
+  "raw_gemini_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Choosing the \"best\" AI content repurposing tool depends entirely on your workflow, budget, and whether you want **pure automation** or **creative control**. \n\nHowever, looking at the current market in the US, **Opus Clip** is widely considered the best overall tool for turning one YouTube video into 10+ short-form clips, while **Repurpose.io** is the king of multi-platform distribution.\n\nHere is a breakdown of the top contenders for turning 1 long YouTube video into 10+ formats (TikToks, Reels, Shorts, LinkedIn videos, carousels, and tweets).\n\n---\n\n### 1. The Best for Pure Video Clipping: **Opus Clip**\nIf your primary goal is to take a 30-minute YouTube video and instantly get 10+ viral-ready short clips (TikTok/Reels/Shorts), Opus Clip is the industry standard.\n\n*   **How it works:** You paste a YouTube link. Its AI (Opus Clip 2.0) analyzes the video, identifies the 10 most engaging hooks/topics, cuts them, adds dynamic captions, reframes the video to 9:16, and even scores them based on \"viral potential.\"\n*   **Pros:** \n    *   Incredible AI curation\u2014it actually understands context and narrative arcs.\n    *   B-roll insertion, automatic emoji pop-ups, and auto-captioning.\n    *   Saves hours of manual scrubbing through timelines.\n*   **Cons:** The free trial is limited; heavily focused on vertical video (less suited for turning a video into a blog post or tweet).\n*   **Best for:** YouTubers, podcasters, and agency owners who want maximum short-form output with minimum editing.\n\n### 2. The Best for Omnichannel Distribution: **Repurpose.io**\nIf you want to turn *one* piece of content into video, audio, and text formats across *every* platform automatically, Repurpose.io is unmatched.\n\n*   **How it works:** It acts as the \"Zapier of content.\" You set",
+              "thoughtSignature": "EmAKXgFpFH0TLFDNE6NN6Fa8p6z6nB1W+rJqbxkr+Z3CMS7DvcpWUWMzow1jc9I23SOlqmnJFrnvMhHRlADbb44of+PxpF9Jtw6yxGaoT8nsrM11DSzo28izQSMRaHpVV3M="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 40,
+      "candidatesTokenCount": 446,
+      "totalTokenCount": 486,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 40
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "mjTmavCfI9fs694Pn5fskQM"
+  }
+}

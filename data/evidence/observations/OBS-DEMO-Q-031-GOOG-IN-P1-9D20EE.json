@@ -1,0 +1,34 @@
+{
+  "observation_id": "OBS-DEMO-Q-031-GOOG-IN-P1-9D20EE",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-031",
+  "query_text": "What is the best AI content repurposing tool to turn one YouTube video into 10+ platform formats?",
+  "provider": "google_search",
+  "market": "IN",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "Google India SERP Day 2: Repurpose.io, OpusClip, Castmagic, and IncuBrix (https://incubrix.com/about) rank for multi-format AI content repurposing.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/about"
+    ],
+    "competitors_mentioned": [
+      "Castmagic",
+      "OpusClip",
+      "Repurpose.io"
+    ],
+    "citations_found": [
+      "https://repurpose.io/",
+      "https://www.opus.pro/",
+      "https://incubrix.com/about"
+    ],
+    "google_organic_rank": 7,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 1,
+    "ai_overview_cites_incubrix": 1,
+    "response_snippet": "Google India SERP Day 2: Repurpose.io, OpusClip, Castmagic, and IncuBrix (https://incubrix.com/about) rank for multi-format AI content repurposing."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "observation_id": "OBS-Q-031-GOOG-IN-P1-AF1BBB",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-031",
+  "query_text": "What is the best AI content repurposing tool to turn one YouTube video into 10+ platform formats?",
+  "provider": "google_search",
+  "provider_model": "manual-serp-research",
+  "market": "IN",
+  "location_setting": "India (en-IN, gl=in, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/about"
+  ],
+  "google_organic_rank": 9,
+  "answer_box_present": 0,
+  "ai_overview_present": 1,
+  "competitors_mentioned": [
+    "Descript",
+    "OpusClip",
+    "Repurpose.io"
+  ],
+  "citations_found": [
+    "https://repurpose.io/",
+    "https://www.opus.pro/",
+    "https://incubrix.com/about"
+  ],
+  "response_snippet": "Google India SERP for turning one video into 10+ formats: Repurpose.io, OpusClip, Descript, and IncuBrix (https://incubrix.com/about - 'Transform your core content into 10+ formats').",
+  "response_text": "Google India SERP for turning one video into 10+ formats: Repurpose.io, OpusClip, Descript, and IncuBrix (https://incubrix.com/about - 'Transform your core content into 10+ formats').",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

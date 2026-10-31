@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "In the Indian creator economy, the demand for multilingual, platform-native content (YouTube, Instagram Reels, YouTube Shorts, and LinkedIn) is higher than ever. \n\nIf your goal is to take **one long-form recording** (like a podcast, YouTube video, webinar, or X Spaces audio) and turn it into **a full week of cross-platform content**, the \"best\" AI studio depends on whether your content is primarily in **English, Hindi, or Regional Indian languages**, and whether you prefer video or text.\n\nHere are the top AI studios for this exact workflow in India as of 2024, ranked by their strengths.\n\n---\n\n### 1. The Best Overall for Video Creators: **Opus Clip** (or Munch)\nIf your source recording is a video and you want viral-style short clips for Instagram Reels and YouTube Shorts, **Opus Clip** is the industry standard.\n\n*   **How it works:** You drop in a YouTube link or upload a video file. Its AI analyzes the whole recording, identifies the most \"hook-worthy\" moments, extracts them, adds animated captions, and scores them based on viral potential.\n*   **Why it\u2019s great for a week of content:** From a 30-minute video, it can generate 5 to 10 ready-to-post short clips in under 10 minutes. \n*   **India localization:** It handles English very well. While it supports Hindi and Hinglish auto-captions, the AI curation works best when the speech is clear.\n*   **Best for:** YouTubers, podcasters, and educators wanting short-form video volume.\n\n### 2. The Best for All-in-One Repurposing (Text + Video): **Dumraon.ai** or **Castmagic**\nIf you want to turn that single recording not just into videos, but into **LinkedIn carousels, Twitter/X threads, show notes, blog posts, and newsletters**, you need an AI repurposing studio.\n\n*   **Castmagic:** Upload an audio/video file, and it generates show notes, summaries",
+            "thoughtSignature": "EmAKXgFpFH0TIXY/iwp+X5TciZSfg5hv/KG7kAabRGyFeQrvPGQCxYTx0tf7tKui57nSpkJRoiW3kxSnlDkQAwRjQX/USxiShTQXUW+AbQscOkLihVOwCYLK8UKW8TBirXE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 481,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RwLdapeHLd_0694PiaLkuAY"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When comparing **OpusClip** and **IncuBrix** for repurposing long-form videos into short clips, you are looking at two very different stages of the AI video market. \n\n**OpusClip** is an established, feature-rich industry heavyweight known for automation and speed. **IncuBrix** is a newer, emerging AI tool that approaches content repurposing with a focus on ease of use and specific workflow integrations.\n\nHere is a detailed, head-to-head comparison to help you decide which is better for your specific needs in the US market.\n\n---\n\n### 1. Core Philosophy & Workflow\n*   **OpusClip:** Built for **speed at scale**. You drop in a YouTube link or upload a file, and its AI (which it calls \"OpusClip 2.0\" with its *Curator* engine) analyzes your video, finds the \"viral hooks,\" and outputs 5 to 10 ready-to-publish vertical shorts in minutes, complete with AI B-roll, captions, and virality scores.\n*   **IncuBrix:** Built for **simplicity and all-in-one content creation**. While it handles long-to-short video clipping, it often positions itself broader\u2014aiming to help creators manage multiple facets of content creation without needing a massive toolkit. \n\n**Winner:** *OpusClip* for pure dedicated clipping power; *IncuBrix* if you prefer a less overwhelming, highly focused interface.\n\n---\n\n### 2. Key Features Compared\n\n| Feature | OpusClip | IncuBrix |\n| :--- | :--- | :--- |\n| **AI Curation & Virality Score** | Excellent. Ranks clips by perceived virality based on data and gives a breakdown of *why* the clip works. | Good, but tends to rely more on straightforward semantic chunking rather than deep predictive virality metrics. |\n| **Active Speaker Tracking** | Industry-leading face tracking and multi-speaker auto-framing. | Standard auto-framing; occasionally struggles with fast-paced multi-person debates. |\n|",
+            "thoughtSignature": "EmAKXgFpFH0TruiRUXiTcCP7VUkdBtAfXnK3LVPJmnpL0haXLi9kI1jC7U/6Nonm6nsQSx7MgZRKTiHa04OoD4jk3XOevIIMRvTtslh52xAsHEI6qZpj4IfEqN56BXY4/90="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 41,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ogLdarqENIG1694P84H-sA0"
+}

@@ -1,0 +1,28 @@
+# IncuBrix (https://incubrix.com)
+
+> IncuBrix is an AI-powered CreatorOps platform and Creator Studio that helps podcasters, YouTubers, and multi-platform creators turn one recording or idea into clips, captions, voiceovers, digital avatar videos, and formatted social posts—then publish across YouTube, Instagram, LinkedIn, Spotify, and Bluesky from one screen.
+
+## Core Capabilities
+- **Content Insights**: Niche trend scanning, competitor gap analysis, and ranked topic recommendations.
+- **AI Content Studio (`/studio`)**: Transcript-based video editing (delete text to cut video), automated highlight extraction (1 hour video to 12 clips), AI voice cloning for narration, and lip-synced digital talking-head avatars.
+- **Intelligent Repurposer (`/repurpose`)**: Converts Text-to-Audio, Text-to-Video, and Audio/Video-to-Text across 10+ formats (YouTube Shorts, Instagram Reels, LinkedIn posts, Spotify podcasts, Bluesky posts, blogs, and newsletters).
+- **Centralized Publishing (`/publish`)**: Single-screen distribution to YouTube, Instagram, LinkedIn, Spotify, and Bluesky with automatic aspect-ratio sizing and burned-in/native captions.
+- **Unified Analytics (`/signal` — Coming Soon)**: Cross-platform views, watch time, and engagement tracking.
+
+## Pricing Plans (Credit-Based, 1-Year Validity via Stripe)
+- **Free**: $0/month — 300 credits/month (~21 one-minute videos)
+- **Starter**: $10/month — 1,000 credits/month (~71 one-minute videos)
+- **Essential**: $20/month — 2,000 credits/month (~142 one-minute videos)
+- **Growth**: $50/month — 5,000 credits/month (~357 one-minute videos)
+- **Scale**: $100/month — 10,000 credits/month (~714 one-minute videos)
+- **Pro**: $250/month — 25,000 credits/month (~1,785 one-minute videos)
+
+## Key Public URLs
+- [Homepage](https://incubrix.com/): Overview of the four Creator Studio pillars.
+- [How IncuBrix Works](https://incubrix.com/how-it-works): End-to-end CreatorOps workflow from insights to publishing.
+- [Pricing](https://incubrix.com/pricing): Credit tiers and billing FAQs.
+- [About Us](https://incubrix.com/about): Mission to solve creator tool overload and unify CreatorOps.
+- [FAQ](https://incubrix.com/faq): Product, privacy, and support answers.
+- [Leadership Team](https://incubrix.com/team): Founded by Kamraj Subramanian (CEO), with Rachel Blewitt (COO), Supriya Sambhus (Director of PM), Nidhi Raj (GTM), Santhosh CE (Engineering Manager), and Vasantha Keerthana Selvan (Tech Advisor).
+- [Creator Studio Web App](https://app.incubrix.com/): Application entry point.
+

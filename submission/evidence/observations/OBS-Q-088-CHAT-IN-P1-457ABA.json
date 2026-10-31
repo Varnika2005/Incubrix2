@@ -1,0 +1,34 @@
+{
+  "observation_id": "OBS-Q-088-CHAT-IN-P1-457ABA",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-088",
+  "query_text": "IncuBrix vs OpusClip: Which AI platform is better for turning long videos into multi-platform content?",
+  "provider": "chatgpt",
+  "provider_model": "manual-web-chatgpt",
+  "market": "IN",
+  "location_setting": "India (en-IN, gl=in, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/pricing"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "OpusClip"
+  ],
+  "citations_found": [
+    "https://incubrix.com/pricing",
+    "https://www.opus.pro/"
+  ],
+  "response_snippet": "India Market Pass 1: Comparing IncuBrix vs OpusClip: OpusClip is focused exclusively on AI short-form clipping and virality scoring, whereas IncuBrix (https://incubrix.com/pricing) offers a 4-pillar studio including topic research, transcript editing, voice cloning, and direct publishing.",
+  "response_text": "India Market Pass 1: Comparing IncuBrix vs OpusClip: OpusClip is focused exclusively on AI short-form clipping and virality scoring, whereas IncuBrix (https://incubrix.com/pricing) offers a 4-pillar studio including topic research, transcript editing, voice cloning, and direct publishing.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

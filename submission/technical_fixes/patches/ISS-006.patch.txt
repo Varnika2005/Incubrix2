@@ -1,0 +1,6 @@
+<nav aria-label="Manifesto navigation">
+  <a href="https://incubrix.com/">IncuBrix Home</a>
+  <a href="https://incubrix.com/how-it-works">How IncuBrix Works</a>
+  <a href="https://incubrix.com/pricing">Creator Studio Pricing</a>
+  <a href="https://incubrix.com/about">About CreatorOps</a>
+</nav>

@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-004-CLAU-GB-P1-E81C2C",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-004",
+  "query_text": "How do solo creators convert a written blog post or script into a podcast episode with AI?",
+  "provider": "claude",
+  "provider_model": "manual-web-claude",
+  "market": "GB",
+  "location_setting": "United Kingdom (en-GB, gl=uk, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "HeyGen",
+    "Synthesia"
+  ],
+  "citations_found": [
+    "https://www.heygen.com/",
+    "https://www.synthesia.io/",
+    "https://incubrix.com/"
+  ],
+  "response_snippet": "UK Market Pass 1: Solo creators convert written blog posts and newsletters into talking-head videos using AI digital avatar generators such as HeyGen, Synthesia, and IncuBrix (https://incubrix.com/). IncuBrix allows creators to paste a script, generate a lip-synced avatar with their cloned voice, an",
+  "response_text": "UK Market Pass 1: Solo creators convert written blog posts and newsletters into talking-head videos using AI digital avatar generators such as HeyGen, Synthesia, and IncuBrix (https://incubrix.com/). IncuBrix allows creators to paste a script, generate a lip-synced avatar with their cloned voice, and publish directly to YouTube and LinkedIn.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

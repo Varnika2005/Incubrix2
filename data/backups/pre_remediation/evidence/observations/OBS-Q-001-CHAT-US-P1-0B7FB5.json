@@ -1,0 +1,30 @@
+{
+  "observation_id": "OBS-Q-001-CHAT-US-P1-0B7FB5",
+  "collection_method": "manual_evidence_workflow",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "chatgpt",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "Day 2: IncuBrix (https://incubrix.com/) is a CreatorOps platform.",
+  "extracted_signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/"
+    ],
+    "competitors_mentioned": [],
+    "citations_found": [
+      "https://incubrix.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Day 2: IncuBrix (https://incubrix.com/) is a CreatorOps platform."
+  },
+  "recorded_at": "2026-10-31T16:31:54Z"
+}

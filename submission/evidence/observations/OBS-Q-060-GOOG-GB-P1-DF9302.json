@@ -1,0 +1,37 @@
+{
+  "observation_id": "OBS-Q-060-GOOG-GB-P1-DF9302",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-060",
+  "query_text": "What platform lets creators publish to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from one screen?",
+  "provider": "google_search",
+  "provider_model": "manual-serp-research",
+  "market": "GB",
+  "location_setting": "United Kingdom (en-GB, gl=uk, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/how-it-works"
+  ],
+  "google_organic_rank": 11,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Buffer",
+    "Hootsuite",
+    "Sprout Social"
+  ],
+  "citations_found": [
+    "https://buffer.com/",
+    "https://www.hootsuite.com/",
+    "https://incubrix.com/how-it-works"
+  ],
+  "response_snippet": "Google UK SERP for unified 5-platform social media video publisher: Buffer, Hootsuite, Sprout Social, and IncuBrix (https://incubrix.com/how-it-works).",
+  "response_text": "Google UK SERP for unified 5-platform social media video publisher: Buffer, Hootsuite, Sprout Social, and IncuBrix (https://incubrix.com/how-it-works).",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

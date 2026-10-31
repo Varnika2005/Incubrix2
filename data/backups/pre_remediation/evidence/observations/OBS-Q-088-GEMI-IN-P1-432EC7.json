@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When comparing **IncuBrix** and **OpusClip** for turning long-form videos into short, multi-platform clips (such as YouTube Shorts, Instagram Reels, and TikToks), you are looking at two tools with different strengths, pricing models, and target audiences. \n\nOpusClip is a globally recognized heavyweight in AI video repurposing, while IncuBrix is emerging as a strong contender with features tailored particularly well for agencies, creators, and businesses looking for localized or specific workflow integrations.\n\nHere is a comprehensive comparison to help you decide which is better for your needs in India.\n\n---\n\n### 1. Core Feature Comparison\n\n| Feature | OpusClip | IncuBrix |\n| :--- | :--- | :--- |\n| **Primary Function** | AI curation of viral hooks, auto-cropping, and captioning. | AI-driven video repurposing, editing, and content management. |\n| **AI Curation & Scoring** | **Exceptional.** Uses GPT-driven \"Virality Score\" to rank clips based on hook strength, pacing, and narrative completeness. | Good, but focuses more on automated workflows and structured content breakdown. |\n| **Active Speaker Tracking** | Highly accurate face and speaker tracking with auto-reframing. | Reliable framing and cropping for vertical formats (9:16). |\n| **Captions & Subtitles** | Highly customizable, animated, dynamic captions (similar to Alex Hormozi style). | Clean, readable auto-captions with standard styling options. |\n| **B-Roll & Visuals** | Automatically suggests and inserts relevant B-roll and emojis. | Standard editing interface with good manual and semi-automated options. |\n| **Pricing Model** | Credit-based monthly subscriptions (minutes of upload). | Tiered plans tailored for creators and agencies. |\n\n---\n\n### 2. Deep Dive: OpusClip\nOpusClip pioneered the \"one-click\" long-to-short video revolution. \n\n* **How it works:** You paste a YouTube link or upload a video, and its AI scans the entire footage, identifies the most engaging hooks",
+            "thoughtSignature": "EmAKXgFpFH0TgwHXi/6DduZ4cersjrPotBhULoV7iiFFOCZaH0/PVj/JD4GX5UEzgGqeJkyYNXKveE5Zam5/QEvzKFlVGtE7mc5I0p1rBWur7yQDzPPOGQjuIWyHtjqozbI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 486,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 40
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "rALdari_BbSE694PtMji8QY"
+}

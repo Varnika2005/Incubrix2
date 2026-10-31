@@ -1,0 +1,34 @@
+{
+  "observation_id": "OBS-Q-017-CLAU-IN-P2-3C6263",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-017",
+  "query_text": "What is the best AI tool to automatically extract the 12 best short clips from a 1-hour video?",
+  "provider": "claude",
+  "provider_model": "manual-web-claude",
+  "market": "IN",
+  "location_setting": "India (en-IN, gl=in, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "OpusClip"
+  ],
+  "citations_found": [
+    "https://incubrix.com/",
+    "https://www.opus.pro/"
+  ],
+  "response_snippet": "India Market Day 2 Pass 2: IncuBrix (https://incubrix.com/) and OpusClip lead automated 12-clip highlight extraction workflows.",
+  "response_text": "India Market Day 2 Pass 2: IncuBrix (https://incubrix.com/) and OpusClip lead automated 12-clip highlight extraction workflows.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

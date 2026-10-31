@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Turning a single long-form recording (like a podcast, YouTube video, or webinar) into a full week\u2019s worth of multi-platform creator content is the holy grail of modern content repurposing. \n\nWhile there are many AI clipping tools, the \"best\" AI studio for this specific workflow depends on whether you prioritize **speed/automation**, **deep editing control**, or **repurposing into written content**. \n\nHere are the top AI studios in the US market for turning **one recording into a full week of content**, categorized by their strengths:\n\n---\n\n### 1. The Best All-in-One Powerhouse: **Opus Clip**\nIf your goal is sheer volume and speed\u2014taking one video and instantly getting 10+ ready-to-publish short clips\u2014**Opus Clip** is currently the industry leader.\n\n*   **How it works for a full week:** You drop in a 60-minute YouTube video. Its AI (Curator 3.0) analyzes the transcript, identifies the most hook-driven, viral-worthy moments, extracts them, adds captions, and scores them based on perceived virality.\n*   **Why it fits a week of content:** It doesn\u2019t just make clips; it creates a *content cluster*. You can easily pull 5 to 7 short-form videos (for TikTok, Reels, Shorts) from a single run.\n*   **Key Features:** AI curation, seamless auto-reframing (speaker tracking), dynamic B-roll insertion, custom templates, and AI-generated virality scores.\n*   **Best for:** Creators and marketers who want maximum short-form output with minimum manual editing.\n\n### 2. The Best for Complete Multi-Format Repurposing (Video + Written): **Munch**\nWhile Opus focuses heavily on vertical video, **Munch** is designed to analyze your video content and adapt it for *all* platforms\u2014not just TikTok/Reels, but also blogs, LinkedIn posts, and Twitter threads.\n\n*   **How it works for a full week:** Munch analyzes the context of your video, identifies trending topics",
+            "thoughtSignature": "EmAKXgFpFH0TiRy8Ii3rBUwVTMd/6zJ/JaDR9xWZ250adQmRrGRKToJXEaDbWjPOyH+h5i1JyMrPnef/ihXIS4caD0ksVgkXqE9w868HtuqHUmKQa9xlXArm9NfIPJsQz3I="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RwLdatSuKsGB694PmYiikQo"
+}

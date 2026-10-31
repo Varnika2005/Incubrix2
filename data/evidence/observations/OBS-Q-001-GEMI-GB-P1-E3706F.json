@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When you want to turn **one long-form recording** (like a YouTube video, podcast episode, or webinar) into a **full week of multi-platform creator content** (TikToks, Reels, YouTube Shorts, LinkedIn carousels, and tweet threads), the clear market leader in the UK right now is **Opus Clip**. \n\nHowever, depending on your exact workflow, a few strong competitors might suit you better. Here is a breakdown of the best AI studios for this specific task, tailored for UK-based creators and marketers.\n\n---\n\n### 1. The Overall Best: Opus Clip\n**Best for:** Speed, automated curation, and viral-style vertical clips.\n\nOpus Clip is essentially an AI video clipping factory. You drop in a YouTube link or upload a file, and its AI (called *Clipped 3.0*) watches your entire recording, identifies the most engaging hooks, and cuts them into multiple standalone vertical shorts.\n\n*   **Why it\u2019s great for a \"week of content\":** It doesn\u2019t just cut video; it scores them for virality, adds dynamic captions (similar to Alex Hormozi-style subtitles), detects active speakers, and even provides AI-generated titles and descriptions for each clip.\n*   **Output:** You can easily get 5 to 10 short-form videos from a 45-minute recording\u2014enough for daily posting on TikTok, IG Reels, and Shorts.\n*   **Pricing:** Free trial available; paid plans start around $9/month (approx. \u00a37\u2013\u00a38/month).\n\n### 2. The Best All-in-One Studio: Munch\n**Best for:** Trend-jacking and cross-platform context.\n\nWhile Opus focuses purely on video highlights, **Munch** analyzes your long-form video and connects the content to current social media trends. \n\n*   **Why it\u2019s great for a \"week of content\":** Munch understands *context*. It extracts clips not just based on what was said, but based on what is currently trending in marketing and social media. It also generates automatic social media posts (captions",
+            "thoughtSignature": "EmAKXgFpFH0TuVvW3nrqzpWoJ1I4x1WkE65cNtM/pO4KgQyJmJlP9aVfrSvyVm9eJVYFDOyj2Fl7fcIbSed4RmE+PEQ5bBEiU5i9vDKDVjW8nlpw2Ug/1qZMXn5e5JH47k0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "TQLdas-iC4X6694Po8yrUA"
+}

@@ -1,0 +1,29 @@
+{
+  "observation_id": "OBS-DEMO-Q-060-PERP-GB-P1-5F5E7A",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-060",
+  "query_text": "What platform lets creators publish to YouTube, Instagram, LinkedIn, Spotify, and Bluesky from one screen?",
+  "provider": "perplexity",
+  "market": "GB",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "UK Market Day 2 Pass 1: IncuBrix (https://incubrix.com/) is cited as a unified Creator Studio publishing to YouTube, Instagram, LinkedIn, Spotify, and Bluesky.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/"
+    ],
+    "competitors_mentioned": [],
+    "citations_found": [
+      "https://incubrix.com/",
+      "https://buffer.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "UK Market Day 2 Pass 1: IncuBrix (https://incubrix.com/) is cited as a unified Creator Studio publishing to YouTube, Instagram, LinkedIn, Spotify, and Bluesky."
+  }
+}

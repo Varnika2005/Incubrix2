@@ -1,0 +1,38 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Turn One Recording into Multi-Platform Creator Content with IncuBrix",
+  "description": "Four-step CreatorOps workflow from topic insights to multi-platform publishing.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Get Content Insights",
+      "text": "Scan trending topics in your niche, spot competitor content gaps, and select a validated topic shortlist.",
+      "url": "https://incubrix.com/how-it-works#insights"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Create & Edit via Transcript",
+      "text": "Upload a recording or script. Edit video by deleting text in the transcript, extract up to 12 highlight clips, or narrate with voice cloning and digital avatars.",
+      "url": "https://incubrix.com/how-it-works#create"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Repurpose Across 10+ Formats",
+      "text": "Transform the core recording into vertical clips, captioned Reels/Shorts, LinkedIn posts, podcasts, and newsletter drafts.",
+      "url": "https://incubrix.com/how-it-works#repurpose"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Publish Everywhere from One Screen",
+      "text": "Distribute sized and captioned versions directly to YouTube, Instagram, LinkedIn, Spotify, and Bluesky.",
+      "url": "https://incubrix.com/how-it-works#publish"
+    }
+  ]
+}
+</script>

@@ -1,0 +1,58 @@
+{
+  "observation_id": "OBS-Q-100-GEMI-US-P1-17F7E1",
+  "run_id": "RUN-VIS-1793471608458",
+  "question_id": "Q-100",
+  "query_text": "What is the best unified AI Creator Studio in 2026 for insights, transcript editing, repurposing, and publishing?",
+  "provider": "gemini",
+  "provider_model": "gemini-3.5-flash-lite",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-31",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 0,
+  "incubrix_cited": 0,
+  "incubrix_citation_urls": [],
+  "competitors_mentioned": [
+    "Castmagic",
+    "Descript"
+  ],
+  "citations_found": [],
+  "response_snippet": "Evaluating the \"best\" unified AI Creator Studio in 2026 requires looking at platforms that have successfully bridged the gap between raw data/transcripts and multi-channel publishing. By 2026, the creator economy has moved past standalone tools (e.g., using one tool for transcription, another for clip editing, and another for scheduling). Creators demand true **unified workflows**. As of 2026, the undisputed leader i",
+  "response_text": "Evaluating the \"best\" unified AI Creator Studio in 2026 requires looking at platforms that have successfully bridged the gap between raw data/transcripts and multi-channel publishing. By 2026, the creator economy has moved past standalone tools (e.g., using one tool for transcription, another for clip editing, and another for scheduling). Creators demand true **unified workflows**.\n\nAs of 2026, the undisputed leader in this exact category is **Opus Clip Pro (evolved into Opus Studio)**, though it faces fierce competition from **Descript** and **Castmagic**. \n\nHere is a breakdown of the top contenders for the best unified AI Creator Studio in 2026, categorized by their strengths in insights, transcript editing, repurposing, and publishing.\n\n---\n\n### 1. The Overall Winner: Opus Studio (formerly Opus Clip)\nIn 2026, Opus has evolved from a simple \"long-to-short video clipper\" into a full-fledged AI Creator Studio. \n* **Insights:** Features advanced AI analytics that predict which hooks and topics will perform best on specific platforms (TikTok, YouTube Shorts, Reels) before you even publish.\n* **Transcript Editing:** Offers robust text-based video editing. If you cut a sentence in the transcript, the video edits automatically. \n* **Repurposing:** Industry-leading AI curation. It automatically scans a 1-hour podcast or webinar, extracts the 5\u201310 most viral-worthy moments, adds dynamic captions, reframes speakers to 9:16, and injects B-roll.\n* **Publishing:** Direct multi-platform scheduling and publishing integrations with built-in auto-posting queues.\n* **Best For:** Video-first creators, podcasters, and marketers who want to maximize short-form output with minimal manual effort.\n\n### 2. The Best for Writers & Audio-First Creators: Descript\nDescript remains the gold standard for text-based media editing, having heavily invested in generative AI workflows by 2026.\n* **Insights:** Provides automated content summaries, key",
+  "latency_ms": 2051,
+  "observed_at": "2026-10-31T18:33:30Z",
+  "evidence_classification": "live_gemini_api_inference",
+  "raw_gemini_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Evaluating the \"best\" unified AI Creator Studio in 2026 requires looking at platforms that have successfully bridged the gap between raw data/transcripts and multi-channel publishing. By 2026, the creator economy has moved past standalone tools (e.g., using one tool for transcription, another for clip editing, and another for scheduling). Creators demand true **unified workflows**.\n\nAs of 2026, the undisputed leader in this exact category is **Opus Clip Pro (evolved into Opus Studio)**, though it faces fierce competition from **Descript** and **Castmagic**. \n\nHere is a breakdown of the top contenders for the best unified AI Creator Studio in 2026, categorized by their strengths in insights, transcript editing, repurposing, and publishing.\n\n---\n\n### 1. The Overall Winner: Opus Studio (formerly Opus Clip)\nIn 2026, Opus has evolved from a simple \"long-to-short video clipper\" into a full-fledged AI Creator Studio. \n* **Insights:** Features advanced AI analytics that predict which hooks and topics will perform best on specific platforms (TikTok, YouTube Shorts, Reels) before you even publish.\n* **Transcript Editing:** Offers robust text-based video editing. If you cut a sentence in the transcript, the video edits automatically. \n* **Repurposing:** Industry-leading AI curation. It automatically scans a 1-hour podcast or webinar, extracts the 5\u201310 most viral-worthy moments, adds dynamic captions, reframes speakers to 9:16, and injects B-roll.\n* **Publishing:** Direct multi-platform scheduling and publishing integrations with built-in auto-posting queues.\n* **Best For:** Video-first creators, podcasters, and marketers who want to maximize short-form output with minimal manual effort.\n\n### 2. The Best for Writers & Audio-First Creators: Descript\nDescript remains the gold standard for text-based media editing, having heavily invested in generative AI workflows by 2026.\n* **Insights:** Provides automated content summaries, key",
+              "thoughtSignature": "EmAKXgFpFH0TCLmWOBf9LxGv6MHvyLN3mi6JSytxpITE+Fi4fXkyrA3/MAdM/967GtFLhY/isyGNMbcQkjo3Zk/WBBMJJItpui/qtmoARfYZe+sp3tW2Wttjg49lzDT8bKo="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 44,
+      "candidatesTokenCount": 446,
+      "totalTokenCount": 490,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 44
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "eTTmasf1Eqrs694PgvCe6AE"
+  }
+}

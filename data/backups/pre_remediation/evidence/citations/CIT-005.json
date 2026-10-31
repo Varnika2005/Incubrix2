@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-005",
+  "page_url": "https://www.capterra.com/social-media-management-software/",
+  "final_url": "https://www.capterra.com/social-media-management-software/",
+  "http_status": 403,
+  "verification_status": "pending_check",
+  "fetched_title": null,
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:11:53Z",
+  "evidence_path": "data/evidence/citations/CIT-005.json",
+  "notes": "HTTP 403 access restriction (WAF/bot challenge); preserved as 'pending_check' without bypassing access controls."
+}

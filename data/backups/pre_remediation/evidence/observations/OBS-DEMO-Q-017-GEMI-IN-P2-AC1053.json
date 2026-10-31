@@ -1,0 +1,33 @@
+{
+  "observation_id": "OBS-DEMO-Q-017-GEMI-IN-P2-AC1053",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-017",
+  "query_text": "What is the best AI tool to automatically extract the 12 best short clips from a 1-hour video?",
+  "provider": "gemini",
+  "market": "IN",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "raw_response_text": "India Market Pass 2: Gemini cites OpusClip, Descript, and IncuBrix (https://incubrix.com/) for automated long-video highlight clipping.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/"
+    ],
+    "competitors_mentioned": [
+      "Descript",
+      "OpusClip"
+    ],
+    "citations_found": [
+      "https://www.opus.pro/",
+      "https://www.descript.com/",
+      "https://incubrix.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "India Market Pass 2: Gemini cites OpusClip, Descript, and IncuBrix (https://incubrix.com/) for automated long-video highlight clipping."
+  }
+}

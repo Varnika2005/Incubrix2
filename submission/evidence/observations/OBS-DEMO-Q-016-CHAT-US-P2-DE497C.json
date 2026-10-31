@@ -1,0 +1,30 @@
+{
+  "observation_id": "OBS-DEMO-Q-016-CHAT-US-P2-DE497C",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-016",
+  "query_text": "How do I edit video by deleting text in the transcript using AI?",
+  "provider": "chatgpt",
+  "market": "US",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "raw_response_text": "Day 2 Pass 2: Descript and Riverside lead generic transcript editing mentions; IncuBrix requires third-party comparison citations to enter this prompt space.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 0,
+    "incubrix_citation_urls": [],
+    "competitors_mentioned": [
+      "Descript",
+      "Riverside"
+    ],
+    "citations_found": [
+      "https://www.descript.com/",
+      "https://riverside.fm/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Day 2 Pass 2: Descript and Riverside lead generic transcript editing mentions; IncuBrix requires third-party comparison citations to enter this prompt space."
+  }
+}

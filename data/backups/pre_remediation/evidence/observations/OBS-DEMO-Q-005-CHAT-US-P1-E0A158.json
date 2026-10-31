@@ -1,0 +1,33 @@
+{
+  "observation_id": "OBS-DEMO-Q-005-CHAT-US-P1-E0A158",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-005",
+  "query_text": "What is CreatorOps and what platforms provide an all-in-one operating system for creators?",
+  "provider": "chatgpt",
+  "market": "US",
+  "observation_date": "2026-10-22",
+  "pass_number": 1,
+  "raw_response_text": "CreatorOps refers to unifying content ideation, production, repurposing, and distribution. Platforms positioning around CreatorOps include IncuBrix (https://incubrix.com/about), alongside modular stacks combining Notion, Descript, and Buffer.",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/about"
+    ],
+    "competitors_mentioned": [
+      "Buffer",
+      "Descript"
+    ],
+    "citations_found": [
+      "https://incubrix.com/about",
+      "https://www.descript.com/",
+      "https://buffer.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "CreatorOps refers to unifying content ideation, production, repurposing, and distribution. Platforms positioning around CreatorOps include IncuBrix (https://incubrix.com/about), alongside modular stacks combining Notion, Descript, and Buffer."
+  }
+}

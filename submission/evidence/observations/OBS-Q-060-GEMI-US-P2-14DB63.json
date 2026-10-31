@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Several social media management and repurposing platforms allow creators to publish content to YouTube, Instagram, LinkedIn, Spotify (via podcast hosting integration), and Bluesky from a single dashboard. \n\nHere are the top platforms that support this specific mix of platforms (including the newer integration for Bluesky):\n\n### 1. Buffer\n* **Why it fits:** Buffer is known for its clean, user-friendly interface and was one of the first major scheduling tools to add **Bluesky** support. \n* **Supported channels:** YouTube, Instagram, LinkedIn, and Bluesky are all supported directly. For Spotify, while you cannot publish music directly, Buffer integrates with platforms like Spotify for Podcasters to help promote episodes.\n\n### 2. Hootsuite\n* **Why it fits:** As an enterprise-grade social media management tool, Hootsuite allows you to manage YouTube, Instagram, LinkedIn, and Bluesky (via third-party integrations or direct updates depending on their current app directory rollouts) from one stream-based dashboard. \n* **Supported channels:** Excellent for mainstream platforms (YouTube, IG, LinkedIn) with growing support for decentralized networks like Bluesky.\n\n### 3. Ayrshare\n* **Why it fits:** Ayrshare is an API-first social media management tool that also offers a dashboard. It is unique because it supports a wide variety of platforms, including **Bluesky**, LinkedIn, Instagram, and YouTube, allowing for cross-posting with a single click or API call.\n\n---\n\n### Alternative: Repurposing Tools (Video/Audio Focused)\nIf your primary goal is publishing *media* (like video and audio podcasts) rather than text and image posts:\n* **Headliner or Wavve:** These tools let you take a piece of content and distribute it to YouTube, Spotify (as a podcast/video podcast), Instagram, and LinkedIn simultaneously. \n\n*If you are thinking of a specific viral tool advertised heavily by creators right now, **Buffer** is currently the most popular mainstream scheduler supporting the exact combination of LinkedIn, Instagram, YouTube, and Bluesky.*",
+            "thoughtSignature": "EmAKXgFpFH0TAlKO27AzqDErs5Zw2v6lH14TFfBBb/KTLi9PPj71KrURZnTcJB0qHup4SMG/dM1SMK7aRttIQOc2azAZTGcwjA1/Pjpz4+0yiCoqSwLp1Xy190aENrEYMsI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 39,
+    "candidatesTokenCount": 429,
+    "totalTokenCount": 468,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 39
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "jgLdaqmQI8y4694PvZGkKQ"
+}

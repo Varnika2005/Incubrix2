@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-012",
+  "page_url": "https://www.trustradius.com/video-editing",
+  "final_url": "https://www.trustradius.com/video-editing",
+  "http_status": 403,
+  "verification_status": "pending_check",
+  "fetched_title": null,
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:11:57Z",
+  "evidence_path": "data/evidence/citations/CIT-012.json",
+  "notes": "HTTP 403 access restriction (WAF/bot challenge); preserved as 'pending_check' without bypassing access controls."
+}

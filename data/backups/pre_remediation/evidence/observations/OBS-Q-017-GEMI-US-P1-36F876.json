@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Based on current testing, feature sets, and user feedback in the U.S. market, the best AI tool for automatically extracting the \"best\" short clips from a 1-hour video is **Opus Clip** (closely followed by **Klap**). \n\nHere is a breakdown of why Opus Clip takes the top spot for this specific use case, along with the top alternatives depending on your exact needs.\n\n---\n\n### 1. The Overall Winner: **Opus Clip**\nOpus Clip was practically built for this exact prompt. You feed it a long-form video (up to 2\u20133 hours), and its AI analyzes the transcript, visual cues, and audio to find the most hook-worthy, standalone moments.\n\n*   **Why it\u2019s the best for 1-hour videos:** It doesn't just cut random segments; it uses an algorithm called **CuratedScore\u2122** to rank the clips from 1 to 100 based on virality potential, completeness of the narrative, and engagement. \n*   **The Output:** It automatically selects multiple clips, adds animated captions (similar to Alex Hormozi-style subtitles), resizes the video to 9:16 vertical format, and auto-frames the speaker.\n*   **Batch Processing:** You can easily ask it to pull a specific number of clips, though for a 1-hour video, getting 12 high-quality clips is well within its sweet spot.\n*   **Cost:** Offers a free trial with a limited number of processing minutes, then uses a tiered subscription model.\n\n---\n\n### 2. The Best Runner-Up: **Klap**\nIf Opus Clip doesn't quite match your editing style, Klap is the strongest alternative. \n\n*   **Why choose it:** Klap is specifically optimized for YouTube Shorts, TikTok, and Instagram Reels. Its AI focuses heavily on facial tracking (keeping the speaker dead-center) and generating dynamic, colorful captions.\n*   **Workflow:** Paste your YouTube link or upload the 1-hour file, and it automatically slices it into multiple short-form",
+            "thoughtSignature": "EmAKXgFpFH0T4CTI4HYXZPbYiXzPRrqjIoILIl2q55vBu8HqVA/PpAX+GdI/yYE8dGfSOn0ZeRrDERJsIO729z0rPF90Qw9by9uLGsvbEXwlEWi9P2M6O9fr4zNbOFuhO4k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 42,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 488,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 42
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "VQLdarq9CPL9v_gPpaXWyAM"
+}

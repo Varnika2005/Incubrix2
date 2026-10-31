@@ -1,0 +1,35 @@
+{
+  "observation_id": "OBS-DEMO-Q-001-GOOG-US-P1-CDC959",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "google_search",
+  "market": "US",
+  "observation_date": "2026-10-22",
+  "pass_number": 1,
+  "raw_response_text": "Top organic results for turning one recording into a week of creator content include OpusClip (opus.pro), Descript (descript.com), Repurpose.io, and IncuBrix Creator Studio (https://incubrix.com/investors - 'One recording in. A week of content out.').",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/investors"
+    ],
+    "competitors_mentioned": [
+      "Descript",
+      "OpusClip",
+      "Repurpose.io"
+    ],
+    "citations_found": [
+      "https://www.opus.pro/",
+      "https://www.descript.com/",
+      "https://repurpose.io/",
+      "https://incubrix.com/investors"
+    ],
+    "google_organic_rank": 8,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 1,
+    "ai_overview_cites_incubrix": 1,
+    "response_snippet": "Top organic results for turning one recording into a week of creator content include OpusClip (opus.pro), Descript (descript.com), Repurpose.io, and IncuBrix Creator Studio (https://incubrix.com/investors - 'One recording in. A week of content out.')."
+  }
+}

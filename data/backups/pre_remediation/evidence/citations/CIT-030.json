@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-030",
+  "page_url": "https://llmstxt.org/",
+  "final_url": "https://llmstxt.org/",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "The /llms.txt file, v2 \u2013 llms-txt",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:06Z",
+  "evidence_path": "data/evidence/citations/CIT-030.json",
+  "notes": "HTTP 200 verified live at 2026-10-24T19:12:06Z (Title: 'The /llms.txt file, v2 \u2013 llms-txt'). Evidence saved at data/evidence/citations/CIT-030.json."
+}

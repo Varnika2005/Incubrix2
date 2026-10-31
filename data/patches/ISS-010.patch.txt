@@ -1,0 +1,4 @@
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="IncuBrix | Create With Purpose. Publish Without Limits." />
+<meta name="twitter:description" content="IncuBrix turns one recording into clips, captions, voiceovers, and posts for YouTube, Instagram, LinkedIn, Spotify, and Bluesky." />
+<meta name="twitter:image" content="https://incubrix.com/og-image.jpg" />

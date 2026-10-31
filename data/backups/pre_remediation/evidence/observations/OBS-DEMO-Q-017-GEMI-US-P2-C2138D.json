@@ -1,0 +1,31 @@
+{
+  "observation_id": "OBS-DEMO-Q-017-GEMI-US-P2-C2138D",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-017",
+  "query_text": "What is the best AI tool to automatically extract the 12 best short clips from a 1-hour video?",
+  "provider": "gemini",
+  "market": "US",
+  "observation_date": "2026-10-22",
+  "pass_number": 2,
+  "raw_response_text": "Pass 2: Gemini recommends OpusClip, Munch, and Kapwing for cutting long videos into vertical clips.",
+  "signals": {
+    "incubrix_mentioned": 0,
+    "incubrix_cited": 0,
+    "incubrix_citation_urls": [],
+    "competitors_mentioned": [
+      "Kapwing",
+      "Munch",
+      "OpusClip"
+    ],
+    "citations_found": [
+      "https://www.opus.pro/",
+      "https://www.kapwing.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Pass 2: Gemini recommends OpusClip, Munch, and Kapwing for cutting long videos into vertical clips."
+  }
+}

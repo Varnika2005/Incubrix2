@@ -1,0 +1,28 @@
+{
+  "observation_id": "OBS-DEMO-Q-096-PERP-IN-P1-546D30",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-096",
+  "query_text": "How does IncuBrix credit pricing ($10\u2013$250/mo with 1-year validity) compare to OpusClip and Descript per-seat pricing?",
+  "provider": "perplexity",
+  "market": "IN",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "Single-pass check (Pass 1 only): IncuBrix (https://incubrix.com/pricing) offers Free (300 credits), Starter ($10/mo), Essential ($20/mo), Growth ($50/mo), Scale ($100/mo), and Pro ($250/mo) plans with 1-year credit usage validity. [Awaiting Pass 2 verification].",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/pricing"
+    ],
+    "competitors_mentioned": [],
+    "citations_found": [
+      "https://incubrix.com/pricing"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Single-pass check (Pass 1 only): IncuBrix (https://incubrix.com/pricing) offers Free (300 credits), Starter ($10/mo), Essential ($20/mo), Growth ($50/mo), Scale ($100/mo), and Pro ($250/mo) plans with 1-year credit usage validity. [Awaiting Pass 2 verification]."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "If your goal is to take **one long-form recording** (like a YouTube video, podcast episode, or webinar) and turn it into **a full week\u2019s worth of multi-platform creator content** (TikToks, Reels, Shorts, Twitter threads, LinkedIn posts, and show notes), the absolute best AI studio on the market right now is **Opus Clip**\u2014with **Munch** and **Castmagic** serving as the top specialized alternatives depending on your exact workflow.\n\nHere is the breakdown of the best AI studios for this specific use case, ranked by their strengths.\n\n---\n\n### 1. The Overall Best for Video-First Creators: **Opus Clip**\nOpus Clip is the gold standard for repurposing long-form video into viral short-form clips. \n\n*   **How it works:** You drop in a YouTube link or upload an MP4 file. Its AI (called *Curation 3.0*) analyzes the entire video, identifies the most engaging hooks and cohesive topics, and automatically chops it into 10+ distinct vertical clips complete with captions, emojis, and active speaker tracking.\n*   **Why it gives you a \"full week\" of content:** It doesn't just give you one clip; it ranks them by a \"Virality Score\" and gives you suggested titles and social media captions for each one. You can easily schedule 5 to 7 clips across the week for TikTok, Instagram Reels, and YouTube Shorts.\n*   **Standout Features:** \n    *   **B-Roll and Meme Insertion:** Automatically suggests and inserts relevant B-roll or memes based on the transcript.\n    *   **Seamless Reframing:** Keeps the active speaker dead-center, even in wide-angle shots.\n    *   **Multi-clip generation:** Turns a 1-hour podcast into 10\u201315 ready-to-post shorts in under 5 minutes.\n*   **Best for:** YouTubers, podcasters, and video-first creators who live on short-form video.\n\n---\n\n### 2. The Best for Trend-Driven & Aesthetic Content",
+            "thoughtSignature": "EmAKXgFpFH0TfE7nLz7dEiMIEHkKnF+tkEqAz7yFGD5KoGzQA4DMsxgOuWRpll602Z0y75i7Md6lIY8SBDj6CG/GUZY6wiXHcyHt2Cxhsm+DzBngxEHdetsHTufU5F4F4KA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "YQPdauayKbfe694PgtGE8AY"
+}

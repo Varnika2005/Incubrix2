@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What we believe — IncuBrix</title>
+<link rel="canonical" href="https://incubrix.com/manifesto">
+<meta property="og:title" content="What we believe — IncuBrix">
+<meta property="og:description" content="A short letter from the people building IncuBrix — five beliefs about creating, distributing, and getting your Sundays back.">
+<meta property="og:url" content="https://incubrix.com/manifesto">
+<meta property="og:image" content="https://incubrix.com/og-image.jpg">
+<meta property="og:type" content="website">
+
+<meta name="description" content="A short letter from the people building IncuBrix. Five beliefs about creators, their hours, and their Sundays.">
+<meta property="og:title" content="What we believe — IncuBrix">
+<meta property="og:description" content="A short letter from the people building IncuBrix. If you'd sign it, sign it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Mrs+Saint+Delafield&family=Kalam:wght@400;700&family=Reenie+Beanie&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#0A0E18; --paper:#F4F1EA; --paper2:#EFEBE1;
+  --ink:#22201C; --ink-soft:#4A463E; --faded:#767065;
+  --blue:#2B4FBF; --ribbon:#B8382E; --cyan:#45E8DC;
+}
+::selection{background:rgba(43,79,191,.22)}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{background:var(--desk);font-family:'Courier Prime',monospace;color:var(--ink);line-height:1.75;overflow-x:hidden}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+
+/* ===== cinematic prologue (scroll-scrubbed letters) ===== */
+.prologue{height:220vh;position:relative;background:var(--desk)}
+.prologue .stick{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 clamp(20px,6vw,80px);overflow:hidden}
+.prologue .plabel{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.28em;text-transform:uppercase;color:rgba(244,241,234,.35);margin-bottom:34px}
+.prologue .pwrap{position:relative;max-width:820px;text-align:center}
+.prologue .ptext{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(24px,4.6vw,44px);line-height:1.45;letter-spacing:-.01em;color:var(--paper)}
+.prologue .ptext.p2{font-size:clamp(19px,3.4vw,32px);margin-top:34px;color:rgba(244,241,234,.92)}
+.prologue .pghost{position:absolute;inset:0;opacity:.09;pointer-events:none;user-select:none}
+.prologue .ltok{display:inline-block;opacity:0;will-change:opacity,transform,filter}
+.prologue .ltok.sp{white-space:pre;opacity:1}
+.prologue .pword{display:inline-block;white-space:nowrap}
+.prologue .pcue{position:absolute;bottom:5svh;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.28em;text-transform:uppercase;color:rgba(244,241,234,.4);opacity:0;transition:opacity .6s}
+.prologue .pcue.on{opacity:1;animation:bobcue 2s ease-in-out infinite}
+@keyframes bobcue{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+
+/* ===== desk & paper ===== */
+.desk{padding:clamp(16px,4vw,64px) clamp(8px,3vw,24px);display:flex;justify-content:center}
+.paper{
+  width:min(760px,100%);background:var(--paper);position:relative;
+  padding:clamp(40px,7vw,84px) clamp(24px,6vw,80px) clamp(48px,7vw,80px);
+  box-shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 50px rgba(0,0,0,.55);
+  border-radius:2px;
+}
+/* paper grain */
+.paper::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;border-radius:2px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.53 0 0 0 0 0.48 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");}
+.page-rib{position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--ribbon) 0 52%,var(--blue) 52% 100%);opacity:.6;border-radius:2px 2px 0 0}
+/* aged-edge vignette */
+.paper::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:2px;box-shadow:inset 0 0 70px rgba(70,58,34,.09), inset 0 0 10px rgba(70,58,34,.05)}
+/* letterpress ink */
+p.body,.belief h2,.belief p,h1{text-shadow:0 1px 0 rgba(255,255,255,.35)}
+
+/* ===== typography ===== */
+.doc-head{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:var(--faded);text-transform:uppercase;display:flex;justify-content:space-between;margin-bottom:clamp(34px,6vw,58px)}
+h1{font-family:'Courier Prime',monospace;font-weight:700;font-size:clamp(30px,6vw,52px);letter-spacing:-.01em;line-height:1.15;min-height:1.2em}
+.caret{display:inline-block;width:.55em;height:1.05em;background:var(--ink);vertical-align:-0.12em;animation:blink 1s steps(1) infinite;margin-left:2px}
+@keyframes blink{50%{opacity:0}}
+.subtitle{color:var(--ink-soft);font-size:clamp(14px,2.4vw,16.5px);margin-top:14px;font-style:italic}
+p.body{font-size:clamp(15px,2.5vw,17.5px);color:var(--ink);margin-top:26px;max-width:60ch}
+/* strike draws itself when sequenced */
+p.body .strike{position:relative;transition:color .4s}
+p.body .strike::after{content:"";position:absolute;left:0;top:55%;height:2px;width:0%;background:var(--ribbon);transition:width .4s ease}
+p.body .strike.on{color:var(--faded)}
+p.body .strike.on::after{width:100%}
+.hr{border:none;border-top:1px dashed rgba(74,70,62,.35);margin:clamp(36px,6vw,54px) 0}
+
+/* ghost-ink reveal: content sits faint & blurred, develops into ink on scroll */
+.tline{opacity:.13;filter:blur(1.6px);transform:translateY(4px);transition:opacity .9s ease,filter .9s ease,transform .9s ease}
+.tline.on{opacity:1;filter:blur(0);transform:none}
+
+/* ===== beliefs ===== */
+.belief{margin-top:clamp(34px,5vw,46px);position:relative;border-radius:4px;transition:background .25s;padding:6px 8px;margin-left:-8px;margin-right:-8px;
+  cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Cpath d='M5 25 L8 17 L22 3 L27 8 L13 22 Z' fill='%232B4FBF' stroke='%23F4F1EA' stroke-width='1.6'/%3E%3Cpath d='M5 25 L8 17 L13 22 Z' fill='%2322201C'/%3E%3C/svg%3E") 5 25, pointer}
+.belief:hover{background:rgba(43,79,191,.045)}
+.belief .no{font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:700;color:#8F2A21;letter-spacing:.1em;display:block;margin-bottom:8px}
+.belief h2{font-size:clamp(18px,3.4vw,24px);font-weight:700;line-height:1.4;display:inline;position:relative}
+.belief p{font-size:clamp(14.5px,2.4vw,16.5px);color:var(--ink-soft);margin-top:10px;max-width:58ch}
+/* ink underline */
+.belief svg.uline{position:absolute;left:6px;right:6px;height:14px;margin-top:-6px;pointer-events:none;overflow:visible;display:block}
+.belief svg.uline path{fill:none;stroke:var(--blue);stroke-width:2.4;stroke-linecap:round;stroke-dasharray:800;stroke-dashoffset:800;opacity:.9}
+.belief.signedu svg.uline path{animation:drawline .55s ease-out forwards}
+@keyframes drawline{to{stroke-dashoffset:0}}
+.belief .hint{font-family:'Reenie Beanie',cursive;font-size:20px;color:var(--blue);position:absolute;right:10px;top:-18px;opacity:0;transition:opacity .3s;transform:rotate(-2deg)}
+.belief:hover .hint{opacity:1}
+.belief.signedu .hint{opacity:0 !important}
+
+/* margin notes */
+.mnote{font-family:'Reenie Beanie',cursive;font-size:clamp(20px,2.8vw,23px);color:var(--blue);opacity:.95;line-height:1.2}
+@media(min-width:1120px){
+  /* widen the SHEET to add an annotation margin — text column keeps its full measure */
+  .paper{width:min(950px,100%);padding-right:250px}
+  .mnote{position:absolute;width:180px;left:auto;right:-215px;top:auto;bottom:2px;transform:rotate(2deg);text-align:left}
+}
+@media(max-width:1119px){
+  .mnote{display:block;margin-top:12px;transform:rotate(-1deg)}
+}
+
+/* ===== signature (running hand, signs itself) ===== */
+.sigs{margin-top:clamp(40px,6vw,56px)}
+.sigs .who{font-size:15px;color:var(--ink-soft)}
+.sig{margin-top:16px}
+.sig .hand{font-family:'Mrs Saint Delafield',cursive;font-size:clamp(40px,8vw,60px);color:var(--ink);line-height:1.1;display:inline-block;clip-path:inset(0 100% 0 0)}
+.sig.on .hand{animation:signit 1.8s cubic-bezier(.4,.1,.3,1) .2s forwards}
+@keyframes signit{to{clip-path:inset(0 0 0 0)}}
+.sig .nm{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;color:var(--faded);text-transform:uppercase;margin-top:2px}
+.irony{font-style:italic;color:var(--faded);font-size:14px;margin-top:22px}
+
+/* ===== co-sign ===== */
+.cosign{margin-top:clamp(44px,7vw,64px)}
+.cosign h3{font-size:clamp(20px,3.6vw,26px);font-weight:700}
+.sigline{display:flex;gap:14px;align-items:flex-end;margin-top:30px;flex-wrap:wrap}
+.sigline label{font-size:15px;color:var(--ink-soft);white-space:nowrap;padding-bottom:8px}
+.inkfield{flex:1 1 180px;border:none;border-bottom:1.5px solid var(--ink-soft);background:transparent;font-family:'Kalam',cursive;font-size:21px;color:var(--blue);padding:4px 6px}
+.inkfield::placeholder{font-family:'Courier Prime',monospace;font-size:13px;color:var(--faded)}
+.inkfield:focus{outline:none;border-color:var(--blue)}
+.inkfield.email{font-family:'Courier Prime',monospace;font-size:15px;color:var(--ink)}
+
+/* title chips */
+.chips-cap{font-size:14px;color:var(--ink-soft);margin-top:26px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-family:'Courier Prime',monospace;font-size:12.5px;color:var(--ink-soft);background:transparent;border:1px solid rgba(74,70,62,.4);border-radius:999px;padding:7px 14px;transition:all .15s}
+.chip:hover{border-color:var(--blue);color:var(--blue)}
+.chip:active{transform:scale(.95)}
+.chip.picked{background:var(--blue);border-color:var(--blue);color:var(--paper);transform:rotate(-1deg)}
+
+/* tap hint (touch devices only) */
+.taphint{font-family:'Reenie Beanie',cursive;font-size:18px;color:rgba(43,79,191,.65);transform:rotate(-1deg);margin-top:18px}
+@media(hover:hover) and (pointer:fine){.taphint{display:none}}
+
+/* form error nudge */
+.errnote{font-family:'Reenie Beanie',cursive;font-size:18px;color:var(--ribbon);display:none;margin-top:10px;transform:rotate(-1deg)}
+.errnote.show{display:block;animation:nudge .3s ease}
+@keyframes nudge{0%,100%{transform:rotate(-1deg) translateX(0)}30%{transform:rotate(-1deg) translateX(-4px)}60%{transform:rotate(-1deg) translateX(4px)}}
+/* honeypot */
+.hp{position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden}
+.cosign .go{margin-top:26px;background:var(--ink);color:var(--paper);border:none;padding:15px 30px;font-weight:700;font-size:15px;border-radius:3px;transition:background .2s,transform .15s,opacity .2s;font-family:'Courier Prime',monospace}
+.cosign .go:hover{background:#000;transform:translateY(-1px)}
+.cosign .go:active{transform:translateY(1px)}
+.cosign .go[disabled]{opacity:.55;cursor:default;transform:none}
+.cosign .fine{font-size:12.5px;color:var(--faded);margin-top:14px;max-width:52ch}
+
+/* stamp */
+.stamp{position:absolute;right:clamp(12px,6vw,64px);font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--ribbon);border:3px solid var(--ribbon);border-radius:6px;padding:8px 16px;font-size:clamp(13px,2.6vw,17px);letter-spacing:.24em;transform:rotate(-8deg) scale(0);opacity:.85;pointer-events:none;text-transform:uppercase;
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='r'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23r)'/%3E%3C/svg%3E");}
+.stamp.thunk{animation:thunk .45s cubic-bezier(.2,1.6,.4,1) forwards}
+@keyframes thunk{0%{transform:rotate(-8deg) scale(2.4);opacity:0}60%{transform:rotate(-8deg) scale(.94);opacity:.9}100%{transform:rotate(-8deg) scale(1);opacity:.85}}
+.stamp .sdate{display:block;font-size:.55em;letter-spacing:.14em;border-top:1.5px solid var(--ribbon);margin-top:4px;padding-top:3px;text-align:center}
+
+/* ===== the undersigned ===== */
+.wall{margin-top:clamp(44px,7vw,60px)}
+.wall .cap{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:var(--faded);text-transform:uppercase;margin-bottom:18px}
+.names{columns:2;column-gap:40px;font-size:14.5px;color:var(--ink-soft)}
+@media(max-width:560px){.names{columns:1}}
+.names div{break-inside:avoid;padding:3px 0;border-bottom:1px dotted rgba(74,70,62,.2)}
+.names div b{font-weight:700;color:var(--ink)}
+.names div a{color:var(--blue);text-decoration:none;font-size:12px}
+.names div.you{color:var(--blue)}
+.names div.you b{color:var(--blue);font-family:'Kalam',cursive;font-size:17px}
+
+/* footer on paper */
+.docfoot{margin-top:clamp(44px,7vw,60px);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;color:var(--faded);text-transform:uppercase}
+.docfoot a{color:var(--faded)}
+
+/* ink cursor trace */
+.trace{position:fixed;width:5px;height:5px;border-radius:50%;background:var(--blue);opacity:.35;pointer-events:none;z-index:50;transform:translate(-50%,-50%)}
+
+/* share modal */
+.overlay{position:fixed;inset:0;background:rgba(4,6,12,.7);backdrop-filter:blur(5px);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+.overlay.show{display:flex}
+.note{background:var(--paper);max-width:440px;width:100%;padding:34px;border-radius:3px;box-shadow:0 20px 70px rgba(0,0,0,.6);text-align:center;position:relative;animation:rise .35s cubic-bezier(.2,1,.4,1)}
+@keyframes rise{from{transform:translateY(20px);opacity:0}to{opacity:1}}
+.note h3{font-size:22px;font-weight:700}
+.note h3 span{color:var(--blue)}
+.note p{font-size:14px;color:var(--ink-soft);margin-top:10px}
+.sharebox{display:flex;gap:8px;margin-top:20px}
+.sharebox input{flex:1;border:1px solid rgba(74,70,62,.35);background:var(--paper2);border-radius:4px;padding:11px;font-size:12px;font-family:'JetBrains Mono',monospace;color:var(--ink)}
+.sharebox button{background:var(--ink);color:var(--paper);border:none;border-radius:4px;padding:11px 16px;font-weight:700;font-size:13px}
+.close-x{position:absolute;top:10px;right:14px;background:none;border:none;color:var(--faded);font-size:22px}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important}
+  .tline{opacity:1;transform:none;filter:none}
+  .caret{display:none}
+  .sig .hand{clip-path:none !important}
+  .trace{display:none}
+  .prologue{height:auto}
+  .prologue .stick{position:static;height:100svh}
+  .prologue .ltok{opacity:1 !important;transform:none !important;filter:none !important}
+  .prologue .pghost{display:none}
+}
+
+/* print: the letter, printable */
+@media print{
+  .prologue{display:none}
+  body{background:#fff}
+  .desk{padding:0}
+  .paper{box-shadow:none;width:100%}
+  .tline{opacity:1 !important;filter:none !important;transform:none !important}
+  .sig .hand{clip-path:none !important}
+  .caret,.trace,.overlay,.hint,.taphint{display:none !important}
+  .cosign button,.chips{display:none}
+}
+@media(max-width:640px){.inkfield{font-size:16px !important}}
+</style>
+<noscript><style>
+  .tline{opacity:1;filter:none;transform:none}
+  .prologue{height:auto}
+  .prologue .stick{position:static}
+  #ptext::before{content:"We've watched too many talented people do everything for their content, except make more of it."}
+  .pghost{display:none}
+  #typed::before{content:"What we believe"}
+  .caret{display:none}
+  .sig .hand{clip-path:none}
+  #typofix::before{content:"distribution"}
+  p.body .strike{color:var(--faded);text-decoration:line-through;text-decoration-color:var(--ribbon)}
+</style></noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VVBEP4L0T"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-5VVBEP4L0T');</script>
+</head>
+<body>
+<a href="index.html" style="position:fixed;top:14px;left:16px;z-index:90;font-family:monospace;font-size:11px;letter-spacing:.08em;color:#8a8f7e;text-decoration:none;border-bottom:1px dashed #8a8f7e;opacity:.75">← incubrix.com</a>
+
+
+<!-- CINEMATIC PROLOGUE — scroll scrubs the sentence in, letter by letter -->
+<section class="prologue" id="prologue">
+  <div class="stick">
+    <div class="plabel">IncuBrix — before you read the letter</div>
+    <div class="pwrap">
+      <div class="ptext pghost" aria-hidden="true" id="pghost"></div>
+      <div class="ptext" id="ptext" data-text="We've watched too many talented people do everything for their content, except make more of it."></div>
+    </div>
+    <div class="pcue" id="pcue">↓ the letter</div>
+  </div>
+</section>
+
+<div class="desk">
+<article class="paper" id="paper">
+  <div class="page-rib"></div>
+
+  <!-- fixed letter date: set this to the Sunday you publish; letters don't update themselves -->
+  <div class="doc-head tline"><span>IncuBrix — internal, then public</span><span>Sunday, Jul 19</span></div>
+
+  <h1><span id="typed"></span><span class="caret" id="caret"></span></h1>
+  <p class="subtitle tline">A short letter from the people building IncuBrix.</p>
+
+  <p class="body tline">The filming, the writing, the talking into a mic — that part's alive. It's everything after that's broken: the cutting, captioning, cropping, re-uploading, rescheduling. The Second Job.</p>
+
+  <p class="body tline">We're building the thing that ends it. But before the demo, you should know what we believe. Because you're not joining a waitlist — <b>you're backing a belief.</b></p>
+
+  <hr class="hr tline">
+
+  <p class="taphint tline">(tap a belief to underline it — this page remembers nothing, but we'll know you meant it)</p>
+
+  <!-- BELIEFS -->
+  <div class="belief tline" data-belief>
+    <span class="hint">underline if you agree →</span>
+    <span class="no">01</span>
+    <h2>Creating and distributing are different jobs. Only one of them deserves you.<svg class="uline" viewBox="0 0 600 14" preserveAspectRatio="none"><path d="M2,8 C60,11 130,5 210,8 C300,11 380,5 470,9 C520,11 570,7 598,8"/></svg></h2>
+    <p>Nobody's best idea ever arrived while resizing a video to 9:16. Your hours belong to the part only you can do.</p>
+    <span class="mnote">← the whole letter in one line</span>
+  </div>
+
+  <div class="belief tline" data-belief>
+    <span class="hint">underline if you agree →</span>
+    <span class="no">02</span>
+    <h2>Being seen shouldn't require six subscriptions.<svg class="uline" viewBox="0 0 600 14" preserveAspectRatio="none"><path d="M2,9 C80,5 160,11 260,7 C360,4 460,10 598,7"/></svg></h2>
+    <p>One tool cuts, one captions, one schedules, one speaks, one measures — and all of them bill you. The stack isn't a workflow. It's a tax.</p>
+    <span class="mnote" style="transform:rotate(-1.5deg)">← we counted. it's usually seven</span>
+  </div>
+
+  <div class="belief tline" data-belief>
+    <span class="hint">underline if you agree →</span>
+    <span class="no">03</span>
+    <h2>Your content should work while you sleep.<svg class="uline" viewBox="0 0 600 14" preserveAspectRatio="none"><path d="M2,7 C90,11 190,4 290,9 C390,12 490,6 598,9"/></svg></h2>
+    <p>You made the thing once. It should show up everywhere, correctly dressed for each room, without you holding its hand.</p>
+    <span class="mnote" style="transform:rotate(1deg)">← wrote this at 1am, fittingly</span>
+  </div>
+
+  <div class="belief tline" data-belief style="position:relative">
+    <span class="hint">underline if you agree →</span>
+    <span class="no">04</span>
+    <h2>Tools should learn your taste — not average it away.<svg class="uline" viewBox="0 0 600 14" preserveAspectRatio="none"><path d="M2,8 C70,4 150,12 250,7 C350,3 450,11 598,8"/></svg></h2>
+    <p>Most AI makes everyone sound like everyone. The right tool studies what makes you <i>you</i>, and does more of that.</p>
+    <span class="mnote" style="transform:rotate(-2deg)">← this one cost us a fight</span>
+  </div>
+
+  <div class="belief tline" data-belief style="position:relative">
+    <span class="hint">underline if you agree →</span>
+    <span class="no">05</span>
+    <h2>The people who show up early should shape the thing.<svg class="uline" viewBox="0 0 600 14" preserveAspectRatio="none"><path d="M2,9 C100,5 200,11 300,6 C400,3 500,10 598,7"/></svg></h2>
+    <p>Not as a marketing line. The first creators in, will vote on what we build, tell us when we're wrong, and watch us fix it. Software built with its audience beats software built at them.</p>
+    <span class="mnote" style="transform:rotate(1.5deg)">← you just did, by the way</span>
+  </div>
+
+  <hr class="hr tline">
+
+  <p class="body tline">That's all five. No roadmap slides, no feature grid — if we do our job, you'll see it soon enough.</p>
+  <p class="body tline">What we'll promise today: one upload in, everything everywhere out, and your Sundays back. We typed this letter ourselves, which explains the <span class="strike" id="typo">distrubution</span> <span id="typofix"></span> of typos.</p>
+
+  <!-- SIGNATURE -->
+  <div class="sigs tline">
+    <p class="who">— from all of us at IncuBrix,</p>
+    <div class="sig" data-sig>
+      <span class="hand">Kamraj Subramanian</span>
+      <div class="nm">Founder, IncuBrix</div>
+    </div>
+    <p class="irony">written on a Sunday, ironically.</p>
+    <p class="body tline" style="font-size:15px">P.S. — If one of these beliefs bugs you, reply and argue. That's what early people are for.</p>
+  </div>
+
+  <hr class="hr tline">
+
+  <!-- CO-SIGN -->
+  <div class="cosign tline" id="cosign" style="position:relative">
+    <h3>If you'd sign this, sign this.</h3>
+    <p class="body" style="margin-top:12px">Add your name below. It goes on this page, next to ours.</p>
+    <form id="signform">
+      <div class="sigline">
+        <label for="nm">Sign here:</label>
+        <input class="inkfield" id="nm" type="text" placeholder="your name" autocomplete="name" required>
+      </div>
+      <div class="sigline">
+        <label for="em">Reach you at:</label>
+        <input class="inkfield email" id="em" type="email" placeholder="you@email.com" autocomplete="email" required>
+      </div>
+      <div class="sigline">
+        <label for="hd">Where you create:</label>
+        <input class="inkfield email" id="hd" type="text" placeholder="@handle or link — IG / YT / X / LinkedIn / site (optional)">
+      </div>
+      <p class="chips-cap">And what do we call you?</p>
+      <div class="chips" id="chips" role="radiogroup" aria-label="Pick your title">
+        <button type="button" class="chip">Content Creator</button>
+        <button type="button" class="chip">Podcaster</button>
+        <button type="button" class="chip">Thought Leader</button>
+        <button type="button" class="chip">Storyteller</button>
+        <button type="button" class="chip">Solopreneur</button>
+        <button type="button" class="chip">Outlier</button>
+        <button type="button" class="chip">Jailbreaker</button>
+        <button type="button" class="chip">Filmmaker</button>
+        <button type="button" class="chip">Streamer</button>
+        <button type="button" class="chip">Newsletter Writer</button>
+        <button type="button" class="chip">Educator</button>
+        <button type="button" class="chip">Meme Historian</button>
+        <button type="button" class="chip">Niche Nerd</button>
+        <button type="button" class="chip">Late-Night Editor</button>
+        <button type="button" class="chip">Video Essayist</button>
+        <button type="button" class="chip">Community Builder</button>
+        <button type="button" class="chip">Undefinable</button>
+      </div>
+      <input class="hp" type="text" name="website" id="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="go" type="submit" id="gobtn">Co-sign →</button>
+      <p class="errnote" id="errnote">we need your name and a real email —</p>
+      <p class="fine">Early access, plus the Creator plan on us. Believing early should pay. Your name and link go on this page.</p>
+    </form>
+    <div class="stamp" id="stamp" style="top:8px">Co-signed<span class="sdate" id="stampdate"></span></div>
+    <span class="mnote" id="undefnote" style="display:none;position:static;transform:rotate(-2deg);margin-top:10px">knew it.</span>
+  </div>
+
+  <!-- WALL -->
+  <div class="wall tline">
+    <div class="cap">The undersigned</div>
+    <div class="names" id="names">
+      <!-- — wire: replace with REAL co-signers from your backend (name, title, approved link).
+           IMPORTANT: hold user-submitted links for approval before rendering publicly — spam vector.
+           Placeholders below, remove before launch. -->
+    </div>
+  </div>
+
+  <div class="docfoot tline">
+    <span>© 2026 IncuBrix</span>
+    <a href="#" title="the villain page">— the second job</a>
+  </div>
+</article>
+</div>
+
+<!-- share note -->
+<div class="overlay" id="overlay">
+  <div class="note">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Close">×</button>
+    <h3>Signed. <span>Welcome to the right side of Sunday.</span></h3>
+    <p>Know a believer? Send them the letter.</p>
+    <div class="sharebox">
+      <input id="reflink" readonly value="">
+      <button onclick="copyRef()" id="copybtn">Copy</button>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:14px;flex-wrap:wrap">
+      <a id="washare" target="_blank" rel="noopener" style="background:#25D366;color:#062B16;text-decoration:none;font-weight:700;font-size:13px;padding:10px 18px;border-radius:4px;font-family:'Courier Prime',monospace">Send on WhatsApp</a>
+      <a id="xshare" target="_blank" rel="noopener" style="background:var(--ink);color:var(--paper);text-decoration:none;font-weight:700;font-size:13px;padding:10px 18px;border-radius:4px;font-family:'Courier Prime',monospace">Post the letter</a>
+    </div>
+    <p style="font-size:11.5px;color:var(--faded);margin-top:14px">Forward this to the friend whose captions you fix.</p>
+  </div>
+</div>
+
+<script>
+"use strict";
+var REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+var FINE = matchMedia('(hover:hover) and (pointer:fine)').matches;
+
+/* ===== stamp date (the day THEY sign — that one stays live) ===== */
+(function(){
+  var now = new Date();
+  var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  document.getElementById('stampdate').textContent = months[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
+})();
+
+/* ===== cinematic prologue: scroll-scrubbed WORDS reveal, ghost layer on ===== */
+(function(){
+  var sec=document.getElementById('prologue'), textEl=document.getElementById('ptext');
+  if(!sec||!textEl) return;
+  var sentence=textEl.dataset.text;
+  document.getElementById('pghost').textContent=sentence;
+  if(REDUCED){ textEl.textContent=sentence; return; }
+
+  /* split into words; spaces stay visible */
+  var tokens=[];
+  sentence.split(/(\s+)/).forEach(function(part){
+    if(!part) return;
+    var span=document.createElement('span');
+    if(/^\s+$/.test(part)){ span.className='ltok sp'; }
+    else { span.className='ltok'; tokens.push(span); }
+    span.textContent=part;
+    textEl.appendChild(span);
+  });
+
+  var clamp01=function(v){ return Math.min(1,Math.max(0,v)); };
+  var ease=function(t){ return t*t*(3-2*t); };   /* smoothstep */
+  var OVERLAP=2.5, cueOn=false;
+
+  function scrub(){
+    var rect=sec.getBoundingClientRect(), vh=innerHeight;
+    if(rect.bottom<0 || rect.top>vh) return;
+    var progress=clamp01(-rect.top/(rect.height-vh));
+    var n=tokens.length;
+    for(var i=0;i<n;i++){
+      var t=ease(clamp01((progress*(n+OVERLAP)-i)/OVERLAP));
+      tokens[i].style.opacity=t.toFixed(3);
+    }
+    var done=progress>.92;
+    if(done!==cueOn){ cueOn=done; document.getElementById('pcue').classList.toggle('on',done); }
+  }
+  var ticking=false;
+  addEventListener('scroll', function(){
+    if(ticking) return; ticking=true;
+    requestAnimationFrame(function(){ scrub(); ticking=false; });
+  }, {passive:true});
+  scrub();
+})();
+
+/* ===== title typewriter ===== */
+var TITLE="What we believe";
+var typedEl=document.getElementById('typed'), caret=document.getElementById('caret');
+if(REDUCED){ typedEl.textContent=TITLE; caret.style.display='none'; }
+else{
+  var ti=0;
+  (function typeTitle(){
+    if(ti<=TITLE.length){ typedEl.textContent=TITLE.slice(0,ti); ti++;
+      setTimeout(typeTitle, 60+Math.random()*70);
+    } else { setTimeout(function(){ caret.style.display='none'; }, 2200); }
+  })();
+}
+
+/* ===== line reveals (typing cadence) ===== */
+var obs=new IntersectionObserver(function(es){
+  es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('on'); obs.unobserve(en.target);} });
+},{threshold:.2});
+document.querySelectorAll('.tline').forEach(function(el){ obs.observe(el); });
+
+/* ===== typo self-correction (sequenced: word → strike → retype) ===== */
+var typoDone=false;
+new IntersectionObserver(function(es,o){
+  es.forEach(function(en){
+    if(!en.isIntersecting||typoDone) return;
+    typoDone=true;
+    var typo=document.getElementById('typo'), fix=document.getElementById('typofix'), word='distribution', i=0;
+    setTimeout(function(){ typo.classList.add('on'); }, REDUCED?0:600);          /* strike draws */
+    setTimeout(function step(){                                                   /* then retype */
+      if(i<=word.length){ fix.textContent=word.slice(0,i); i++; setTimeout(step, REDUCED?0:55); }
+    }, REDUCED?0:1250);
+    o.disconnect();
+  });
+},{threshold:.8}).observe(document.getElementById('typo'));
+
+/* ===== underline to agree (no counts — just ink) ===== */
+document.querySelectorAll('[data-belief]').forEach(function(b){
+  b.addEventListener('click', function(){ b.classList.toggle('signedu'); });
+  b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+  b.setAttribute('aria-label','Underline this belief if you agree');
+  b.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); b.classList.toggle('signedu'); } });
+});
+
+/* ===== signatures draw ===== */
+var sObs=new IntersectionObserver(function(es){
+  es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('on'); sObs.unobserve(en.target);} });
+},{threshold:.5});
+document.querySelectorAll('[data-sig]').forEach(function(el){ sObs.observe(el); });
+
+/* ===== ink cursor trace ===== */
+if(FINE && !REDUCED){
+  var last=0;
+  document.addEventListener('mousemove', function(e){
+    var now=Date.now(); if(now-last<40) return; last=now;
+    var onPaper = e.target.closest && e.target.closest('.paper');
+    if(!onPaper) return;
+    var d=document.createElement('div'); d.className='trace';
+    d.style.left=e.clientX+'px'; d.style.top=e.clientY+'px';
+    document.body.appendChild(d);
+    d.animate([{opacity:.35,transform:'translate(-50%,-50%) scale(1)'},{opacity:0,transform:'translate(-50%,-50%) scale(.3)'}],{duration:420,easing:'ease-out'});
+    setTimeout(function(){ d.remove(); },420);
+  }, {passive:true});
+}
+
+/* ===== title chips (pick one) ===== */
+var pickedTitle='';
+document.querySelectorAll('#chips .chip').forEach(function(ch){
+  ch.setAttribute('aria-pressed','false');
+  ch.addEventListener('click', function(){
+    document.querySelectorAll('#chips .chip').forEach(function(c){ c.classList.remove('picked'); c.setAttribute('aria-pressed','false'); });
+    ch.classList.add('picked'); ch.setAttribute('aria-pressed','true');
+    pickedTitle=ch.textContent;
+    document.getElementById('undefnote').style.display = pickedTitle==='Undefinable' ? 'inline-block' : 'none';
+  });
+});
+
+/* ===== handle → link + platform label ===== */
+function parseHandle(raw){
+  if(!raw) return null;
+  raw = raw.trim();
+  if(!raw) return null;
+  var url = raw, label = 'web';
+  if(/^@?[\w.\-]+$/.test(raw) && raw.indexOf('.')===-1){
+    /* bare @handle — default to Instagram (primary DM channel) */
+    url = 'https://instagram.com/' + raw.replace(/^@/,''); label='IG';
+  } else {
+    if(!/^https?:\/\//i.test(url)) url = 'https://' + url;
+    var h = url.toLowerCase();
+    if(h.indexOf('instagram.com')>-1) label='IG';
+    else if(h.indexOf('youtube.com')>-1 || h.indexOf('youtu.be')>-1) label='YT';
+    else if(h.indexOf('x.com')>-1 || h.indexOf('twitter.com')>-1) label='X';
+    else if(h.indexOf('linkedin.com')>-1) label='IN';
+    else if(h.indexOf('tiktok.com')>-1) label='TT';
+    else if(h.indexOf('spotify.com')>-1 || h.indexOf('podcasts.apple')>-1) label='POD';
+  }
+  try{ new URL(url); }catch(_){ return null; }
+  return {url:url, label:label};
+}
+
+/* ===== co-sign ===== */
+function buildSignerRow(name, title, rawHandle, isYou){
+  var row=document.createElement('div'); if(isYou) row.className='you';
+  var b=document.createElement('b'); b.textContent=name; row.appendChild(b);
+  row.appendChild(document.createTextNode(' — ' + (title||'Co-signer') + ' '));
+  var social = rawHandle ? parseHandle(rawHandle) : null;
+  if(social){
+    var a=document.createElement('a'); a.href=social.url; a.target='_blank'; a.rel='noopener nofollow';
+    a.textContent=social.label+' ↗'; row.appendChild(a);
+  }
+  return row;
+}
+
+/* load the real wall on page load — newest first, name/title/handle only */
+fetch('/api/cosigners?limit=50')
+  .then(function(r){ return r.ok ? r.json() : []; })
+  .then(function(list){
+    var wall=document.getElementById('names');
+    (list||[]).forEach(function(entry){
+      wall.appendChild(buildSignerRow(entry.name, entry.title, entry.handle, false));
+    });
+  })
+  .catch(function(){ /* wall just stays empty on failure — non-critical */ });
+
+var signed=false;
+document.getElementById('signform').addEventListener('submit', function(e){
+  e.preventDefault();
+  if(signed) return;
+  var honeypot=document.getElementById('hp').value;
+  if(honeypot) return;  /* honeypot: silent drop, client-side */
+  var n=document.getElementById('nm').value.trim(), m=document.getElementById('em').value.trim();
+  var handleInput=document.getElementById('hd').value;
+  var social=parseHandle(handleInput);
+  var err=document.getElementById('errnote');
+  if(!n || !m || m.indexOf('@')<1 || m.indexOf('.')<3){
+    err.textContent='we need your name and a real email —';
+    err.classList.remove('show'); void err.offsetWidth; err.classList.add('show');
+    return;
+  }
+  err.classList.remove('show');
+  var btn=document.getElementById('gobtn');
+  btn.disabled=true; btn.textContent='Signing…';
+
+  fetch('/api/cosign', {method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({name:n, email:m, handle:social&&social.url, title:pickedTitle, website:honeypot})})
+    .then(function(r){ if(!r.ok && r.status!==409) throw 0; commitSignature(); })
+    .catch(function(){
+      btn.disabled=false; btn.textContent='Co-sign →';
+      err.textContent='Something went wrong. Please try again —';
+      err.classList.remove('show'); void err.offsetWidth; err.classList.add('show');
+    });
+
+  function commitSignature(){
+    signed=true;
+    gtag('event','cosign_submit');
+    btn.textContent='Signed ✓';
+    var stamp=document.getElementById('stamp');
+    stamp.classList.add('thunk');
+    var wall=document.getElementById('names');
+    wall.insertBefore(buildSignerRow(n, pickedTitle, handleInput, true), wall.firstElementChild);
+    var slug=n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'creator';
+    var link='https://incubrix.com/manifesto?via='+slug;
+    document.getElementById('reflink').value=link;
+    var msg='I co-signed this. Five beliefs about creators and their Sundays — worth two minutes: '+link;
+    document.getElementById('washare').href='https://wa.me/?text='+encodeURIComponent(msg);
+    document.getElementById('xshare').href='https://twitter.com/intent/tweet?text='+encodeURIComponent(msg);
+    setTimeout(function(){ document.getElementById('overlay').classList.add('show'); }, REDUCED?0:800);
+  }
+});
+function closeOverlay(){ document.getElementById('overlay').classList.remove('show'); }
+document.getElementById('overlay').addEventListener('click', function(e){ if(e.target===this) closeOverlay(); });
+document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeOverlay(); });
+function copyRef(){
+  var inp=document.getElementById('reflink'); inp.select(); inp.setSelectionRange(0,99);
+  try{ document.execCommand('copy'); }catch(_){}
+  if(navigator.clipboard) navigator.clipboard.writeText(inp.value);
+  var b=document.getElementById('copybtn'); b.textContent='Copied'; setTimeout(function(){ b.textContent='Copy'; },1500);
+}
+</script>
+</body>
+</html>

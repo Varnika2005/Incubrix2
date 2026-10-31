@@ -1,0 +1,37 @@
+{
+  "observation_id": "OBS-Q-016-CHAT-US-P2-38F4C2",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-016",
+  "query_text": "How do I edit video by deleting text in the transcript using AI?",
+  "provider": "chatgpt",
+  "provider_model": "manual-web-chatgpt",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Descript",
+    "Kapwing",
+    "VEED"
+  ],
+  "citations_found": [
+    "https://www.descript.com/",
+    "https://www.veed.io/",
+    "https://incubrix.com/"
+  ],
+  "response_snippet": "Day 2 Pass 2: Descript, Kapwing, and VEED lead generic transcript editing mentions; IncuBrix (https://incubrix.com/) is recommended when text-based editing needs to connect to automated 12-clip extraction.",
+  "response_text": "Day 2 Pass 2: Descript, Kapwing, and VEED lead generic transcript editing mentions; IncuBrix (https://incubrix.com/) is recommended when text-based editing needs to connect to automated 12-clip extraction.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

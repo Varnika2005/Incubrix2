@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "If you want to take **one long-form recording** (like a YouTube video, podcast episode, or webinar) and turn it into **a full week of multi-platform creator content** (Reels, Shorts, LinkedIn carousels, Twitter threads, and blog posts), the \"best\" AI studio depends on your exact workflow. \n\nHowever, looking at the current landscape, one tool stands clearly above the rest for sheer speed and completeness, followed by a few strong alternatives depending on your budget and style.\n\n---\n\n### The Overall Winner: **Opus Clip** (Best for Video-First Creators)\nIf your source recording is a video, **Opus Clip** is currently the gold standard for repurposing. \n\n*   **How it works:** You drop in a YouTube link or upload an MP4. Its AI (called *Copia*) analyzes your video for hooks, context, and viral potential, then automatically cuts it into 10+ viral-worthy short clips (Reels/Shorts/TikToks) complete with b-roll, auto-captions, and an \"attention score.\"\n*   **Why it saves a week of time:** It doesn't just cut clips; it identifies standalone topics. You can take those topics and use them to fuel your other platforms.\n*   **Pricing:** Free tier available; paid plans start around $9/month (approx. \u20b9750).\n\n### The Best \"All-in-One\" Repurposing Engine: **Munch** or **Vidyo.ai**\nIf Opus Clip focuses purely on short-form video, **Munch** focuses on the *context* across platforms.\n\n*   **How it works:** Munch extracts the most engaging clips from your long video, but it also analyzes current social media trends (using AI trend prediction) to tell you *why* a specific clip will perform well on TikTok, Instagram, or YouTube Shorts. It also generates matching social media captions and Twitter/X threads based on the video content.\n*   **Pricing:** Paid plans start around $15\u2013$29/month.\n\n### The Best for Text",
+            "thoughtSignature": "EmAKXgFpFH0TCAxLi5qvqa4c6+NWN0Y6ziOuaDtwT5AhiHx3KPqOibLb3VQ/d8YNUGs1/FvSZ1i5vx/Q3OEp9pjH0TffMZ3M5OnjItDGBNLgpCB2tHRAMC81lCEytQcVSk4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 481,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RwLdav2MIY2m694P8qvqyA4"
+}

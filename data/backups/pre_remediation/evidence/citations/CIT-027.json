@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-027",
+  "page_url": "https://news.ycombinator.com/",
+  "final_url": "https://news.ycombinator.com/",
+  "http_status": 200,
+  "verification_status": "verified_live",
+  "fetched_title": "Hacker News",
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:12:05Z",
+  "evidence_path": "data/evidence/citations/CIT-027.json",
+  "notes": "HTTP 200 verified live at 2026-10-24T19:12:05Z (Title: 'Hacker News'). Evidence saved at data/evidence/citations/CIT-027.json."
+}

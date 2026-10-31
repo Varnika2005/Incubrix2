@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When comparing **IncuBrix** and **OpusClip** for repurposing long-form videos into short, multi-platform clips (like YouTube Shorts, Instagram Reels, and TikToks), you are looking at two different philosophies of AI video editing. \n\nWhile **OpusClip** is a globally recognized, specialized AI clipping factory, **IncuBrix** (often recognized in the broader enterprise/SaaS ecosystem) approaches content creation with a different feature set. However, for the specific task of *turning long videos into short clips*, **OpusClip is generally the superior and more specialized tool**, though IncuBrix has its own enterprise-focused use cases.\n\nHere is a detailed, head-to-head comparison tailored for creators and marketers in India.\n\n---\n\n### 1. OpusClip: The Specialist AI Clipper\nOpusClip uses OpenAI\u2019s GPT-4 and advanced computer vision to curate, crop, and caption viral-worthy shorts from long-form content.\n\n*   **Core Strength:** Automated curation. You drop in a YouTube link or upload a video, and OpusClip\u2019s AI analyzes the transcript, finds the most engaging hooks, scores them based on \"viral potential,\" and cuts them into 30\u201360 second clips.\n*   **Key Features:**\n    *   **AI Curation Score:** Ranks clips based on what is likely to perform well on social media.\n    *   **Active Speaker Tracking:** Keeps the person speaking dead-center in the frame, even in horizontal-to-vertical conversions.\n    *   **B-Roll and Emoji Integration:** Automatically adds relevant emojis, keywords, and automated captions with high accuracy.\n    *   **Seamless Multistreaming/Publishing:** Direct integrations to schedule or push content.\n*   **Pricing:** Operates on a credit-based system (measured in processing minutes) with a free tier and paid plans starting around $9\u2013$19/month (approx. \u20b9800\u2013\u20b91,600 INR).\n\n---\n\n### 2. IncuBrix: The Broader Ecosystem\n*Note: Depending on",
+            "thoughtSignature": "EmAKXgFpFH0TnCOucKb8F6emhJ0S4F5C/XxZaGMAhyP/C1vicaQi4MwJxGxXhCHyw24Ld8vpLFvt2IiYKnLG7eAZ6VhDupxFR6q5K4RhSvxsioNVVGsh4N0ZpKR4PSlgZ7U="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 486,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 40
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "swLdau-LL7SE694PtMji8QY"
+}

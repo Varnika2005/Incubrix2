@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "For the Indian market, when looking to automatically extract the 12 best short clips from a 1-hour video (ideal for YouTube Shorts, Instagram Reels, and WhatsApp status), **Opus Clip** is currently the best overall AI tool, with **Klap** and **Munch** as strong runner-ups. \n\nHere is a detailed breakdown of the best tools based on accuracy, pricing in India, and features.\n\n---\n\n### 1. The Undisputed Winner: Opus Clip (opus.pro)\nOpus Clip uses generative AI to analyze your long video, identify the \"hooks,\" and automatically cut them into viral-worthy short clips ranked by a virality score.\n\n*   **Why it fits a 1-hour video:** You can simply paste a YouTube link or upload a 1-hour file, and it processes the whole thing in about 15\u201320 minutes.\n*   **Key Features for India:**\n    *   **AI Curation:** It doesn't just cut random parts; it finds the most engaging moments with high context.\n    *   **Active Speaker Tracking:** Automatically keeps the person speaking in the center of the frame (great for podcasts and talking-head videos).\n    *   **Auto-Captions with Emojis:** Generates dynamic captions. While it supports major Indian languages/accents, English captioning is near-flawless.\n    *   **B-Roll and Transitions:** Adds visual elements to make the clips more engaging.\n*   **Pricing:** Offers a free trial (usually gives about 60 minutes of processing time). Paid plans start around **$9\u2013$19/month** (approx. \u20b9750\u2013\u20b91,600/month), which is reasonably priced for creators.\n\n---\n\n### 2. Best for Speed & UI: Klap (klap.app)\nKlap is specifically designed to turn long-form videos into TikToks, Reels, and Shorts with a single click.\n\n*   **Why choose it:** Klap tends to be very user-friendly, and its AI is heavily optimized",
+            "thoughtSignature": "EmAKXgFpFH0Trt92IJLTmjEK8FtSb7GaaAmy9U27uTSlfI612C7YR4A2ilxj56pJj/anEgsVnEsyYoNIp8iKUmM4NnIfYMu8l2QnotnQ9M+5DOm6roDJmhEQMHvBX/xHXlA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 41,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WQLdarubNfOj694PyL2X6Aw"
+}

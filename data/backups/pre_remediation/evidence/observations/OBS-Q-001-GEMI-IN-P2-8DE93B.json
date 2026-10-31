@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When you want to take **one long-form recording** (like a YouTube video, podcast episode, or webinar) and turn it into **a full week\u2019s worth of multi-platform creator content** (Reels, Shorts, LinkedIn carousels, tweets, and blog posts), the \"best\" AI studio depends on whether your priority is **speed/automation** or **brand polish/editing control**.\n\nHere are the top AI studios available in India for 2024, ranked by their ability to achieve this specific workflow:\n\n---\n\n### 1. The Overall Best for Speed & Repurposing: **Opus Clip**\nIf your primary goal is to take a 1-hour video and instantly generate 10+ viral-ready short clips with captions, emojis, and virality scores, Opus Clip is the industry leader.\n\n*   **How it works for a full week of content:** You drop in a YouTube link or upload a file. Its AI (ClipGpt) analyzes the video, finds the most engaging hooks, cuts them into 30\u201360 second vertical videos, adds dynamic captions, and even gives each clip a \"viral score.\"\n*   **Pros:** \n    *   Incredible AI curation (it understands context and narrative arcs).\n    *   B-roll insertion and auto-reframing (keeps the speaker in the center).\n    *   Very cost-effective (offers a free tier and affordable paid plans in USD/INR via standard cards).\n*   **Cons:** Primarily focuses on short-form video (Reels/Shorts/TikTok). For written content (tweets/blogs), you\u2019ll need a secondary tool.\n*   **Best for:** Creators who want a week\u2019s worth of Instagram Reels and YouTube Shorts sorted in under 5 minutes.\n\n---\n\n### 2. The Best \"All-in-One\" Content Ecosystem: **Munch**\nMunch is similar to Opus Clip but leans heavily into **trend analysis and marketing insights**. \n\n*   **How it works for a full week of content:** It extracts clips not just based on what",
+            "thoughtSignature": "EmAKXgFpFH0TD2MA3dMFMnaIBotwAtpwCfsHj6EOIdlm9rUqZ4yqM2qBR1Rr2KXNawtjP81eF6LakPhg8u9LWHGucm9EDsUlvbx55VMaPPAxJ5axCk6zpeqRms6KmNUVVGM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 481,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ewPdar6mIcuR694P7LyikQE"
+}

@@ -1,0 +1,31 @@
+{
+  "observation_id": "OBS-DEMO-Q-088-CLAU-US-P2-087DF3",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-088",
+  "query_text": "IncuBrix vs OpusClip: Which AI platform is better for turning long videos into multi-platform content?",
+  "provider": "claude",
+  "market": "US",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "raw_response_text": "Day 2 Pass 2: Claude cites IncuBrix (https://incubrix.com/how-it-works) and OpusClip (https://www.opus.pro/).",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/how-it-works"
+    ],
+    "competitors_mentioned": [
+      "OpusClip"
+    ],
+    "citations_found": [
+      "https://incubrix.com/how-it-works",
+      "https://www.opus.pro/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Day 2 Pass 2: Claude cites IncuBrix (https://incubrix.com/how-it-works) and OpusClip (https://www.opus.pro/)."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-31T20:25:10Z",
+  "target_website": "https://www.incubrix.com",
+  "completeness_verification": {
+    "100_creator_questions_complete": true,
+    "multi_market_observations_present": true,
+    "20_plus_technical_fixes_complete": true,
+    "10_content_pages_complete": true,
+    "30_citation_opportunities_complete": true,
+    "90_day_launch_plan_complete": true
+  },
+  "counts": {
+    "questions": 100,
+    "visibility_observations_non_demo": 46,
+    "technical_issues": 22,
+    "content_pages": 10,
+    "citation_opportunities": 30,
+    "launch_plan_weeks": 12
+  },
+  "files_generated": [
+    "exports\\workbook\\01_creator_questions_100.csv",
+    "exports\\workbook\\02_visibility_observations.csv",
+    "exports\\workbook\\03_technical_seo_fixes_22.csv",
+    "exports\\workbook\\04_content_studio_10_pages.csv",
+    "exports\\workbook\\05_citation_opportunities_30.csv",
+    "exports\\workbook\\06_launch_plan_90_days.csv"
+  ]
+}

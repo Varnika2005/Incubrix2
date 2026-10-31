@@ -1,0 +1,12 @@
+{
+  "opportunity_id": "CIT-007",
+  "page_url": "https://www.producthunt.com/categories/ai-video-generators",
+  "final_url": "https://www.producthunt.com/categories/ai-video-generators",
+  "http_status": 404,
+  "verification_status": "unreachable",
+  "fetched_title": null,
+  "incubrix_mentioned_on_page": 0,
+  "checked_at": "2026-10-24T19:11:54Z",
+  "evidence_path": "data/evidence/citations/CIT-007.json",
+  "notes": "HTTP 404 error returned by target server at 2026-10-24T19:11:54Z."
+}

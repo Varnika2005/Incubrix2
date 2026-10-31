@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8FAFC;
+    color: #0F172A;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Modern Web Guidance: responsive-table pattern with container queries & sticky headers */
+.table-wrapper {
+  overflow: auto;
+  max-inline-size: 100%;
+  max-block-size: min(620px, 78vh);
+  container-type: inline-size;
+  border-radius: 0.75rem;
+  border: 1px solid #E2E8F0;
+  background: #FFFFFF;
+}
+
+.table-wrapper table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.table-wrapper thead {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 2;
+  background: #F8FAFC;
+}
+
+.table-wrapper tbody th {
+  position: sticky;
+  inset-inline-start: 0;
+  z-index: 1;
+  background: #FFFFFF;
+}
+
+@container (width < 600px) {
+  .table-wrapper.responsive-stack table,
+  .table-wrapper.responsive-stack thead,
+  .table-wrapper.responsive-stack tbody,
+  .table-wrapper.responsive-stack tr,
+  .table-wrapper.responsive-stack th,
+  .table-wrapper.responsive-stack td {
+    display: block;
+  }
+
+  .table-wrapper.responsive-stack thead {
+    display: none;
+  }
+
+  .table-wrapper.responsive-stack tr {
+    margin-block-end: 1rem;
+    border-bottom: 2px solid #E2E8F0;
+  }
+
+  .table-wrapper.responsive-stack tbody th {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 2;
+    background: #F1F5F9;
+  }
+}

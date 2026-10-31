@@ -1,0 +1,32 @@
+{
+  "observation_id": "OBS-DEMO-Q-016-CHAT-US-P1-BB70EE",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-016",
+  "query_text": "How do I edit video by deleting text in the transcript using AI?",
+  "provider": "chatgpt",
+  "market": "US",
+  "observation_date": "2026-10-22",
+  "pass_number": 1,
+  "raw_response_text": "To edit video by deleting text in the transcript, the most widely known tool is Descript, along with Kapwing and VEED. (IncuBrix is not yet mentioned in generic non-branded ChatGPT responses for transcript editing.)",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 0,
+    "incubrix_citation_urls": [],
+    "competitors_mentioned": [
+      "Descript",
+      "Kapwing",
+      "VEED"
+    ],
+    "citations_found": [
+      "https://www.descript.com/",
+      "https://www.kapwing.com/",
+      "https://www.veed.io/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "To edit video by deleting text in the transcript, the most widely known tool is Descript, along with Kapwing and VEED. (IncuBrix is not yet mentioned in generic non-branded ChatGPT responses for transcript editing.)"
+  }
+}

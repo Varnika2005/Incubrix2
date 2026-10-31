@@ -1,0 +1,38 @@
+{
+  "observation_id": "OBS-Q-001-GOOG-US-P1-53C49E",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-001",
+  "query_text": "What is the best AI studio to turn one recording into a full week of creator content?",
+  "provider": "google_search",
+  "provider_model": "manual-serp-research",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-25",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/",
+    "https://incubrix.com/investors"
+  ],
+  "google_organic_rank": 6,
+  "answer_box_present": 0,
+  "ai_overview_present": 1,
+  "competitors_mentioned": [
+    "Castmagic",
+    "Descript",
+    "OpusClip"
+  ],
+  "citations_found": [
+    "https://www.opus.pro/",
+    "https://www.descript.com/",
+    "https://incubrix.com/"
+  ],
+  "response_snippet": "Google US SERP Day 2: Organic positions for 'turn one recording into week of content' show OpusClip #1, Descript #2, Castmagic #5, and IncuBrix #6 with https://incubrix.com/ and https://incubrix.com/investors cited in Google AI Overview.",
+  "response_text": "Google US SERP Day 2: Organic positions for 'turn one recording into week of content' show OpusClip #1, Descript #2, Castmagic #5, and IncuBrix #6 with https://incubrix.com/ and https://incubrix.com/investors cited in Google AI Overview.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-25T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

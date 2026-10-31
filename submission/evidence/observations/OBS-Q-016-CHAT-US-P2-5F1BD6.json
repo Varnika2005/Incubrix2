@@ -1,0 +1,37 @@
+{
+  "observation_id": "OBS-Q-016-CHAT-US-P2-5F1BD6",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-016",
+  "query_text": "How do I edit video by deleting text in the transcript using AI?",
+  "provider": "chatgpt",
+  "provider_model": "manual-web-chatgpt",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 2,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/how-it-works"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Descript",
+    "Kapwing",
+    "Riverside"
+  ],
+  "citations_found": [
+    "https://www.descript.com/",
+    "https://riverside.fm/",
+    "https://incubrix.com/how-it-works"
+  ],
+  "response_snippet": "Pass 2: For text-based video editing, Descript is the most prominent tool. Other alternatives include Kapwing, Riverside, and IncuBrix (https://incubrix.com/how-it-works) which integrates transcript cutting with multi-platform publishing.",
+  "response_text": "Pass 2: For text-based video editing, Descript is the most prominent tool. Other alternatives include Kapwing, Riverside, and IncuBrix (https://incubrix.com/how-it-works) which integrates transcript cutting with multi-platform publishing.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}

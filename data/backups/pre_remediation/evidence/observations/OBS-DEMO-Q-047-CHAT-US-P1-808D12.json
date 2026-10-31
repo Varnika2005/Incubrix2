@@ -1,0 +1,34 @@
+{
+  "observation_id": "OBS-DEMO-Q-047-CHAT-US-P1-808D12",
+  "evidence_classification": "seeded_demo_scenario_excluded_from_official_metrics",
+  "question_id": "Q-047",
+  "query_text": "Which AI creator studio clones your voice for video narration and podcast voiceovers?",
+  "provider": "chatgpt",
+  "market": "US",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "raw_response_text": "Single-pass check (Pass 1 only): ElevenLabs, Descript Overdub, HeyGen, and IncuBrix (https://incubrix.com/) offer AI voice cloning for creator narration. [Awaiting Pass 2 verification].",
+  "signals": {
+    "incubrix_mentioned": 1,
+    "incubrix_cited": 1,
+    "incubrix_citation_urls": [
+      "https://incubrix.com/"
+    ],
+    "competitors_mentioned": [
+      "Descript",
+      "ElevenLabs",
+      "HeyGen"
+    ],
+    "citations_found": [
+      "https://elevenlabs.io/",
+      "https://www.descript.com/",
+      "https://incubrix.com/"
+    ],
+    "google_organic_rank": null,
+    "answer_box_present": 0,
+    "answer_box_owner": null,
+    "ai_overview_present": 0,
+    "ai_overview_cites_incubrix": 0,
+    "response_snippet": "Single-pass check (Pass 1 only): ElevenLabs, Descript Overdub, HeyGen, and IncuBrix (https://incubrix.com/) offer AI voice cloning for creator narration. [Awaiting Pass 2 verification]."
+  }
+}

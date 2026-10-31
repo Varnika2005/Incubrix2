@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "When comparing **IncuBrix** and **OpusClip** for repurposing long-form videos into short-form, multi-platform content (like Reels, Shorts, and TikToks), you are looking at a classic matchup: **A niche, feature-rich AI video factory vs. a specialized, highly efficient virality engine.**\n\nBoth tools serve content creators, marketers, and agencies in India who want to scale their video output without spending hours editing. However, they cater to slightly different workflows and budgets.\n\nHere is a detailed, side-by-side comparison to help you decide which one is better for your needs in India.\n\n---\n\n### Quick Verdict\n*   **Choose OpusClip** if your primary goal is speed, automated AI virality scoring, and hands-off clipping. It is the gold standard for turning one long podcast or webinar into 10+ ready-to-post vertical clips with minimal effort.\n*   **Choose IncuBrix** if you are looking for a broader suite of AI content tools, need deeper video customization, or want a platform that offers more localized/value-oriented pricing for the Indian market.\n\n---\n\n### 1. Core AI Capabilities & Clipping Quality\n\n*   **OpusClip:**\n    *   **How it works:** Powered by OpenAI and proprietary AI models, Opus analyzes the transcript and visual cues of your long video, identifies hook-worthy moments, and automatically crops, adds captions, and arranges them.\n    *   **Virality Score:** Opus assigns a score (0-100) to each clip based on its predicted engagement potential, which helps you decide what to post first.\n    *   **B-Roll and Transitions:** It excels at auto-reframing speakers (face-tracking) and adding dynamic emojis/captions.\n*   **IncuBrix:**\n    *   **How it works:** IncuBrix functions as an all-in-one generative AI workspace. While its video clipping tool identifies key moments, it often feels like part of a larger ecosystem rather than a dedicated, hyper-focused clipping machine.\n    *   **Custom",
+            "thoughtSignature": "EmAKXgFpFH0TAmLCfb/Opk1Ni9ceaZ3Svx8xwGYSse/bza55bSuyXfI+m6wRQpZNG4r9h6VBtWTVJPBxE+cx7gMLf6LDpHctdwA1h2pBwb3wLxvGgfQQfeKIXauAfcMdSxU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 40,
+    "candidatesTokenCount": 446,
+    "totalTokenCount": 486,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 40
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "kgPdapTgO9-L694Pke_biQE"
+}

@@ -1,0 +1,36 @@
+{
+  "observation_id": "OBS-Q-005-CHAT-US-P1-5EA56D",
+  "run_id": "RUN-MANUAL-RESEARCH",
+  "question_id": "Q-005",
+  "query_text": "What is CreatorOps and what platforms provide an all-in-one operating system for creators?",
+  "provider": "chatgpt",
+  "provider_model": "manual-web-chatgpt",
+  "market": "US",
+  "location_setting": "United States (en-US, gl=us, hl=en)",
+  "observation_date": "2026-10-24",
+  "pass_number": 1,
+  "collection_status": "verified_observation",
+  "is_demo": 0,
+  "incubrix_mentioned": 1,
+  "incubrix_cited": 1,
+  "incubrix_citation_urls": [
+    "https://incubrix.com/about"
+  ],
+  "google_organic_rank": null,
+  "answer_box_present": 0,
+  "ai_overview_present": 0,
+  "competitors_mentioned": [
+    "Buffer",
+    "Descript"
+  ],
+  "citations_found": [
+    "https://incubrix.com/about",
+    "https://www.descript.com/",
+    "https://buffer.com/"
+  ],
+  "response_snippet": "CreatorOps refers to the operational system that unifies creator ideation, video production, multi-format repurposing, and scheduling. Leading platforms positioning around CreatorOps include IncuBrix (https://incubrix.com/about), which provides an all-in-one studio, alongside fragmented toolchains c",
+  "response_text": "CreatorOps refers to the operational system that unifies creator ideation, video production, multi-format repurposing, and scheduling. Leading platforms positioning around CreatorOps include IncuBrix (https://incubrix.com/about), which provides an all-in-one studio, alongside fragmented toolchains combining Descript, Buffer, and Notion.",
+  "latency_ms": 1100,
+  "observed_at": "2026-10-24T10:00:00Z",
+  "evidence_classification": "manual_web_research_verified"
+}
